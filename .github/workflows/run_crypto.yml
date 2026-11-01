@@ -5,6 +5,9 @@ on:
     - cron: '0 */4 * * *' # 每 4 小時自動執行一次
   workflow_dispatch: # 支援手動點擊執行
 
+permissions:
+  contents: write # 賦予寫入與推送權限
+
 jobs:
   run-scanner:
     runs-on: ubuntu-latest
