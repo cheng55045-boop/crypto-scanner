@@ -50,15 +50,15 @@ def fetch_klines(symbol, interval, limit=50):
 
 def analyze_altcoins():
     symbols = fetch_binance_symbols()
-    print(f"總共抓取到 {len(symbols)} 個 USDT 交易對，開始進行多時框策略掃描...")
+    print(f"總共抓取到 {len(symbols)} 個 USDT 交易對，開始進行波段底底高與突破策略掃描...")
     
     selected_stocks = []
     
     for symbol in symbols:
         df_1d = fetch_klines(symbol, '1d', limit=30)
-        df_1h = fetch_klines(symbol, '1h', limit=10)
+        df_1h = fetch_klines(symbol, '1h', limit=30) # 拉長 1H 樣本以捕捉波段結構
         
-        if df_1d is None or len(df_1d) < 10 or df_1h is None or len(df_1h) < 5:
+        if df_1d is None or len(df_1d) < 10 or df_1h is None or len(df_1h) < 15:
             continue
             
         # 過濾 24H 換手量過小的冷門幣
@@ -66,26 +66,42 @@ def analyze_altcoins():
         if total_volume_usdt < 500000:
             continue
 
-        # 策略邏輯：
-        # 1D 日線最新收盤價高於前一根日線最高點
+        # 1. 大週期方向：1D 日線最新收盤價高於前一根日線最高點
         cond_1d = df_1d['close'].iloc[-1] > df_1d['high'].iloc[-2]
         if not cond_1d:
             continue
 
-        # 1H 最近 3 根 K 棒底底高 (Higher Lows) 且最新收盤扎實突破前高
-        h1_lows = df_1h['low'].iloc[-3:]
-        h1_closes = df_1h['close'].iloc[-3:]
-        
-        is_higher_lows = (h1_lows.iloc[1] > h1_lows.iloc[0]) and (h1_lows.iloc[2] > h1_lows.iloc[1])
-        cond_1h_breakout = h1_closes.iloc[-1] > df_1h['high'].iloc[-2]
+        # 2. 1H 波段結構分析：尋找上漲、回檔未破前低、再次上漲突破的結構
+        # 我們取最近幾根 1H K棒來尋找局部低點與高點
+        highs = df_1h['high'].values
+        lows = df_1h['low'].values
+        closes = df_1h['close'].values
 
-        if is_higher_lows and cond_1h_breakout:
-            prev_close = df_1h['close'].iloc[-2]
-            curr_close = df_1h['close'].iloc[-1]
+        # 尋找波段特徵：
+        # 檢查是否有形成「底底高」：比對近期的波段低點是否逐步墊高
+        # 簡單且穩健的寫法：把最近區間分割為前半段與後半段，確認回檔低點高於前期低點
+        recent_lows = lows[-15:]
+        # 尋找前半段最低點與後半段最低點
+        mid = len(recent_lows) // 2
+        early_low = recent_lows[:mid].min()
+        late_low = recent_lows[mid:-1].min()
+        
+        # 條件 A：回檔低點沒有過低（底底高結構）
+        is_higher_low = late_low > early_low
+
+        # 條件 B：最新一根 1H K棒的收盤價，必須高於前一根 K 棒的最高點（突破確認）
+        is_breakout_close = closes[-1] > highs[-2]
+
+        if is_higher_low and is_breakout_close:
+            prev_close = closes[-2]
+            curr_close = closes[-1]
             change_pct = ((curr_close - prev_close) / prev_close) * 100
             
+            # 進場價：突破當根 1H K 棒的收盤價
             entry_price = curr_close
-            exit_price = float(h1_lows.min()) # 3根 1H 最低點作為防守價
+            
+            # 出場/停損防守價：收盤高過前一根最高點的那根突破 K 棒的最低點
+            exit_price = float(lows[-1])
             
             coin_info = {
                 "code": symbol.replace('USDT', ''),
@@ -98,7 +114,7 @@ def analyze_altcoins():
                 "has_warning": False
             }
             selected_stocks.append(coin_info)
-            print(f"🎯 捕捉到符合標的: {symbol} | 進場價: {entry_price}")
+            print(f"🎯 捕捉到波段突破標的: {symbol} | 進場價: {entry_price} | 防守價: {exit_price}")
 
     output_data = {
         "updated_at": datetime.now(TZ_TAIPEI).strftime("%Y-%m-%d %H:%M:%S"),
@@ -109,7 +125,7 @@ def analyze_altcoins():
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(output_data, f, ensure_ascii=False, indent=4)
     
-    print(f"掃描完成！共找到 {len(selected_stocks)} 檔符合條件的山寨幣，已更新至 data.json")
+    print(f"掃描完成！共找到 {len(selected_stocks)} 檔符合波段突破條件的山寨幣，已更新至 data.json")
 
 if __name__ == "__main__":
     analyze_altcoins()
