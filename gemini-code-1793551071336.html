@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>加密貨幣多時框策略選股器</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-gray-100 min-h-screen p-6">
+    <div class="max-w-6xl mx-auto">
+        <div class="flex flex-col md:flex-row justify-between items-center mb-8 border-b border-gray-800 pb-4">
+            <div>
+                <h1 class="text-3xl font-bold tracking-wider text-amber-400">⚡ 幣安山寨幣多時框策略</h1>
+                <p class="text-sm text-gray-400 mt-1">策略：日線 (1D) 趨勢突破 + 1小時線 (1H) 底底高與扎實突破</p>
+            </div>
+            <div id="update-time" class="text-sm text-gray-400 mt-2 md:mt-0 bg-gray-800 px-4 py-2 rounded-lg">
+                資料更新中...
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+            <div class="bg-gray-800 p-4 rounded-xl border border-gray-700">
+                <p class="text-sm text-gray-400">符合條件總幣種數</p>
+                <p id="total-count" class="text-2xl font-bold text-white mt-1">-</p>
+            </div>
+        </div>
+
+        <div class="bg-gray-800 rounded-xl shadow-lg overflow-hidden border border-gray-700">
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead>
+                        <tr class="bg-gray-700 text-gray-300 text-sm uppercase tracking-wider">
+                            <th class="p-4">狀態</th>
+                            <th class="p-4">交易對 / 名稱</th>
+                            <th class="p-4">最新收盤價</th>
+                            <th class="p-4">1H 漲跌幅</th>
+                            <th class="p-4">24H 換手量 (USDT)</th>
+                            <th class="p-4 text-emerald-400 font-semibold">建議進場價 (1H突破)</th>
+                            <th class="p-4 text-rose-400 font-semibold">建議停損價 (1H防守)</th>
+                        </tr>
+                    </thead>
+                    <tbody id="stock-table-body" class="divide-y divide-gray-700 text-sm">
+                        <!-- 動態載入資料 -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        async function loadData() {
+            try {
+                const response = await fetch('data.json');
+                if (!response.ok) throw new Error('無法讀取數據檔案');
+                
+                const data = await response.json();
+                
+                document.getElementById('update-time').innerText = `最後更新時間：${data.updated_at}`;
+                document.getElementById('total-count').innerText = `${data.total_count} 檔`;
+
+                const tbody = document.getElementById('stock-table-body');
+                tbody.innerHTML = '';
+
+                if (!data.stocks || data.stocks.length === 0) {
+                    tbody.innerHTML = `<tr><td colspan="7" class="p-6 text-center text-gray-400">目前沒有符合 1D 突破 + 1H 底底高條件的山寨幣</td></tr>`;
+                    return;
+                }
+
+                data.stocks.forEach(coin => {
+                    const tr = document.createElement('tr');
+                    tr.className = "hover:bg-gray-750 transition-colors";
+
+                    const changeColor = coin.change_pct >= 0 ? 'text-rose-400' : 'text-emerald-400';
+                    const changeSign = coin.change_pct >= 0 ? '+' : '';
+
+                    tr.innerHTML = `
+                        <td class="p-4"><span class="bg-emerald-500/20 text-emerald-400 px-2 py-1 rounded text-xs font-bold border border-emerald-500/30">多頭突破</span></td>
+                        <td class="p-4 font-semibold text-white">
+                            <div class="text-amber-300">${coin.code}</div>
+                            <div class="text-xs text-gray-400">${coin.name}</div>
+                        </td>
+                        <td class="p-4 font-mono">${coin.close}</td>
+                        <td class="p-4 font-mono ${changeColor}">${changeSign}${coin.change_pct}%</td>
+                        <td class="p-4 font-mono">${coin.volume.toLocaleString()}</td>
+                        <td class="p-4 font-mono text-emerald-400 font-bold">${coin.entry_price}</td>
+                        <td class="p-4 font-mono text-rose-400 font-bold">${coin.exit_price}</td>
+                    `;
+                    tbody.appendChild(tr);
+                });
+
+            } catch (error) {
+                console.error('載入資料失敗:', error);
+                document.getElementById('stock-table-body').innerHTML = `<tr><td colspan="7" class="p-6 text-center text-rose-400">等待首次自動掃描與數據產出中...</td></tr>`;
+            }
+        }
+
+        loadData();
+    </script>
+</body>
+</html>
