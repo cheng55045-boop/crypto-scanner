@@ -3,98 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>加密貨幣多時框策略選股器</title>
+    <title>今天買什麼幣 - 多時框強勢突破選股</title>
+    <!-- 引入 Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- 自動重新整理 (每 2 分鐘刷新一次前端) -->
+    <meta http-equiv="refresh" content="120">
 </head>
-<body class="bg-gray-900 text-gray-100 min-h-screen p-6">
-    <div class="max-w-6xl mx-auto">
-        <div class="flex flex-col md:flex-row justify-between items-center mb-8 border-b border-gray-800 pb-4">
-            <div>
-                <h1 class="text-3xl font-bold tracking-wider text-amber-400">⚡ 幣安山寨幣多時框策略</h1>
-                <p class="text-sm text-gray-400 mt-1">策略：日線 (1D) 趨勢突破 + 1小時線 (1H) 底底高與扎實突破</p>
+<body class="bg-slate-900 text-slate-100 min-h-screen flex flex-col font-sans">
+
+    <!-- 頂部導覽列 -->
+    <header class="border-b border-slate-800 bg-slate-950/80 backdrop-blur sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <span class="text-2xl">🚀</span>
+                <h1 class="text-xl font-bold bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
+                    今天買什麼幣
+                </h1>
             </div>
-            <div id="update-time" class="text-sm text-gray-400 mt-2 md:mt-0 bg-gray-800 px-4 py-2 rounded-lg">
-                資料更新中...
+            <div id="update-time" class="text-xs sm:text-sm text-slate-400">
+                更新時間：載入中...
             </div>
         </div>
+    </header>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-            <div class="bg-gray-800 p-4 rounded-xl border border-gray-700">
-                <p class="text-sm text-gray-400">符合條件總幣種數</p>
-                <p id="total-count" class="text-2xl font-bold text-white mt-1">-</p>
-            </div>
+    <!-- 主體內容區塊 -->
+    <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <!-- 說明橫幅 -->
+        <div class="mb-8 p-4 rounded-xl bg-slate-800/60 border border-slate-700/50 text-sm text-slate-300">
+            <div class="font-semibold text-slate-200 mb-1">💡 策略過濾條件：</div>
+            <p>1D 日線收盤突破前高 ＋ 1H 波段底底高與突破 ＋ 建議進場價（當根突破 1H 收盤價）與停損防守價（當根突破 1H 最低點）。</p>
         </div>
 
-        <div class="bg-gray-800 rounded-xl shadow-lg overflow-hidden border border-gray-700">
-            <div class="overflow-x-auto">
-                <table class="w-full text-left border-collapse">
-                    <thead>
-                        <tr class="bg-gray-700 text-gray-300 text-sm uppercase tracking-wider">
-                            <th class="p-4">狀態</th>
-                            <th class="p-4">交易對 / 名稱</th>
-                            <th class="p-4">最新收盤價</th>
-                            <th class="p-4">1H 漲跌幅</th>
-                            <th class="p-4">24H 換手量 (USDT)</th>
-                            <th class="p-4 text-emerald-400 font-semibold">建議進場價 (1H突破)</th>
-                            <th class="p-4 text-rose-400 font-semibold">建議停損價 (1H防守)</th>
-                        </tr>
-                    </thead>
-                    <tbody id="stock-table-body" class="divide-y divide-gray-700 text-sm">
-                        <!-- 動態載入資料 -->
-                    </tbody>
-                </table>
-            </div>
+        <!-- 數據統計與清單 -->
+        <div class="flex justify-between items-center mb-6">
+            <h2 class="text-lg font-semibold text-slate-200">
+                篩選符合標的 
+                <span id="total-count" class="ml-2 px-2.5 py-0.5 rounded-full text-xs font-medium bg-yellow-500/10 text-yellow-400 border border-yellow-500/20">
+                    0 檔
+                </span>
+            </h2>
         </div>
-    </div>
 
+        <!-- 標的清單 Grid -->
+        <div id="crypto-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- 動態載入區域 -->
+        </div>
+
+        <!-- 無標的時顯示 -->
+        <div id="empty-state" class="hidden text-center py-16 bg-slate-800/30 rounded-2xl border border-dashed border-slate-700/60">
+            <div class="text-4xl mb-3">🔍</div>
+            <div class="text-slate-400 text-base font-medium">目前盤面暫無符合雙重突破條件的標的</div>
+            <div class="text-slate-500 text-xs mt-1">每 4 小時將由雲端自動重新掃描市場</div>
+        </div>
+    </main>
+
+    <!-- 頁尾 -->
+    <footer class="border-t border-slate-800 py-6 text-center text-xs text-slate-500">
+        今天買什麼幣 &copy; 2026. 自動化市場智慧掃描系統
+    </footer>
+
+    <!-- 前端腳本：讀取 data.json -->
     <script>
-        async function loadData() {
+        async function loadCryptoData() {
             try {
-                const response = await fetch('data.json');
-                if (!response.ok) throw new Error('無法讀取數據檔案');
+                // 加上 timestamp 避免瀏覽器快取
+                const response = await fetch(`data.json?t=${new Date().getTime()}`);
+                if (!response.ok) throw new Error('無法取得數據');
                 
                 const data = await response.json();
                 
-                document.getElementById('update-time').innerText = `最後更新時間：${data.updated_at}`;
-                document.getElementById('total-count').innerText = `${data.total_count} 檔`;
-
-                const tbody = document.getElementById('stock-table-body');
-                tbody.innerHTML = '';
+                // 更新時間與總數
+                document.getElementById('update-time').innerText = `最後掃描時間：${data.updated_at || '無紀錄'}`;
+                document.getElementById('total-count').innerText = `${data.total_count || 0} 檔`;
+                
+                const grid = document.getElementById('crypto-grid');
+                const emptyState = document.getElementById('empty-state');
+                grid.innerHTML = '';
 
                 if (!data.stocks || data.stocks.length === 0) {
-                    tbody.innerHTML = `<tr><td colspan="7" class="p-6 text-center text-gray-400">目前沒有符合 1D 突破 + 1H 底底高條件的山寨幣</td></tr>`;
+                    emptyState.classList.remove('hidden');
                     return;
                 }
 
+                emptyState.classList.add('hidden');
+
                 data.stocks.forEach(coin => {
-                    const tr = document.createElement('tr');
-                    tr.className = "hover:bg-gray-750 transition-colors";
+                    const card = document.createElement('div');
+                    card.className = "bg-slate-800/80 border border-slate-700/80 hover:border-yellow-500/50 transition-all rounded-xl p-5 shadow-lg relative overflow-hidden flex flex-col justify-between";
+                    
+                    card.innerHTML = `
+                        <div>
+                            <div class="flex justify-between items-start mb-3">
+                                <div>
+                                    <h3 class="text-xl font-bold text-slate-100">${coin.code}</h3>
+                                    <span class="text-xs text-slate-400">${coin.name}</span>
+                                </div>
+                                <span class="px-2.5 py-1 rounded-lg text-xs font-bold ${coin.change_pct >= 0 ? 'bg-emerald-500/10 text-emerald-400 border border-emerald-500/20' : 'bg-rose-500/10 text-rose-400 border border-rose-500/20'}">
+                                    ${coin.change_pct >= 0 ? '+' : ''}${coin.change_pct}%
+                                </span>
+                            </div>
 
-                    const changeColor = coin.change_pct >= 0 ? 'text-rose-400' : 'text-emerald-400';
-                    const changeSign = coin.change_pct >= 0 ? '+' : '';
+                            <div class="grid grid-cols-2 gap-3 py-3 border-y border-slate-700/50 my-3 text-sm">
+                                <div>
+                                    <div class="text-xs text-slate-400 mb-0.5">最新收盤價</div>
+                                    <div class="font-semibold text-slate-200">$${coin.close}</div>
+                                </div>
+                                <div>
+                                    <div class="text-xs text-slate-400 mb-0.5">24H 成交量</div>
+                                    <div class="font-semibold text-slate-200">$${(coin.volume / 10000).toFixed(1)}萬</div>
+                                </div>
+                            </div>
 
-                    tr.innerHTML = `
-                        <td class="p-4"><span class="bg-emerald-500/20 text-emerald-400 px-2 py-1 rounded text-xs font-bold border border-emerald-500/30">多頭突破</span></td>
-                        <td class="p-4 font-semibold text-white">
-                            <div class="text-amber-300">${coin.code}</div>
-                            <div class="text-xs text-gray-400">${coin.name}</div>
-                        </td>
-                        <td class="p-4 font-mono">${coin.close}</td>
-                        <td class="p-4 font-mono ${changeColor}">${changeSign}${coin.change_pct}%</td>
-                        <td class="p-4 font-mono">${coin.volume.toLocaleString()}</td>
-                        <td class="p-4 font-mono text-emerald-400 font-bold">${coin.entry_price}</td>
-                        <td class="p-4 font-mono text-rose-400 font-bold">${coin.exit_price}</td>
+                            <div class="space-y-2 bg-slate-900/50 p-3 rounded-lg border border-slate-700/30">
+                                <div class="flex justify-between items-center text-xs">
+                                    <span class="text-emerald-400 font-medium">🎯 建議進場價 (突破 1H 收盤)</span>
+                                    <span class="font-bold text-slate-100">$${coin.entry_price}</span>
+                                </div>
+                                <div class="flex justify-between items-center text-xs">
+                                    <span class="text-rose-400 font-medium">🛡️ 建議防守價 (突破 1H 最低)</span>
+                                    <span class="font-bold text-slate-100">$${coin.exit_price}</span>
+                                </div>
+                            </div>
+                        </div>
                     `;
-                    tbody.appendChild(tr);
+                    grid.appendChild(card);
                 });
 
             } catch (error) {
-                console.error('載入資料失敗:', error);
-                document.getElementById('stock-table-body').innerHTML = `<tr><td colspan="7" class="p-6 text-center text-rose-400">等待首次自動掃描與數據產出中...</td></tr>`;
+                console.error(error);
+                document.getElementById('update-time').innerText = '數據載入失敗';
             }
         }
 
-        loadData();
+        loadCryptoData();
     </script>
 </body>
 </html>
