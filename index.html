@@ -3,139 +3,150 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>今天買什麼幣 - 多時框強勢突破選股</title>
+    <title>今天買什麼幣 - 雙系統量化雷達</title>
     <!-- 引入 Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- 自動重新整理 (每 2 分鐘刷新一次前端) -->
-    <meta http-equiv="refresh" content="120">
 </head>
-<body class="bg-slate-900 text-slate-100 min-h-screen flex flex-col font-sans">
-
-    <!-- 頂部導覽列 -->
-    <header class="border-b border-slate-800 bg-slate-950/80 backdrop-blur sticky top-0 z-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-            <div class="flex items-center space-x-3">
-                <span class="text-2xl">🚀</span>
-                <h1 class="text-xl font-bold bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
-                    今天買什麼幣
-                </h1>
+<body class="bg-gray-900 text-gray-100 min-h-screen p-6">
+    <div class="max-w-6xl mx-auto space-y-8">
+        
+        <!-- 標題與更新時間 -->
+        <header class="flex flex-col md:flex-row justify-between items-start md:items-center border-b border-gray-700 pb-4 gap-2">
+            <div>
+                <h1 class="text-3xl font-extrabold tracking-wider text-emerald-400">🪙 今天買什麼幣</h1>
+                <p class="text-sm text-gray-400 mt-1">山寨幣雙系統量化雷達（3D 突破結構 + 背離評分系統）</p>
             </div>
-            <div id="update-time" class="text-xs sm:text-sm text-slate-400">
-                更新時間：載入中...
+            <span id="update-time" class="text-sm bg-gray-800 px-3 py-1.5 rounded-lg text-gray-300 border border-gray-700">載入中...</span>
+        </header>
+
+        <!-- 🟢 系統 A 區塊：3D 結構突破雷達 -->
+        <section class="bg-gray-800 rounded-2xl p-5 shadow-xl border border-gray-700/60">
+            <div class="flex justify-between items-center mb-4">
+                <h2 class="text-xl font-bold text-emerald-400 flex items-center gap-2">
+                    <span>🟢</span> 系統 A：3D 結構突破雷達
+                </h2>
+                <span id="count-a" class="text-xs bg-emerald-900/60 text-emerald-300 px-2.5 py-1 rounded-full font-semibold">0 檔</span>
             </div>
-        </div>
-    </header>
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead>
+                        <tr class="border-b border-gray-700 text-gray-400 text-sm">
+                            <th class="p-3">幣種</th>
+                            <th class="p-3">最新收盤</th>
+                            <th class="p-3">24h 漲跌</th>
+                            <th class="p-3">3D 進場價</th>
+                            <th class="p-3">3D 防守價 (Exit)</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-systemA-body">
+                        <!-- 動態載入 -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
 
-    <!-- 主體內容區塊 -->
-    <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <!-- 說明橫幅 -->
-        <div class="mb-8 p-4 rounded-xl bg-slate-800/60 border border-slate-700/50 text-sm text-slate-300">
-            <div class="font-semibold text-slate-200 mb-1">💡 策略過濾條件：</div>
-            <p>1D 日線收盤突破前高 ＋ 1H 波段底底高與突破 ＋ 建議進場價（當根突破 1H 收盤價）與停損防守價（當根突破 1H 最低點）。</p>
-        </div>
+        <!-- 🔵 系統 B 區塊：背離共振與主力潛伏 -->
+        <section class="bg-gray-800 rounded-2xl p-5 shadow-xl border border-gray-700/60">
+            <div class="flex justify-between items-center mb-4">
+                <h2 class="text-xl font-bold text-blue-400 flex items-center gap-2">
+                    <span>🔵</span> 系統 B：背離共振與主力潛伏雷達
+                </h2>
+                <span id="count-b" class="text-xs bg-blue-900/60 text-blue-300 px-2.5 py-1 rounded-full font-semibold">0 檔</span>
+            </div>
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead>
+                        <tr class="border-b border-gray-700 text-gray-400 text-sm">
+                            <th class="p-3">幣種</th>
+                            <th class="p-3">評分 (Score)</th>
+                            <th class="p-3">觸發背離指標</th>
+                            <th class="p-3">現價 / 進場價</th>
+                            <th class="p-3">大防守價</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-systemB-body">
+                        <!-- 動態載入 -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
 
-        <!-- 數據統計與清單 -->
-        <div class="flex justify-between items-center mb-6">
-            <h2 class="text-lg font-semibold text-slate-200">
-                篩選符合標的 
-                <span id="total-count" class="ml-2 px-2.5 py-0.5 rounded-full text-xs font-medium bg-yellow-500/10 text-yellow-400 border border-yellow-500/20">
-                    0 檔
-                </span>
-            </h2>
-        </div>
+    </div>
 
-        <!-- 標的清單 Grid -->
-        <div id="crypto-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <!-- 動態載入區域 -->
-        </div>
-
-        <!-- 無標的時顯示 -->
-        <div id="empty-state" class="hidden text-center py-16 bg-slate-800/30 rounded-2xl border border-dashed border-slate-700/60">
-            <div class="text-4xl mb-3">🔍</div>
-            <div class="text-slate-400 text-base font-medium">目前盤面暫無符合雙重突破條件的標的</div>
-            <div class="text-slate-500 text-xs mt-1">每 4 小時將由雲端自動重新掃描市場</div>
-        </div>
-    </main>
-
-    <!-- 頁尾 -->
-    <footer class="border-t border-slate-800 py-6 text-center text-xs text-slate-500">
-        今天買什麼幣 &copy; 2026. 自動化市場智慧掃描系統
-    </footer>
-
-    <!-- 前端腳本：讀取 data.json -->
+    <!-- JavaScript 邏輯 -->
     <script>
-        async function loadCryptoData() {
+        async function loadData() {
             try {
-                // 加上 timestamp 避免瀏覽器快取
-                const response = await fetch(`data.json?t=${new Date().getTime()}`);
-                if (!response.ok) throw new Error('無法取得數據');
+                let res = await fetch('data.json?t=' + new Date().getTime()); // 避免快取
+                let globalData = await res.json();
                 
-                const data = await response.json();
+                document.getElementById('update-time').innerText = "最後更新: " + (globalData.updated_at || "未知");
                 
-                // 更新時間與總數
-                document.getElementById('update-time').innerText = `最後掃描時間：${data.updated_at || '無紀錄'}`;
-                document.getElementById('total-count').innerText = `${data.total_count || 0} 檔`;
-                
-                const grid = document.getElementById('crypto-grid');
-                const emptyState = document.getElementById('empty-state');
-                grid.innerHTML = '';
+                const listA = globalData.system_a || [];
+                const listB = globalData.system_b || [];
 
-                if (!data.stocks || data.stocks.length === 0) {
-                    emptyState.classList.remove('hidden');
-                    return;
-                }
+                document.getElementById('count-a').innerText = listA.length + " 檔";
+                document.getElementById('count-b').innerText = listB.length + " 檔";
 
-                emptyState.classList.add('hidden');
-
-                data.stocks.forEach(coin => {
-                    const card = document.createElement('div');
-                    card.className = "bg-slate-800/80 border border-slate-700/80 hover:border-yellow-500/50 transition-all rounded-xl p-5 shadow-lg relative overflow-hidden flex flex-col justify-between";
-                    
-                    card.innerHTML = `
-                        <div>
-                            <div class="flex justify-between items-start mb-3">
-                                <div>
-                                    <h3 class="text-xl font-bold text-slate-100">${coin.code}</h3>
-                                    <span class="text-xs text-slate-400">${coin.name}</span>
-                                </div>
-                                <span class="px-2.5 py-1 rounded-lg text-xs font-bold ${coin.change_pct >= 0 ? 'bg-emerald-500/10 text-emerald-400 border border-emerald-500/20' : 'bg-rose-500/10 text-rose-400 border border-rose-500/20'}">
-                                    ${coin.change_pct >= 0 ? '+' : ''}${coin.change_pct}%
-                                </span>
-                            </div>
-
-                            <div class="grid grid-cols-2 gap-3 py-3 border-y border-slate-700/50 my-3 text-sm">
-                                <div>
-                                    <div class="text-xs text-slate-400 mb-0.5">最新收盤價</div>
-                                    <div class="font-semibold text-slate-200">$${coin.close}</div>
-                                </div>
-                                <div>
-                                    <div class="text-xs text-slate-400 mb-0.5">24H 成交量</div>
-                                    <div class="font-semibold text-slate-200">$${(coin.volume / 10000).toFixed(1)}萬</div>
-                                </div>
-                            </div>
-
-                            <div class="space-y-2 bg-slate-900/50 p-3 rounded-lg border border-slate-700/30">
-                                <div class="flex justify-between items-center text-xs">
-                                    <span class="text-emerald-400 font-medium">🎯 建議進場價 (突破 1H 收盤)</span>
-                                    <span class="font-bold text-slate-100">$${coin.entry_price}</span>
-                                </div>
-                                <div class="flex justify-between items-center text-xs">
-                                    <span class="text-rose-400 font-medium">🛡️ 建議防守價 (突破 1H 最低)</span>
-                                    <span class="font-bold text-slate-100">$${coin.exit_price}</span>
-                                </div>
-                            </div>
-                        </div>
-                    `;
-                    grid.appendChild(card);
-                });
-
-            } catch (error) {
-                console.error(error);
-                document.getElementById('update-time').innerText = '數據載入失敗';
+                renderSystemA(listA);
+                renderSystemB(listB);
+            } catch (e) {
+                console.error("載入 data.json 失敗", e);
+                document.getElementById('update-time').innerText = "資料載入異常";
             }
         }
 
-        loadCryptoData();
+        function renderSystemA(list) {
+            const tbody = document.getElementById('table-systemA-body');
+            tbody.innerHTML = '';
+
+            if (list.length === 0) {
+                tbody.innerHTML = `<tr><td colspan="5" class="p-4 text-center text-gray-500">目前無符合 3D 突破條件標的</td></tr>`;
+                return;
+            }
+
+            list.forEach(item => {
+                let colorClass = (item.change_pct || 0) >= 0 ? 'text-emerald-400' : 'text-rose-400';
+                tbody.innerHTML += `
+                    <tr class="border-b border-gray-700/40 hover:bg-gray-700/30 transition">
+                        <td class="p-3 font-bold text-lg">${item.code}</td>
+                        <td class="p-3">${item.close}</td>
+                        <td class="p-3 ${colorClass}">${item.change_pct}%</td>
+                        <td class="p-3 text-emerald-300 font-semibold">${item.entry_price}</td>
+                        <td class="p-3 text-rose-300 font-semibold">${item.exit_price}</td>
+                    </tr>
+                `;
+            });
+        }
+
+        function renderSystemB(list) {
+            const tbody = document.getElementById('table-systemB-body');
+            tbody.innerHTML = '';
+
+            if (list.length === 0) {
+                tbody.innerHTML = `<tr><td colspan="5" class="p-4 text-center text-gray-500">目前無符合背離共振標的</td></tr>`;
+                return;
+            }
+
+            list.forEach(item => {
+                let indicatorsBadge = (item.indicators || []).map(ind => 
+                    `<span class="bg-blue-900/60 text-blue-300 border border-blue-700/50 px-2 py-0.5 rounded text-xs mr-1">${ind}</span>`
+                ).join('');
+                
+                tbody.innerHTML += `
+                    <tr class="border-b border-gray-700/40 hover:bg-gray-700/30 transition">
+                        <td class="p-3 font-bold text-lg text-blue-400">${item.code}</td>
+                        <td class="p-3 font-extrabold text-yellow-400 text-base">${item.score} 分</td>
+                        <td class="p-3">${indicatorsBadge}</td>
+                        <td class="p-3 font-semibold">${item.entry_price}</td>
+                        <td class="p-3 text-rose-300 font-semibold">${item.exit_price}</td>
+                    </tr>
+                `;
+            });
+        }
+
+        // 頁面載入時執行
+        loadData();
     </script>
 </body>
 </html>
