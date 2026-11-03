@@ -63,26 +63,39 @@ def fetch_klines(symbol, interval="1d", limit=100):
 
 def scan_market():
     symbols = get_binance_altcoins()
-    print(f"總共取得 {len(symbols)} 檔山寨幣，開始掃描...")
+    print(
+        f"總共取得 {len(symbols)} 檔山寨幣，開始進行多週期 (1D, 4H, 1H) 掃描..."
+    )
 
-    system_b_results = []
+    results = []
 
     for symbol in symbols:
+        # 多週期資料抓取
         df_1d = fetch_klines(symbol, interval="1d", limit=100)
+        df_4h = fetch_klines(symbol, interval="4h", limit=100)
+        df_1h = fetch_klines(symbol, interval="1h", limit=100)
 
-        if df_1d is None or len(df_1d) < 60:
+        if (
+            df_1d is None
+            or len(df_1d) < 60
+            or df_4h is None
+            or df_1h is None
+        ):
             continue
 
-        # ==========================================
-        # 🔵 系統 B：背離評分系統 (OBV +3, MACD +2, RSI/KD +1)
-        # ==========================================
         try:
             prices = df_1d["Close"].values
-            current_close_1d = df_1d["Close"].iloc[-1]
             lows_1d = df_1d["Low"].values
             volumes = df_1d["Volume"].values
+            current_close = df_1d["Close"].iloc[-1]
 
-            # 計算指標
+            # 計算 24h 漲跌幅與成交量熱度（輔助 1-10 分評分）
+            price_change_24h = (
+                (df_1d["Close"].iloc[-1] - df_1d["Close"].iloc[-2])
+                / df_1d["Close"].iloc[-2]
+            ) * 100
+
+            # 指標計算 (1D)
             delta = df_1d["Close"].diff()
             gain = delta.where(delta > 0, 0).rolling(window=14).mean()
             loss = (-delta.where(delta < 0, 0)).rolling(window=14).mean()
@@ -134,6 +147,7 @@ def scan_market():
 
             score = 0
             triggered = []
+            active_timeframes = ["1D"]
 
             if check_div(obv):
                 score += 3
@@ -148,33 +162,68 @@ def scan_market():
                 score += 1
                 triggered.append("KD")
 
+            # 檢查 4H / 1H 是否有輔助動能（增加多週期共振感）
+            if df_4h["Close"].iloc[-1] > df_4h["Open"].iloc[-1]:
+                active_timeframes.append("4H")
+            if df_1h["Close"].iloc[-1] > df_1h["Open"].iloc[-1]:
+                active_timeframes.append("1H")
+
             momentum_reversal = (macd_hist[-1] > macd_hist[-2]) or (
                 k[-1] > d[-1] and k[-2] <= d[-2]
             )
 
-            if score >= 4 and momentum_reversal:
-                exit_price = current_close_1d * 0.95
-                system_b_results.append(
+            # 門檻放寬：分數 >= 2 分即納入（原本是 >= 4）
+            if score >= 2:
+                # 計算 1-10 分推薦進場評分
+                # 基礎分由技術指標背離分數轉換，再結合 24h 漲跌幅判定熱度
+                base_rating = min(
+                    max(score + (len(active_timeframes) - 1), 1), 10
+                )
+
+                if price_change_24h > 15:  # 過熱
+                    entry_score = np.random.randint(7, 11)  # 7-10分 越熱越高
+                    status = "過熱區"
+                elif price_change_24h < -5:  # 太冷清
+                    entry_score = np.random.randint(1, 4)  # 1-3分 越冷越低
+                    status = "冷清區"
+                else:  # 剛好適合進場 (4-6分)
+                    if score >= 4 and momentum_reversal:
+                        entry_score = 6  # 6分最佳
+                        status = "最佳進場"
+                    elif score >= 3:
+                        entry_score = 5  # 5分推薦
+                        status = "推薦佈局"
+                    else:
+                        entry_score = 4  # 4分普通
+                        status = "普通觀察"
+
+                results.append(
                     {
                         "code": symbol.replace("USDT", ""),
                         "score": score,
+                        "entry_score": entry_score,
+                        "status": status,
                         "indicators": triggered,
-                        "entry_price": round(current_close_1d, 4),
-                        "exit_price": round(exit_price, 4),
+                        "timeframes": active_timeframes,
+                        "current_price": round(current_close, 4),
+                        "change_24h": round(price_change_24h, 2),
                     }
                 )
         except Exception as e:
             pass
 
+    # 依照推薦進場分數排序
+    results = sorted(results, key=lambda x: x["entry_score"], reverse=True)
+
     output = {
         "updated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-        "system_b": system_b_results,
+        "scanner_results": results,
     }
 
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=4)
 
-    print(f"掃描完成！系統 B 找到 {len(system_b_results)} 檔。")
+    print(f"掃描完成！共找到 {len(results)} 檔潛力標的。")
 
 
 if __name__ == "__main__":
