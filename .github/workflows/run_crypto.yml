@@ -2,8 +2,8 @@ name: Auto Scan Crypto Altcoins
 
 on:
   schedule:
-    - cron: '0 */4 * * *' # 每 4 小時自動執行一次
-  workflow_dispatch: # 支援在 GitHub 網頁手動觸發
+    - cron: '0 * * * *'
+  workflow_dispatch:
 
 jobs:
   run-scanner:
