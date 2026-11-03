@@ -70,7 +70,7 @@ def scan_market():
         return
 
     results = []
-    print(f"開始進行多週期 (1D, 4H, 1H) 掃描...")
+    print(f"開始進行高質量多週期 (1D, 4H, 1H) 掃描...")
 
     for symbol in symbols:
         try:
@@ -97,7 +97,7 @@ def scan_market():
                 * 100
             )
 
-            # 指標計算 (1D)
+            # 技術指標計算 (1D)
             delta = df_1d["Close"].diff()
             gain = delta.where(delta > 0, 0).rolling(window=14).mean()
             loss = (-delta.where(delta < 0, 0)).rolling(window=14).mean()
@@ -131,6 +131,7 @@ def scan_market():
             k = rsv.ewm(com=2, adjust=False).mean().values
             d = k.ewm(com=2, adjust=False).mean().values
 
+            # 稍微放寬背離判定窗至 20 根 K 棒
             def check_div(ind):
                 if len(prices) < 30:
                     return False
@@ -141,7 +142,7 @@ def scan_market():
                 if len(p_mins) < 2:
                     return False
                 idx1, idx2 = p_mins[-2], p_mins[-1]
-                if len(prices) - idx2 > 12:
+                if len(prices) - idx2 > 20:  # 從 12 放寬至 20
                     return False
                 return (prices[idx2] < prices[idx1]) and (
                     ind[idx2] > ind[idx1]
@@ -152,4 +153,80 @@ def scan_market():
             active_timeframes = ["1D"]
 
             if check_div(obv):
-                score +=
+                score += 3
+                triggered.append("OBV背離")
+            if check_div(macd_hist):
+                score += 2
+                triggered.append("MACD背離")
+            if check_div(rsi):
+                score += 1
+                triggered.append("RSI背離")
+            if check_div(k):
+                score += 1
+                triggered.append("KD背離")
+
+            # 檢查多週期共振
+            if float(df_4h["Close"].iloc[-1]) > float(df_4h["Open"].iloc[-1]):
+                active_timeframes.append("4H")
+            if float(df_1h["Close"].iloc[-1]) > float(df_1h["Open"].iloc[-1]):
+                active_timeframes.append("1H")
+
+            # 動能反轉確認
+            momentum_reversal = bool(
+                (macd_hist[-1] > macd_hist[-2])
+                or (k[-1] > d[-1] and k[-2] <= d[-2])
+            )
+
+            # 補償機制：若多週期結構良好且短線有動能，給予基礎分 2 分
+            if score == 0 and len(active_timeframes) >= 2 and momentum_reversal:
+                score = 2
+                triggered.append("多週期共振")
+
+            if score >= 2:
+                if price_change_24h > 15:
+                    entry_score = int(np.random.randint(7, 11))
+                    status = "過熱區"
+                elif price_change_24h < -5:
+                    entry_score = int(np.random.randint(1, 4))
+                    status = "冷清區"
+                else:
+                    if score >= 4 and momentum_reversal:
+                        entry_score = 6
+                        status = "最佳進場"
+                    elif score >= 3:
+                        entry_score = 5
+                        status = "推薦佈局"
+                    else:
+                        entry_score = 4
+                        status = "普通觀察"
+
+                results.append(
+                    {
+                        "code": symbol.replace("USDT", ""),
+                        "score": int(score),
+                        "entry_score": int(entry_score),
+                        "status": status,
+                        "indicators": triggered,
+                        "timeframes": active_timeframes,
+                        "current_price": round(current_close, 4),
+                        "change_24h": round(price_change_24h, 2),
+                    }
+                )
+        except Exception as e:
+            continue
+
+    results = sorted(results, key=lambda x: x["entry_score"], reverse=True)
+
+    output = {
+        "updated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "scanner_results": results,
+    }
+
+    with open("data.json", "w", encoding="utf-8") as f:
+        json.dump(output, f, ensure_ascii=False, indent=4)
+
+    print(f"掃描完成！共找到 {len(results)} 檔潛力標的並已寫入 data.json。")
+
+
+if __name__ == "__main__":
+    scan_market()
