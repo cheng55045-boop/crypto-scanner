@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>今天買什麼幣 - 雙系統量化雷達</title>
+    <title>今天買什麼幣 - 背離共振雷達</title>
     <!-- 引入 Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
@@ -13,37 +13,11 @@
         <!-- 標題與更新時間 -->
         <header class="flex flex-col md:flex-row justify-between items-start md:items-center border-b border-gray-700 pb-4 gap-2">
             <div>
-                <h1 class="text-3xl font-extrabold tracking-wider text-emerald-400">🪙 今天買什麼幣</h1>
-                <p class="text-sm text-gray-400 mt-1">山寨幣雙系統量化雷達（1D 突破結構 + 背離評分系統）</p>
+                <h1 class="text-3xl font-extrabold tracking-wider text-blue-400">🪙 今天買什麼幣</h1>
+                <p class="text-sm text-gray-400 mt-1">山寨幣背離共振與主力潛伏雷達</p>
             </div>
             <span id="update-time" class="text-sm bg-gray-800 px-3 py-1.5 rounded-lg text-gray-300 border border-gray-700">載入中...</span>
         </header>
-
-        <!-- 🟢 系統 A 區塊：1D 突破雷達 -->
-        <section class="bg-gray-800 rounded-2xl p-5 shadow-xl border border-gray-700/60">
-            <div class="flex justify-between items-center mb-4">
-                <h2 class="text-xl font-bold text-emerald-400 flex items-center gap-2">
-                    <span>🟢</span> 系統 A：1D 結構突破雷達
-                </h2>
-                <span id="count-a" class="text-xs bg-emerald-900/60 text-emerald-300 px-2.5 py-1 rounded-full font-semibold">0 檔</span>
-            </div>
-            <div class="overflow-x-auto">
-                <table class="w-full text-left border-collapse">
-                    <thead>
-                        <tr class="border-b border-gray-700 text-gray-400 text-sm">
-                            <th class="p-3">幣種</th>
-                            <th class="p-3">最新收盤</th>
-                            <th class="p-3">24h 漲跌</th>
-                            <th class="p-3">進場價</th>
-                            <th class="p-3">防守價 (Exit)</th>
-                        </tr>
-                    </thead>
-                    <tbody id="table-systemA-body">
-                        <!-- 動態載入 -->
-                    </tbody>
-                </table>
-            </div>
-        </section>
 
         <!-- 🔵 系統 B 區塊：背離共振與主力潛伏 -->
         <section class="bg-gray-800 rounded-2xl p-5 shadow-xl border border-gray-700/60">
@@ -82,13 +56,10 @@
                 
                 document.getElementById('update-time').innerText = "最後更新: " + (globalData.updated_at || "未知");
                 
-                const listA = globalData.system_a || [];
                 const listB = globalData.system_b || [];
 
-                document.getElementById('count-a').innerText = listA.length + " 檔";
                 document.getElementById('count-b').innerText = listB.length + " 檔";
 
-                renderSystemA(listA);
                 renderSystemB(listB);
             } catch (e) {
                 console.error("載入 data.json 失敗", e);
@@ -96,28 +67,34 @@
             }
         }
 
-        function renderSystemA(list) {
-            const tbody = document.getElementById('table-systemA-body');
+        function renderSystemB(list) {
+            const tbody = document.getElementById('table-systemB-body');
             tbody.innerHTML = '';
 
             if (list.length === 0) {
-                tbody.innerHTML = `<tr><td colspan="5" class="p-4 text-center text-gray-500">目前無符合 1D 突破條件標的</td></tr>`;
+                tbody.innerHTML = `<tr><td colspan="5" class="p-4 text-center text-gray-500">目前無符合背離條件標的</td></tr>`;
                 return;
             }
 
             list.forEach(item => {
-                let colorClass = (item.change_pct || 0) >= 0 ? 'text-emerald-400' : 'text-rose-400';
+                let indicatorsHtml = (item.indicators || []).map(ind => `<span class="bg-blue-900/50 text-blue-300 px-2 py-0.5 rounded text-xs mr-1 border border-blue-700/50">${ind}</span>`).join('');
                 tbody.innerHTML += `
                     <tr class="border-b border-gray-700/40 hover:bg-gray-700/30 transition">
                         <td class="p-3 font-bold text-lg">${item.code}</td>
-                        <td class="p-3">${item.close}</td>
-                        <td class="p-3 ${colorClass}">${item.change_pct}%</td>
-                        <td class="p-3 text-emerald-300 font-semibold">${item.entry_price}</td>
+                        <td class="p-3 font-semibold text-emerald-400">${item.score} 分</td>
+                        <td class="p-3">${indicatorsHtml}</td>
+                        <td class="p-3 text-blue-300 font-semibold">${item.entry_price}</td>
                         <td class="p-3 text-rose-300 font-semibold">${item.exit_price}</td>
                     </tr>
                 `;
             });
         }
 
-        function renderSystemB(list) {
-            const tbody = document.getElementById('table-systemB
+        // 頁面載入時執行
+        loadData();
+
+        // 每 5 分鐘自動刷新一次
+        setInterval(loadData, 300000);
+    </script>
+</body>
+</html>
