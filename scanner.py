@@ -131,7 +131,7 @@ def scan_market():
             k = rsv.ewm(com=2, adjust=False).mean().values
             d = k.ewm(com=2, adjust=False).mean().values
 
-            # 稍微放寬背離判定窗至 20 根 K 棒
+            # 放寬背離判定窗至 20 根 K 棒
             def check_div(ind):
                 if len(prices) < 30:
                     return False
@@ -142,7 +142,7 @@ def scan_market():
                 if len(p_mins) < 2:
                     return False
                 idx1, idx2 = p_mins[-2], p_mins[-1]
-                if len(prices) - idx2 > 20:  # 從 12 放寬至 20
+                if len(prices) - idx2 > 20:
                     return False
                 return (prices[idx2] < prices[idx1]) and (
                     ind[idx2] > ind[idx1]
@@ -217,15 +217,19 @@ def scan_market():
 
     results = sorted(results, key=lambda x: x["entry_score"], reverse=True)
 
+    # 嚴格對應前端的 "stocks" 與 "total_count" 欄位
     output = {
         "updated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-        "scanner_results": results,
+        "total_count": len(results),
+        "stocks": results,
     }
 
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=4)
 
-    print(f"掃描完成！共找到 {len(results)} 檔潛力標的並已寫入 data.json。")
+    print(
+        f"掃描完成！共找到 {len(results)} 檔潛力標的並已寫入 data.json。"
+    )
 
 
 if __name__ == "__main__":
