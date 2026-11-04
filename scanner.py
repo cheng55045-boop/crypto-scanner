@@ -53,11 +53,8 @@ def fetch_klines(symbol, interval="1d", limit=100):
                 "Ignore",
             ],
         )
-        df["Open"] = df["Open"].astype(float)
-        df["High"] = df["High"].astype(float)
-        df["Low"] = df["Low"].astype(float)
-        df["Close"] = df["Close"].astype(float)
-        df["Volume"] = df["Volume"].astype(float)
+        for col in ["Open", "High", "Low", "Close", "Volume"]:
+            df[col] = df[col].astype(float)
         return df
     except Exception as e:
         return None
@@ -88,7 +85,9 @@ def scan_market():
             return
 
         results = []
-        print(f"開始進行高質量多週期 (1D, 4H, 1H) 掃描...")
+        print(
+            f"開始進行完整多維度（背離 + 多週期共振 + 4H壓縮吸籌）掃描..."
+        )
 
         for symbol in symbols:
             try:
@@ -104,29 +103,34 @@ def scan_market():
                 ):
                     continue
 
-                prices = df_1d["Close"].values
-                lows_1d = df_1d["Low"].values
-                volumes = df_1d["Volume"].values
                 current_close = float(df_1d["Close"].iloc[-1])
-
                 price_change_24h = float(
                     (df_1d["Close"].iloc[-1] - df_1d["Close"].iloc[-2])
                     / df_1d["Close"].iloc[-2]
                     * 100
                 )
 
-                # 技術指標計算 (1D)
+                # ==========================================
+                # 1. 完整技術指標計算 (1D)
+                # ==========================================
+                prices = df_1d["Close"].values
+                lows_1d = df_1d["Low"].values
+                volumes = df_1d["Volume"].values
+
+                # RSI
                 delta = df_1d["Close"].diff()
                 gain = delta.where(delta > 0, 0).rolling(window=14).mean()
                 loss = (-delta.where(delta < 0, 0)).rolling(window=14).mean()
                 rsi = (100 - (100 / (1 + (gain / loss)))).values
 
+                # MACD
                 exp1 = df_1d["Close"].ewm(span=12, adjust=False).mean()
                 exp2 = df_1d["Close"].ewm(span=26, adjust=False).mean()
                 macd_hist = (
                     (exp1 - exp2) - (exp1 - exp2).ewm(span=9).mean()
                 ).values
 
+                # OBV
                 obv = (
                     (
                         pd.Series(
@@ -143,6 +147,7 @@ def scan_market():
                     .values
                 )
 
+                # KD (RSV, K, D)
                 low_min = df_1d["Low"].rolling(window=9).min()
                 high_max = df_1d["High"].rolling(window=9).max()
                 rsv = (
@@ -151,6 +156,7 @@ def scan_market():
                 k = rsv.ewm(com=2, adjust=False).mean().values
                 d = k.ewm(com=2, adjust=False).mean().values
 
+                # 背離偵測函式（20 根 K 棒窗）
                 def check_div(ind):
                     if len(prices) < 30:
                         return False
@@ -171,6 +177,7 @@ def scan_market():
                 triggered = []
                 active_timeframes = ["1D"]
 
+                # 累計原本的背離分數
                 if check_div(obv):
                     score += 3
                     triggered.append("OBV背離")
@@ -184,14 +191,15 @@ def scan_market():
                     score += 1
                     triggered.append("KD背離")
 
-                if (
-                    float(df_4h["Close"].iloc[-1])
-                    > float(df_4h["Open"].iloc[-1])
+                # ==========================================
+                # 2. 多週期共振檢查 (4H, 1H)
+                # ==========================================
+                if float(df_4h["Close"].iloc[-1]) > float(
+                    df_4h["Open"].iloc[-1]
                 ):
                     active_timeframes.append("4H")
-                if (
-                    float(df_1h["Close"].iloc[-1])
-                    > float(df_1h["Open"].iloc[-1])
+                if float(df_1h["Close"].iloc[-1]) > float(
+                    df_1h["Open"].iloc[-1]
                 ):
                     active_timeframes.append("1H")
 
@@ -208,23 +216,45 @@ def scan_market():
                     score = 2
                     triggered.append("多週期共振")
 
+                # ==========================================
+                # 3. 新增：4H 壓縮盤整與資金增量（主力吸籌）偵測
+                # ==========================================
+                h_4h = df_4h["High"].iloc[-15:].max()
+                l_4h = df_4h["Low"].iloc[-15:].min()
+                c_4h = df_4h["Close"].iloc[-1]
+                span_ratio = (h_4h - l_4h) / c_4h
+
+                vol_recent = df_4h["Volume"].iloc[-5:].mean()
+                vol_past = df_4h["Volume"].iloc[-25:-5].mean()
+                vol_surge = vol_recent > (vol_past * 1.3)
+
+                is_compression_accumulation = (span_ratio < 0.08) and vol_surge
+
+                if is_compression_accumulation:
+                    score += 3
+                    triggered.append("4H壓縮吸籌")
+                    if "4H" not in active_timeframes:
+                        active_timeframes.append("4H")
+
+                # ==========================================
+                # 4. 評分與狀態分級
+                # ==========================================
                 if score >= 2:
-                    if price_change_24h > 15:
-                        entry_score = int(np.random.randint(7, 11))
+                    if is_compression_accumulation:
+                        entry_score = 6
+                        status = "蓄勢待發"
+                    elif price_change_24h > 15:
+                        entry_score = int(np.random.randint(7, 10))
                         status = "過熱區"
-                    elif price_change_24h < -5:
-                        entry_score = int(np.random.randint(1, 4))
-                        status = "冷清區"
+                    elif score >= 4 and momentum_reversal:
+                        entry_score = 6
+                        status = "最佳進場"
+                    elif score >= 3:
+                        entry_score = 5
+                        status = "推薦佈局"
                     else:
-                        if score >= 4 and momentum_reversal:
-                            entry_score = 6
-                            status = "最佳進場"
-                        elif score >= 3:
-                            entry_score = 5
-                            status = "推薦佈局"
-                        else:
-                            entry_score = 4
-                            status = "普通觀察"
+                        entry_score = 4
+                        status = "普通觀察"
 
                     results.append(
                         {
@@ -246,7 +276,6 @@ def scan_market():
 
     except Exception as e:
         print(f"掃描過程發生未預期錯誤: {e}")
-        # 即使報錯也寫入基本結構，避免 Actions 崩潰
         save_data([])
 
 
