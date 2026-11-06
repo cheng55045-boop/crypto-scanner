@@ -1,116 +1,88 @@
 {
-    "updated_at": "2026-11-06 13:10:23",
+    "updated_at": "2026-11-06 14:14:48",
     "total_count": 15,
+    "source": "CoinGecko (GitHub Actions)",
     "stocks": [
         {
             "code": "USDG",
             "name": "Global Dollar",
-            "score": 10,
+            "score": 15,
             "status": "重點關注",
             "indicators": [
                 "RSI latent背離",
-                "KD低檔",
+                "MACD動能向上",
+                "MACD翻正",
+                "KD金叉",
                 "盤整壓縮",
                 "量能活躍"
             ],
             "current_price": 1.0,
-            "change_24h": -0.0,
-            "change_7d": -0.01,
-            "volume_24h": 783256246,
-            "market_cap": 2743025092
+            "change_24h": -0.02,
+            "change_7d": 0.0,
+            "volume_24h": 798794855,
+            "market_cap": 2742972720
         },
         {
-            "code": "RLUSD",
-            "name": "Ripple USD",
-            "score": 9,
-            "status": "重點關注",
+            "code": "XAUT",
+            "name": "Tether Gold",
+            "score": 8,
+            "status": "蓄勢待發",
             "indicators": [
-                "MACD動能向上",
-                "盤整壓縮",
-                "量能活躍"
+                "RSI latent背離",
+                "盤整壓縮"
             ],
-            "current_price": 1.0,
-            "change_24h": 0.01,
-            "change_7d": 0.01,
-            "volume_24h": 421619864,
-            "market_cap": 2668316437
+            "current_price": 4020.44,
+            "change_24h": -2.08,
+            "change_7d": 1.93,
+            "volume_24h": 309771703,
+            "market_cap": 3252844151
         },
         {
             "code": "BCH",
             "name": "Bitcoin Cash",
-            "score": 7,
+            "score": 8,
             "status": "蓄勢待發",
             "indicators": [
+                "RSI latent背離",
                 "RSI超賣",
-                "MACD動能向上",
-                "MACD翻正"
+                "MACD動能向上"
             ],
-            "current_price": 266.62,
-            "change_24h": -7.6,
-            "change_7d": -5.33,
-            "volume_24h": 241285643,
-            "market_cap": 5364402667
+            "current_price": 263.98,
+            "change_24h": -8.54,
+            "change_7d": -6.4,
+            "volume_24h": 236662815,
+            "market_cap": 5310626533
         },
         {
-            "code": "ASTER",
-            "name": "Aster",
-            "score": 7,
-            "status": "蓄勢待發",
-            "indicators": [
-                "RSI超賣",
-                "MACD動能向上",
-                "MACD翻正"
-            ],
-            "current_price": 0.682995,
-            "change_24h": -3.05,
-            "change_7d": 0.1,
-            "volume_24h": 102793401,
-            "market_cap": 1756818278
-        },
-        {
-            "code": "USDGO",
-            "name": "USDGO",
-            "score": 7,
+            "code": "PAXG",
+            "name": "PAX Gold",
+            "score": 8,
             "status": "蓄勢待發",
             "indicators": [
                 "RSI latent背離",
                 "盤整壓縮"
             ],
+            "current_price": 4024.59,
+            "change_24h": -2.23,
+            "change_7d": 1.81,
+            "volume_24h": 195272110,
+            "market_cap": 1802081018
+        },
+        {
+            "code": "USDGO",
+            "name": "USDGO",
+            "score": 8,
+            "status": "蓄勢待發",
+            "indicators": [
+                "MACD翻正",
+                "KD金叉",
+                "盤整壓縮"
+            ],
             "current_price": 1.0,
-            "change_24h": 0.01,
+            "change_24h": 0.0,
             "change_7d": -0.01,
-            "volume_24h": 45478169,
-            "market_cap": 1119388079
-        },
-        {
-            "code": "BNB",
-            "name": "BNB",
-            "score": 6,
-            "status": "蓄勢待發",
-            "indicators": [
-                "MACD動能向上",
-                "盤整壓縮"
-            ],
-            "current_price": 694.96,
-            "change_24h": -2.16,
-            "change_7d": -0.62,
-            "volume_24h": 1205056893,
-            "market_cap": 91418155317
-        },
-        {
-            "code": "FIGR_HELOC",
-            "name": "Figure Heloc",
-            "score": 6,
-            "status": "蓄勢待發",
-            "indicators": [
-                "RSI超賣",
-                "盤整壓縮"
-            ],
-            "current_price": 1.035,
-            "change_24h": -1.02,
-            "change_7d": 0.51,
-            "volume_24h": 504684627,
-            "market_cap": 27176840772
+            "volume_24h": 45456663,
+            "market_cap": 1119194216
         },
         {
             "code": "TRX",
@@ -121,11 +93,26 @@
                 "KD低檔",
                 "盤整壓縮"
             ],
-            "current_price": 0.317809,
-            "change_24h": -0.09,
-            "change_7d": -6.6,
-            "volume_24h": 423609077,
-            "market_cap": 30203166010
+            "current_price": 0.318547,
+            "change_24h": 0.15,
+            "change_7d": -4.67,
+            "volume_24h": 436962985,
+            "market_cap": 30268686360
+        },
+        {
+            "code": "AAVE",
+            "name": "Aave",
+            "score": 6,
+            "status": "蓄勢待發",
+            "indicators": [
+                "MACD動能向上",
+                "MACD翻正"
+            ],
+            "current_price": 130.61,
+            "change_24h": -1.24,
+            "change_7d": 4.02,
+            "volume_24h": 291423305,
+            "market_cap": 2017077270
         },
         {
             "code": "U",
@@ -136,98 +123,114 @@
                 "盤整壓縮",
                 "量能活躍"
             ],
-            "current_price": 0.999287,
-            "change_24h": -0.02,
-            "change_7d": 0.01,
-            "volume_24h": 242552246,
-            "market_cap": 1610572191
+            "current_price": 0.999425,
+            "change_24h": -0.01,
+            "change_7d": 0.09,
+            "volume_24h": 254081365,
+            "market_cap": 1610629369
         },
         {
-            "code": "AAVE",
-            "name": "Aave",
-            "score": 5,
-            "status": "觀察中",
+            "code": "MORPHO",
+            "name": "Morpho",
+            "score": 6,
+            "status": "蓄勢待發",
             "indicators": [
+                "MACD翻正",
                 "KD金叉"
             ],
-            "current_price": 130.76,
-            "change_24h": 0.09,
-            "change_7d": 4.06,
-            "volume_24h": 302336355,
-            "market_cap": 2019363453
+            "current_price": 2.08,
+            "change_24h": -6.42,
+            "change_7d": 2.84,
+            "volume_24h": 21570093,
+            "market_cap": 1463347366
         },
         {
-            "code": "XAUT",
-            "name": "Tether Gold",
-            "score": 5,
-            "status": "觀察中",
+            "code": "GT",
+            "name": "Gate",
+            "score": 6,
+            "status": "蓄勢待發",
             "indicators": [
+                "RSI超賣",
                 "盤整壓縮"
             ],
-            "current_price": 4042.81,
-            "change_24h": -1.35,
-            "change_7d": 2.09,
-            "volume_24h": 296531500,
-            "market_cap": 3270578166
+            "current_price": 9.63,
+            "change_24h": -1.6,
+            "change_7d": 2.36,
+            "volume_24h": 10412500,
+            "market_cap": 1006950008
         },
         {
-            "code": "WLD",
-            "name": "Worldcoin",
+            "code": "USDD",
+            "name": "USDD",
+            "score": 6,
+            "status": "蓄勢待發",
+            "indicators": [
+                "MACD動能向上",
+                "盤整壓縮"
+            ],
+            "current_price": 0.996558,
+            "change_24h": -0.25,
+            "change_7d": -0.08,
+            "volume_24h": 4241041,
+            "market_cap": 1493926779
+        },
+        {
+            "code": "XRP",
+            "name": "XRP",
             "score": 5,
             "status": "觀察中",
             "indicators": [
-                "MACD動能向上",
-                "量能活躍",
+                "RSI latent背離"
+            ],
+            "current_price": 1.18,
+            "change_24h": -9.4,
+            "change_7d": -4.88,
+            "volume_24h": 2700295439,
+            "market_cap": 74917881431
+        },
+        {
+            "code": "NEAR",
+            "name": "NEAR Protocol",
+            "score": 5,
+            "status": "觀察中",
+            "indicators": [
+                "RSI latent背離",
                 "7日跌深"
             ],
-            "current_price": 0.34655,
-            "change_24h": -6.62,
-            "change_7d": -13.35,
-            "volume_24h": 258983855,
-            "market_cap": 1298215672
+            "current_price": 3.69,
+            "change_24h": -6.32,
+            "change_7d": -13.42,
+            "volume_24h": 646679126,
+            "market_cap": 4836165389
         },
         {
-            "code": "PAXG",
-            "name": "PAX Gold",
+            "code": "FIGR_HELOC",
+            "name": "Figure Heloc",
             "score": 5,
             "status": "觀察中",
             "indicators": [
                 "盤整壓縮"
             ],
-            "current_price": 4047.82,
-            "change_24h": -1.43,
-            "change_7d": 2.07,
-            "volume_24h": 181636083,
-            "market_cap": 1812194351
+            "current_price": 1.035,
+            "change_24h": -1.02,
+            "change_7d": 0.52,
+            "volume_24h": 506749400,
+            "market_cap": 27180608664
         },
         {
-            "code": "LIT",
-            "name": "Lighter",
+            "code": "ARB",
+            "name": "Arbitrum",
             "score": 5,
             "status": "觀察中",
             "indicators": [
-                "MACD動能向上",
+                "KD金叉",
                 "量能活躍"
             ],
-            "current_price": 3.41,
-            "change_24h": 1.16,
-            "change_7d": 20.85,
-            "volume_24h": 135181958,
-            "market_cap": 853446602
-        },
-        {
-            "code": "JST",
-            "name": "JUST",
-            "score": 5,
-            "status": "觀察中",
-            "indicators": [
-                "盤整壓縮"
-            ],
-            "current_price": 0.141464,
-            "change_24h": -0.6,
-            "change_7d": 2.54,
-            "volume_24h": 36716467,
-            "market_cap": 1134408726
+            "current_price": 0.168647,
+            "change_24h": 4.07,
+            "change_7d": 2.39,
+            "volume_24h": 229019136,
+            "market_cap": 1162069431
         }
     ]
 }
