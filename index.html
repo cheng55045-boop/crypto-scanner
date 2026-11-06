@@ -4,17 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>今天買什麼幣 - 多週期量化雷達</title>
-    <!-- 引入 Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-900 text-gray-100 min-h-screen p-6">
+<body class="bg-gray-900 text-gray-100 min-h-screen p-4 md:p-6">
     <div class="max-w-7xl mx-auto space-y-8">
         
         <!-- 標題與更新時間 -->
-        <header class="flex flex-col md:flex-row justify-between items-start md:items-center border-b border-gray-700 pb-4 gap-2">
+        <header class="flex flex-col md:flex-row justify-between items-start md:items-center border-b border-gray-700 pb-4 gap-3">
             <div>
-                <h1 class="text-3xl font-extrabold tracking-wider text-emerald-400">🪙 今天買什麼幣</h1>
-                <p class="text-sm text-gray-400 mt-1">多週期背離共振與市場熱度雷達 (1D / 4H / 1H)</p>
+                <h1 class="text-3xl md:text-4xl font-extrabold tracking-wider text-emerald-400">🪙 今天買什麼幣</h1>
+                <p class="text-sm text-gray-400 mt-1">山寨幣動能雷達（客觀評分版）</p>
             </div>
             <span id="update-time" class="text-sm bg-gray-800 px-3 py-1.5 rounded-lg text-gray-300 border border-gray-700">載入中...</span>
         </header>
@@ -28,7 +27,6 @@
                 <span id="total-count" class="text-xs bg-emerald-900/60 text-emerald-300 px-3 py-1 rounded-full font-semibold">0 檔</span>
             </div>
             
-            <!-- 獨立卡片網格 -->
             <div id="cards-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <!-- 動態載入卡片 -->
             </div>
@@ -36,16 +34,15 @@
 
     </div>
 
-    <!-- JavaScript 邏輯 -->
     <script>
         async function loadData() {
             try {
-                let res = await fetch('data.json?t=' + new Date().getTime()); // 避免快取
-                let globalData = await res.json();
+                const res = await fetch('data.json?t=' + new Date().getTime());
+                const globalData = await res.json();
                 
                 document.getElementById('update-time').innerText = "最後更新: " + (globalData.updated_at || "未知");
                 
-                const list = globalData.scanner_results || [];
+                const list = globalData.stocks || [];
                 document.getElementById('total-count').innerText = list.length + " 檔";
 
                 renderCards(list);
@@ -65,30 +62,27 @@
             }
 
             list.forEach(item => {
-                // 根據 1-10 分給予不同的顏色徽章
-                let scoreColor = 'bg-blue-900/60 text-blue-300 border-blue-700';
-                if (item.entry_score >= 7) scoreColor = 'bg-rose-900/60 text-rose-300 border-rose-700'; // 過熱
-                else if (item.entry_score === 6) scoreColor = 'bg-emerald-900/60 text-emerald-300 border-emerald-700'; // 最佳
-                else if (item.entry_score === 5) scoreColor = 'bg-teal-900/60 text-teal-300 border-teal-700'; // 推薦
-                else if (item.entry_score <= 3) scoreColor = 'bg-gray-700 text-gray-300 border-gray-600'; // 冷清
+                // 根據分數給顏色
+                let scoreColor = 'bg-gray-700 text-gray-300 border-gray-600';
+                if (item.score >= 9) scoreColor = 'bg-rose-900/60 text-rose-300 border-rose-700';
+                else if (item.score >= 7) scoreColor = 'bg-emerald-900/60 text-emerald-300 border-emerald-700';
+                else if (item.score >= 5) scoreColor = 'bg-teal-900/60 text-teal-300 border-teal-700';
 
-                let indicatorsHtml = (item.indicators || []).map(ind => 
+                const indicatorsHtml = (item.indicators || []).map(ind => 
                     `<span class="bg-gray-700/80 text-gray-300 px-2 py-0.5 rounded text-xs font-medium">${ind}</span>`
                 ).join('');
 
-                let timeframesHtml = (item.timeframes || []).map(tf => 
-                    `<span class="bg-indigo-950 text-indigo-300 border border-indigo-800/60 px-2 py-0.5 rounded text-xs font-semibold">${tf}</span>`
-                ).join('');
-
-                let changeColor = item.change_24h >= 0 ? 'text-emerald-400' : 'text-rose-400';
+                const changeColor = item.change_24h >= 0 ? 'text-emerald-400' : 'text-rose-400';
+                const change7dColor = (item.change_7d || 0) >= 0 ? 'text-emerald-400' : 'text-rose-400';
 
                 container.innerHTML += `
                     <div class="bg-gray-800 rounded-2xl p-5 shadow-xl border border-gray-700/60 flex flex-col justify-between hover:border-gray-600 transition">
                         <div>
-                            <!-- 卡片頭部：幣種與評分 -->
+                            <!-- 卡片頭部 -->
                             <div class="flex justify-between items-start mb-3">
                                 <div>
                                     <h3 class="text-2xl font-black tracking-wide text-white">${item.code}</h3>
+                                    <p class="text-xs text-gray-500">${item.name || ''}</p>
                                     <div class="flex items-center gap-1.5 mt-1">
                                         <span class="text-xs text-gray-400">現價: ${item.current_price}</span>
                                         <span class="text-xs font-semibold ${changeColor}">(${item.change_24h >= 0 ? '+' : ''}${item.change_24h}%)</span>
@@ -96,27 +90,27 @@
                                 </div>
                                 <div class="text-right">
                                     <span class="inline-block px-3 py-1 rounded-xl text-lg font-black border ${scoreColor}">
-                                        ${item.entry_score} 分
+                                        ${item.score} 分
                                     </span>
                                     <p class="text-xs text-gray-400 mt-1 font-semibold">${item.status}</p>
                                 </div>
                             </div>
 
-                            <!-- 週期與觸發指標 -->
-                            <div class="space-y-3 my-4">
-                                <div>
-                                    <p class="text-xs text-gray-400 mb-1">共振週期：</p>
-                                    <div class="flex flex-wrap gap-1">${timeframesHtml}</div>
-                                </div>
-                                <div>
-                                    <p class="text-xs text-gray-400 mb-1">觸發背離指標 (技術分: ${item.score})：</p>
-                                    <div class="flex flex-wrap gap-1.5">${indicatorsHtml || '<span class="text-xs text-gray-500">無明顯背離</span>'}</div>
-                                </div>
+                            <!-- 觸發指標 -->
+                            <div class="my-4">
+                                <p class="text-xs text-gray-400 mb-1">觸發條件：</p>
+                                <div class="flex flex-wrap gap-1.5">${indicatorsHtml || '<span class="text-xs text-gray-500">無明顯訊號</span>'}</div>
+                            </div>
+
+                            <!-- 額外資訊 -->
+                            <div class="text-xs text-gray-400 space-y-1">
+                                <div>7日漲跌：<span class="${change7dColor}">${item.change_7d >= 0 ? '+' : ''}${item.change_7d || 0}%</span></div>
+                                <div>24h 成交量：${(item.volume_24h || 0).toLocaleString()}</div>
                             </div>
                         </div>
 
-                        <!-- 卡片底部提示 -->
-                        <div class="border-t border-gray-700/50 pt-3 mt-2 flex justify-between items-center text-xs text-gray-400">
+                        <!-- 底部 -->
+                        <div class="border-t border-gray-700/50 pt-3 mt-3 flex justify-between items-center text-xs text-gray-400">
                             <span>量化雷達評估</span>
                             <span class="text-emerald-400 font-medium">✨ 系統運行中</span>
                         </div>
