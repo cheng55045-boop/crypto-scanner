@@ -1,17 +1,18 @@
 from datetime import datetime
 import json
+import time
 import numpy as np
 import pandas as pd
 import requests
 
 
 def scan_market():
-    """CoinGecko 山寨幣掃描（改進版）- 客觀評分、無隨機"""
+    """CoinGecko 山寨幣掃描（自動更新版）"""
     url = "https://api.coingecko.com/api/v3/coins/markets"
     params = {
         "vs_currency": "usd",
         "order": "market_cap_desc",
-        "per_page": 80,          # 多抓一點，後面再過濾
+        "per_page": 80,
         "page": 1,
         "sparkline": "true",
         "price_change_percentage": "24h,7d",
@@ -22,20 +23,19 @@ def scan_market():
 
     try:
         res = requests.get(url, params=params, headers=headers, timeout=15)
-        print(f"CoinGecko API 回應狀態碼: {res.status_code}")
+        print(f"[{datetime.now().strftime('%H:%M:%S')}] CoinGecko 狀態碼: {res.status_code}")
 
         if res.status_code != 200:
             print(f"取得資料失敗: {res.text[:200]}")
-            save_data([])
-            return
+            return []
 
         data = res.json()
         results = []
 
         for item in data:
             symbol = item["symbol"].upper()
-            if symbol in ["BTC", "ETH", "USDT", "USDC", "DAI", "FDUSD", "TUSD", "USDE", "USDS", "USD1", "PYUSD"]:
-                continue  # 排除主流與穩定幣
+            if symbol in ["BTC", "ETH", "USDT", "USDC", "DAI", "FDUSD", "TUSD", "USDE", "USDS", "USD1", "PYUSD", "RLUSD"]:
+                continue
 
             current_price = float(item.get("current_price", 0) or 0)
             if current_price <= 0:
@@ -48,12 +48,12 @@ def scan_market():
             high_24h = float(item.get("high_24h", current_price * 1.01) or current_price)
             low_24h = float(item.get("low_24h", current_price * 0.99) or current_price)
 
-            # 基本風險過濾
-            if total_volume < 5_000_000:          # 成交量太小
+            # 基本過濾
+            if total_volume < 2_000_000:
                 continue
-            if change_24h > 18:                   # 已經噴太多，追高風險高
+            if change_24h > 25:
                 continue
-            if market_cap < 50_000_000:           # 市值太小
+            if market_cap < 20_000_000:
                 continue
 
             sparkline = item.get("sparkline_in_7d", {}).get("price", [])
@@ -61,22 +61,19 @@ def scan_market():
                 continue
 
             df = pd.DataFrame({"Close": sparkline})
-            # 用真實 24h 高低點來模擬近期波動（比單純 *1.01 好一點）
             df["High"] = df["Close"] * (1 + abs(change_24h) / 200)
             df["Low"] = df["Close"] * (1 - abs(change_24h) / 200)
-            df["Volume"] = total_volume / len(sparkline)
 
             prices = df["Close"].values
 
-            # ========== 技術指標 ==========
-            # RSI (較短週期)
+            # RSI
             delta = df["Close"].diff()
             gain = delta.where(delta > 0, 0).rolling(7, min_periods=1).mean()
             loss = (-delta.where(delta < 0, 0)).rolling(7, min_periods=1).mean()
             rs = gain / loss.replace(0, np.nan)
             rsi = (100 - (100 / (1 + rs))).fillna(50).values
 
-            # MACD Histogram
+            # MACD
             exp1 = df["Close"].ewm(span=6, adjust=False).mean()
             exp2 = df["Close"].ewm(span=13, adjust=False).mean()
             macd_line = exp1 - exp2
@@ -92,24 +89,20 @@ def scan_market():
             k_vals = k.values
             d_vals = d.values
 
-            # ========== 評分系統（完全客觀）==========
+            # 評分
             score = 0
             triggered = []
 
-            # 1. RSI 背離 / 超賣反彈
             if len(prices) >= 6:
-                # 價格創新低但 RSI 沒有 →  latent 背離
                 if prices[-1] < prices[-4] and rsi[-1] > rsi[-4] + 3:
                     score += 3
                     triggered.append("RSI latent背離")
-                # 單純超賣
                 if rsi[-1] < 32:
                     score += 2
                     triggered.append("RSI超賣")
                 elif 32 <= rsi[-1] <= 45:
                     score += 1
 
-            # 2. MACD 動能轉強
             if len(macd_hist) >= 4:
                 if macd_hist[-1] > macd_hist[-2] > macd_hist[-3]:
                     score += 2
@@ -118,7 +111,6 @@ def scan_market():
                     score += 2
                     triggered.append("MACD翻正")
 
-            # 3. KD 金叉 + 低檔
             if k_vals[-1] > d_vals[-1] and k_vals[-2] <= d_vals[-2]:
                 score += 2
                 triggered.append("KD金叉")
@@ -126,13 +118,11 @@ def scan_market():
                 score += 1
                 triggered.append("KD低檔")
 
-            # 4. 盤整壓縮（波動收斂）
             span_ratio = (high_24h - low_24h) / current_price
             if span_ratio < 0.045 and change_24h > -3:
                 score += 3
                 triggered.append("盤整壓縮")
 
-            # 5. 量能相對強度（用市值比粗略判斷）
             vol_mcap_ratio = total_volume / market_cap if market_cap > 0 else 0
             if vol_mcap_ratio > 0.15:
                 score += 2
@@ -140,25 +130,21 @@ def scan_market():
             elif vol_mcap_ratio > 0.08:
                 score += 1
 
-            # 6. 7日表現（不要已經大漲太多）
             if -8 < change_7d < 12:
                 score += 1
-            if change_7d < -12:          # 跌深有機會
+            if change_7d < -12:
                 score += 1
                 triggered.append("7日跌深")
 
-            # 7. 懲罰：已經短期過熱
             if change_24h > 9:
                 score -= 2
             if rsi[-1] > 72:
                 score -= 2
                 triggered.append("RSI過熱")
 
-            # 最低門檻
-            if score < 4:
+            if score < 3:
                 continue
 
-            # 狀態判斷
             if score >= 9:
                 status = "重點關注"
             elif score >= 6:
@@ -179,35 +165,47 @@ def scan_market():
                 "market_cap": round(market_cap),
             })
 
-        # 依分數由高到低排序，取前 15
         results = sorted(results, key=lambda x: (x["score"], x["volume_24h"]), reverse=True)
-        top_results = results[:15]
-
-        print(f"\n處理完成，成功選出 {len(top_results)} 檔標的：\n")
-        for i, r in enumerate(top_results, 1):
-            print(f"{i:2d}. {r['code']:<8} 分數:{r['score']:2d}  {r['status']:<6}  "
-                  f"24h:{r['change_24h']:+6.2f}%  7d:{r['change_7d']:+6.2f}%  "
-                  f"{' | '.join(r['indicators'])}")
-
-        save_data(top_results)
+        return results[:15]
 
     except Exception as e:
-        print(f"發生未預期錯誤: {e}")
-        import traceback
-        traceback.print_exc()
-        save_data([])
+        print(f"掃描錯誤: {e}")
+        return []
 
 
 def save_data(results):
     output = {
         "updated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         "total_count": len(results),
+        "source": "CoinGecko (Auto)",
         "stocks": results,
     }
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=4)
-    print(f"\n資料寫入完成！updated_at: {output['updated_at']}，共 {len(results)} 檔標的。")
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] 已更新 data.json，共 {len(results)} 檔")
+
+
+def main():
+    print("=== 自動掃描啟動（每 10 分鐘更新一次）===")
+    print("按 Ctrl+C 可停止\n")
+
+    while True:
+        results = scan_market()
+        if results:
+            save_data(results)
+            print("前 5 名：")
+            for i, r in enumerate(results[:5], 1):
+                print(f"  {i}. {r['code']:<6} 分數:{r['score']}  {r['status']}  24h:{r['change_24h']:+.2f}%")
+            print("-" * 50)
+        else:
+            print("本次無符合標的")
+
+        # 等待 10 分鐘（600 秒）
+        time.sleep(600)
 
 
 if __name__ == "__main__":
-    scan_market()
+    try:
+        main()
+    except KeyboardInterrupt:
+        print("\n已停止自動掃描")
