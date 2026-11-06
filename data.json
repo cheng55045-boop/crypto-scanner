@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-06 14:14:48",
+    "updated_at": "2026-11-06 14:23:38",
     "total_count": 15,
     "source": "CoinGecko (GitHub Actions)",
     "stocks": [
@@ -17,10 +17,10 @@
                 "量能活躍"
             ],
             "current_price": 1.0,
-            "change_24h": -0.02,
+            "change_24h": -0.01,
             "change_7d": 0.0,
-            "volume_24h": 798794855,
-            "market_cap": 2742972720
+            "volume_24h": 795703086,
+            "market_cap": 2742858976
         },
         {
             "code": "XAUT",
@@ -31,11 +31,11 @@
                 "RSI latent背離",
                 "盤整壓縮"
             ],
-            "current_price": 4020.44,
-            "change_24h": -2.08,
+            "current_price": 4018.05,
+            "change_24h": -2.16,
             "change_7d": 1.93,
-            "volume_24h": 309771703,
-            "market_cap": 3252844151
+            "volume_24h": 308692704,
+            "market_cap": 3250447724
         },
         {
             "code": "BCH",
@@ -47,11 +47,11 @@
                 "RSI超賣",
                 "MACD動能向上"
             ],
-            "current_price": 263.98,
-            "change_24h": -8.54,
+            "current_price": 264.97,
+            "change_24h": -8.28,
             "change_7d": -6.4,
-            "volume_24h": 236662815,
-            "market_cap": 5310626533
+            "volume_24h": 233681818,
+            "market_cap": 5329473885
         },
         {
             "code": "PAXG",
@@ -62,11 +62,11 @@
                 "RSI latent背離",
                 "盤整壓縮"
             ],
-            "current_price": 4024.59,
-            "change_24h": -2.23,
+            "current_price": 4022.77,
+            "change_24h": -2.27,
             "change_7d": 1.81,
-            "volume_24h": 195272110,
-            "market_cap": 1802081018
+            "volume_24h": 195904079,
+            "market_cap": 1801101325
         },
         {
             "code": "USDGO",
@@ -79,10 +79,10 @@
                 "盤整壓縮"
             ],
             "current_price": 1.0,
-            "change_24h": 0.0,
+            "change_24h": -0.0,
             "change_7d": -0.01,
-            "volume_24h": 45456663,
-            "market_cap": 1119194216
+            "volume_24h": 45907101,
+            "market_cap": 1119085793
         },
         {
             "code": "TRX",
@@ -93,11 +93,11 @@
                 "KD低檔",
                 "盤整壓縮"
             ],
-            "current_price": 0.318547,
-            "change_24h": 0.15,
+            "current_price": 0.318479,
+            "change_24h": 0.18,
             "change_7d": -4.67,
-            "volume_24h": 436962985,
-            "market_cap": 30268686360
+            "volume_24h": 438728504,
+            "market_cap": 30264641995
         },
         {
             "code": "AAVE",
@@ -108,11 +108,11 @@
                 "MACD動能向上",
                 "MACD翻正"
             ],
-            "current_price": 130.61,
-            "change_24h": -1.24,
+            "current_price": 130.93,
+            "change_24h": -1.84,
             "change_7d": 4.02,
-            "volume_24h": 291423305,
-            "market_cap": 2017077270
+            "volume_24h": 288847141,
+            "market_cap": 2022217808
         },
         {
             "code": "U",
@@ -123,11 +123,11 @@
                 "盤整壓縮",
                 "量能活躍"
             ],
-            "current_price": 0.999425,
-            "change_24h": -0.01,
+            "current_price": 0.999373,
+            "change_24h": -0.03,
             "change_7d": 0.09,
-            "volume_24h": 254081365,
-            "market_cap": 1610629369
+            "volume_24h": 254408768,
+            "market_cap": 1610909307
         },
         {
             "code": "MORPHO",
@@ -138,11 +138,11 @@
                 "MACD翻正",
                 "KD金叉"
             ],
-            "current_price": 2.08,
-            "change_24h": -6.42,
+            "current_price": 2.09,
+            "change_24h": -5.8,
             "change_7d": 2.84,
-            "volume_24h": 21570093,
-            "market_cap": 1463347366
+            "volume_24h": 21472005,
+            "market_cap": 1470469630
         },
         {
             "code": "GT",
@@ -153,11 +153,11 @@
                 "RSI超賣",
                 "盤整壓縮"
             ],
-            "current_price": 9.63,
-            "change_24h": -1.6,
+            "current_price": 9.6,
+            "change_24h": -1.9,
             "change_7d": 2.36,
-            "volume_24h": 10412500,
-            "market_cap": 1006950008
+            "volume_24h": 10723905,
+            "market_cap": 1004970095
         },
         {
             "code": "USDD",
@@ -168,11 +168,11 @@
                 "MACD動能向上",
                 "盤整壓縮"
             ],
-            "current_price": 0.996558,
-            "change_24h": -0.25,
+            "current_price": 0.996374,
+            "change_24h": -0.27,
             "change_7d": -0.08,
-            "volume_24h": 4241041,
-            "market_cap": 1493926779
+            "volume_24h": 4228132,
+            "market_cap": 1493655278
         },
         {
             "code": "XRP",
@@ -183,10 +183,10 @@
                 "RSI latent背離"
             ],
             "current_price": 1.18,
-            "change_24h": -9.4,
+            "change_24h": -9.37,
             "change_7d": -4.88,
-            "volume_24h": 2700295439,
-            "market_cap": 74917881431
+            "volume_24h": 2712447397,
+            "market_cap": 75066133147
         },
         {
             "code": "NEAR",
@@ -197,11 +197,11 @@
                 "RSI latent背離",
                 "7日跌深"
             ],
-            "current_price": 3.69,
-            "change_24h": -6.32,
+            "current_price": 3.72,
+            "change_24h": -5.71,
             "change_7d": -13.42,
-            "volume_24h": 646679126,
-            "market_cap": 4836165389
+            "volume_24h": 637578998,
+            "market_cap": 4875037485
         },
         {
             "code": "FIGR_HELOC",
@@ -212,10 +212,10 @@
                 "盤整壓縮"
             ],
             "current_price": 1.035,
-            "change_24h": -1.02,
+            "change_24h": -1.09,
             "change_7d": 0.52,
-            "volume_24h": 506749400,
-            "market_cap": 27180608664
+            "volume_24h": 503237649,
+            "market_cap": 27175792220
         },
         {
             "code": "ARB",
@@ -226,11 +226,11 @@
                 "KD金叉",
                 "量能活躍"
             ],
-            "current_price": 0.168647,
-            "change_24h": 4.07,
+            "current_price": 0.169149,
+            "change_24h": 3.9,
             "change_7d": 2.39,
-            "volume_24h": 229019136,
-            "market_cap": 1162069431
+            "volume_24h": 229562078,
+            "market_cap": 1165885781
         }
     ]
 }
