@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-06 15:06:38",
+    "updated_at": "2026-11-06 20:23:43",
     "total_count": 15,
     "source": "Bitunix Futures",
     "stocks": [
@@ -13,43 +13,11 @@
                 "波動收斂",
                 "量能活躍"
             ],
-            "current_price": 90.27,
-            "change_24h": -1.85,
-            "volume_24h": 432143195,
-            "high_24h": 92.21,
+            "current_price": 90.05,
+            "change_24h": 0.31,
+            "volume_24h": 301226463,
+            "high_24h": 91.58,
             "low_24h": 88.24
-        },
-        {
-            "code": "HYPE",
-            "symbol": "HYPEUSDT",
-            "score": 5,
-            "status": "觀察中",
-            "indicators": [
-                "盤整",
-                "波動收斂",
-                "量能活躍"
-            ],
-            "current_price": 78.313,
-            "change_24h": -2.21,
-            "volume_24h": 51895308,
-            "high_24h": 80.266,
-            "low_24h": 76.275
-        },
-        {
-            "code": "DOGE",
-            "symbol": "DOGEUSDT",
-            "score": 5,
-            "status": "觀察中",
-            "indicators": [
-                "盤整",
-                "波動收斂",
-                "量能活躍"
-            ],
-            "current_price": 0.07243,
-            "change_24h": -1.55,
-            "volume_24h": 51777645,
-            "high_24h": 0.07379,
-            "low_24h": 0.07013
         },
         {
             "code": "XRP",
@@ -60,26 +28,11 @@
                 "跌深",
                 "量能活躍"
             ],
-            "current_price": 1.1789,
-            "change_24h": -7.17,
-            "volume_24h": 191716912,
-            "high_24h": 1.2754,
+            "current_price": 1.1781,
+            "change_24h": -5.11,
+            "volume_24h": 179404619,
+            "high_24h": 1.2442,
             "low_24h": 1.1734
-        },
-        {
-            "code": "KORU",
-            "symbol": "KORUUSDT",
-            "score": 4,
-            "status": "觀察中",
-            "indicators": [
-                "跌深",
-                "量能活躍"
-            ],
-            "current_price": 7.06,
-            "change_24h": -13.59,
-            "volume_24h": 100463567,
-            "high_24h": 8.34,
-            "low_24h": 6.09
         },
         {
             "code": "SOXS",
@@ -90,11 +43,41 @@
                 "跌深",
                 "量能活躍"
             ],
-            "current_price": 69.0,
-            "change_24h": -5.04,
-            "volume_24h": 97001009,
+            "current_price": 70.84,
+            "change_24h": -8.84,
+            "volume_24h": 76766628,
             "high_24h": 85.39,
             "low_24h": 63.92
+        },
+        {
+            "code": "DOGE",
+            "symbol": "DOGEUSDT",
+            "score": 4,
+            "status": "觀察中",
+            "indicators": [
+                "盤整",
+                "波動收斂"
+            ],
+            "current_price": 0.07266,
+            "change_24h": 0.19,
+            "volume_24h": 42463271,
+            "high_24h": 0.07334,
+            "low_24h": 0.07013
+        },
+        {
+            "code": "HYPE",
+            "symbol": "HYPEUSDT",
+            "score": 4,
+            "status": "觀察中",
+            "indicators": [
+                "盤整",
+                "波動收斂"
+            ],
+            "current_price": 78.42,
+            "change_24h": 0.41,
+            "volume_24h": 37428117,
+            "high_24h": 79.438,
+            "low_24h": 76.275
         },
         {
             "code": "SUI",
@@ -105,10 +88,10 @@
                 "盤整",
                 "波動收斂"
             ],
-            "current_price": 0.8679,
-            "change_24h": -1.2,
-            "volume_24h": 35095226,
-            "high_24h": 0.8815,
+            "current_price": 0.8709,
+            "change_24h": 1.37,
+            "volume_24h": 27140932,
+            "high_24h": 0.8816,
             "low_24h": 0.8301
         },
         {
@@ -120,26 +103,11 @@
                 "盤整",
                 "波動收斂"
             ],
-            "current_price": 3.751,
-            "change_24h": -1.93,
-            "volume_24h": 34362173,
-            "high_24h": 3.843,
+            "current_price": 3.71,
+            "change_24h": 0.19,
+            "volume_24h": 24413565,
+            "high_24h": 3.829,
             "low_24h": 3.626
-        },
-        {
-            "code": "QQQ",
-            "symbol": "QQQUSDT",
-            "score": 4,
-            "status": "觀察中",
-            "indicators": [
-                "盤整",
-                "波動收斂"
-            ],
-            "current_price": 661.2,
-            "change_24h": -0.62,
-            "volume_24h": 34281895,
-            "high_24h": 667.54,
-            "low_24h": 640.08
         },
         {
             "code": "LINK",
@@ -150,11 +118,41 @@
                 "盤整",
                 "波動收斂"
             ],
-            "current_price": 10.864,
-            "change_24h": -1.49,
-            "volume_24h": 29254131,
-            "high_24h": 11.05,
+            "current_price": 10.84,
+            "change_24h": 0.21,
+            "volume_24h": 22683579,
+            "high_24h": 11.035,
             "low_24h": 10.502
+        },
+        {
+            "code": "QQQ",
+            "symbol": "QQQUSDT",
+            "score": 4,
+            "status": "觀察中",
+            "indicators": [
+                "盤整",
+                "波動收斂"
+            ],
+            "current_price": 660.48,
+            "change_24h": 1.04,
+            "volume_24h": 20212823,
+            "high_24h": 665.69,
+            "low_24h": 640.08
+        },
+        {
+            "code": "MSTR",
+            "symbol": "MSTRUSDT",
+            "score": 4,
+            "status": "觀察中",
+            "indicators": [
+                "盤整",
+                "波動收斂"
+            ],
+            "current_price": 129.16,
+            "change_24h": -0.16,
+            "volume_24h": 18934291,
+            "high_24h": 132.24,
+            "low_24h": 126.14
         },
         {
             "code": "BNB",
@@ -165,9 +163,9 @@
                 "盤整",
                 "波動收斂"
             ],
-            "current_price": 695.23,
-            "change_24h": -0.3,
-            "volume_24h": 28607213,
+            "current_price": 693.71,
+            "change_24h": 0.22,
+            "volume_24h": 18860592,
             "high_24h": 700.05,
             "low_24h": 684.2
         },
@@ -180,26 +178,26 @@
                 "盤整",
                 "波動收斂"
             ],
-            "current_price": 97.57,
-            "change_24h": 0.45,
-            "volume_24h": 16468234,
+            "current_price": 97.93,
+            "change_24h": -0.6,
+            "volume_24h": 15225206,
             "high_24h": 100.83,
-            "low_24h": 95.78
+            "low_24h": 96.57
         },
         {
-            "code": "SPY",
-            "symbol": "SPYUSDT",
-            "score": 4,
+            "code": "KORU",
+            "symbol": "KORUUSDT",
+            "score": 3,
             "status": "觀察中",
             "indicators": [
                 "盤整",
-                "波動收斂"
+                "量能活躍"
             ],
-            "current_price": 740.14,
-            "change_24h": -1.7,
-            "volume_24h": 10669678,
-            "high_24h": 754.07,
-            "low_24h": 729.11
+            "current_price": 6.93,
+            "change_24h": -2.26,
+            "volume_24h": 69887276,
+            "high_24h": 7.39,
+            "low_24h": 6.09
         },
         {
             "code": "SNXX",
@@ -209,25 +207,26 @@
             "indicators": [
                 "跌深"
             ],
-            "current_price": 3.54,
-            "change_24h": -8.76,
-            "volume_24h": 46482432,
-            "high_24h": 3.94,
+            "current_price": 3.27,
+            "change_24h": -4.66,
+            "volume_24h": 29723575,
+            "high_24h": 3.88,
             "low_24h": 2.99
         },
         {
-            "code": "MSTR",
-            "symbol": "MSTRUSDT",
+            "code": "SPY",
+            "symbol": "SPYUSDT",
             "score": 3,
             "status": "觀察中",
             "indicators": [
-                "跌深"
+                "盤整",
+                "波動收斂"
             ],
-            "current_price": 126.48,
-            "change_24h": -4.2,
-            "volume_24h": 27126421,
-            "high_24h": 132.99,
-            "low_24h": 124.17
+            "current_price": 739.66,
+            "change_24h": 0.25,
+            "volume_24h": 7921225,
+            "high_24h": 743.77,
+            "low_24h": 729.11
         }
     ]
 }
