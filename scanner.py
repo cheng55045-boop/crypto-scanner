@@ -1,14 +1,24 @@
 from datetime import datetime
 import json
-import time
 import numpy as np
 import pandas as pd
 import requests
 
 
 BASE_URL = "https://fapi.bitunix.com"
-EXCLUDE = {"BTC", "ETH", "USDT", "USDC", "BUSD", "FDUSD", "TUSD", "DAI", "USDE", "USDS", "USD1", "PYUSD", "RLUSD",
-           "XAUT", "PAXG", "GLD", "SLV", "USDG", "USDGO", "USDY"}
+
+# 排除清單：主流幣 + 穩定幣 + 傳統金融 / 商品 / 股票
+EXCLUDE = {
+    # 主流與穩定幣
+    "BTC", "ETH", "USDT", "USDC", "BUSD", "FDUSD", "TUSD", "DAI", "USDE", "USDS", "USD1", "PYUSD", "RLUSD",
+    # 黃金 / 白銀 / 商品
+    "XAU", "XAG", "XAUT", "PAXG", "GLD", "SLV", "USDG", "USDGO", "USDY",
+    # 股票 / ETF / 指數
+    "SOXL", "SKHYNIX", "SNDK", "NVDA", "TSLA", "AAPL", "MSFT", "AMZN", "GOOGL", "META",
+    "CL", "NG", "HG", "SI", "GC", "ES", "NQ", "YM", "RTY",
+    # 其他非加密
+    "FIGR_HELOC", "WBT", "LEO",
+}
 
 
 def get_tickers():
@@ -32,21 +42,20 @@ def get_tickers():
             continue
 
         quote_vol = float(t.get("quoteVol", 0) or 0)
-        if quote_vol < 1_000_000:  # 成交量過低略過
+        if quote_vol < 1_000_000:
             continue
 
         tickers.append({
             "symbol": symbol,
             "base": base,
             "price": float(t.get("lastPrice", 0) or 0),
-            "change_24h": 0,  # Bitunix 這端點沒直接給漲跌幅，後面可計算
+            "change_24h": 0,
             "high_24h": float(t.get("high", 0) or 0),
             "low_24h": float(t.get("low", 0) or 0),
             "open_24h": float(t.get("open", 0) or 0),
             "volume_24h": quote_vol,
         })
 
-    # 計算 24h 漲跌幅
     for t in tickers:
         if t["open_24h"] > 0:
             t["change_24h"] = (t["price"] - t["open_24h"]) / t["open_24h"] * 100
@@ -64,7 +73,6 @@ def score_ticker(t):
     low = t["low_24h"]
     price = t["price"]
 
-    # 跌深反彈機會
     if -15 < change < -3:
         score += 2
         triggered.append("跌深")
@@ -72,21 +80,18 @@ def score_ticker(t):
         score += 1
         triggered.append("盤整")
 
-    # 波動收斂
     if high > 0 and low > 0 and price > 0:
         span = (high - low) / price
         if span < 0.06:
             score += 2
             triggered.append("波動收斂")
 
-    # 量能
     if t["volume_24h"] > 50_000_000:
         score += 2
         triggered.append("量能活躍")
     elif t["volume_24h"] > 10_000_000:
         score += 1
 
-    # 過熱懲罰
     if change > 12:
         score -= 2
 
@@ -140,7 +145,7 @@ def save_data(results):
         "source": "Bitunix Futures",
         "stocks": results,
     }
-    with open("/workspace/artifacts/data.json", "w", encoding="utf-8") as f:
+    with open("data.json", "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=4)
     print(f"資料寫入完成！共 {len(results)} 檔標的。")
 
