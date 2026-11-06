@@ -2,7 +2,7 @@ name: Auto Scan Crypto Altcoins
 
 on:
   schedule:
-    # 每 10 分鐘執行一次（GitHub Actions cron 用 UTC）
+    # 每 10 分鐘執行一次（UTC 時間）
     - cron: '*/10 * * * *'
   workflow_dispatch:  # 允許手動觸發
 
@@ -10,7 +10,7 @@ jobs:
   run-scanner:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # 需要寫入權限才能 commit data.json
+      contents: write
 
     steps:
       - name: Checkout repo
@@ -26,7 +26,7 @@ jobs:
           pip install requests pandas numpy
 
       - name: Run scanner
-        run: python scan_market.py   # 改成你的實際檔名
+        run: python scanner.py
 
       - name: Commit and push data.json
         run: |
