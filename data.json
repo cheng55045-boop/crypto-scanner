@@ -1,236 +1,227 @@
 {
-    "updated_at": "2026-11-06 14:23:38",
+    "updated_at": "2026-11-06 14:31:10",
     "total_count": 15,
-    "source": "CoinGecko (GitHub Actions)",
+    "source": "Bitunix Futures",
     "stocks": [
         {
-            "code": "USDG",
-            "name": "Global Dollar",
-            "score": 15,
-            "status": "重點關注",
+            "code": "SPY",
+            "symbol": "SPYUSDT",
+            "score": 5,
+            "status": "觀察中",
             "indicators": [
-                "RSI latent背離",
-                "MACD動能向上",
-                "MACD翻正",
-                "KD金叉",
-                "盤整壓縮",
+                "跌深",
+                "波動收斂"
+            ],
+            "current_price": 737.12,
+            "change_24h": -3.85,
+            "volume_24h": 10807410,
+            "high_24h": 767.06,
+            "low_24h": 729.11
+        },
+        {
+            "code": "SOL",
+            "symbol": "SOLUSDT",
+            "score": 4,
+            "status": "觀察中",
+            "indicators": [
+                "跌深",
                 "量能活躍"
             ],
-            "current_price": 1.0,
-            "change_24h": -0.01,
-            "change_7d": 0.0,
-            "volume_24h": 795703086,
-            "market_cap": 2742858976
-        },
-        {
-            "code": "XAUT",
-            "name": "Tether Gold",
-            "score": 8,
-            "status": "蓄勢待發",
-            "indicators": [
-                "RSI latent背離",
-                "盤整壓縮"
-            ],
-            "current_price": 4018.05,
-            "change_24h": -2.16,
-            "change_7d": 1.93,
-            "volume_24h": 308692704,
-            "market_cap": 3250447724
-        },
-        {
-            "code": "BCH",
-            "name": "Bitcoin Cash",
-            "score": 8,
-            "status": "蓄勢待發",
-            "indicators": [
-                "RSI latent背離",
-                "RSI超賣",
-                "MACD動能向上"
-            ],
-            "current_price": 264.97,
-            "change_24h": -8.28,
-            "change_7d": -6.4,
-            "volume_24h": 233681818,
-            "market_cap": 5329473885
-        },
-        {
-            "code": "PAXG",
-            "name": "PAX Gold",
-            "score": 8,
-            "status": "蓄勢待發",
-            "indicators": [
-                "RSI latent背離",
-                "盤整壓縮"
-            ],
-            "current_price": 4022.77,
-            "change_24h": -2.27,
-            "change_7d": 1.81,
-            "volume_24h": 195904079,
-            "market_cap": 1801101325
-        },
-        {
-            "code": "USDGO",
-            "name": "USDGO",
-            "score": 8,
-            "status": "蓄勢待發",
-            "indicators": [
-                "MACD翻正",
-                "KD金叉",
-                "盤整壓縮"
-            ],
-            "current_price": 1.0,
-            "change_24h": -0.0,
-            "change_7d": -0.01,
-            "volume_24h": 45907101,
-            "market_cap": 1119085793
-        },
-        {
-            "code": "TRX",
-            "name": "TRON",
-            "score": 6,
-            "status": "蓄勢待發",
-            "indicators": [
-                "KD低檔",
-                "盤整壓縮"
-            ],
-            "current_price": 0.318479,
-            "change_24h": 0.18,
-            "change_7d": -4.67,
-            "volume_24h": 438728504,
-            "market_cap": 30264641995
-        },
-        {
-            "code": "AAVE",
-            "name": "Aave",
-            "score": 6,
-            "status": "蓄勢待發",
-            "indicators": [
-                "MACD動能向上",
-                "MACD翻正"
-            ],
-            "current_price": 130.93,
-            "change_24h": -1.84,
-            "change_7d": 4.02,
-            "volume_24h": 288847141,
-            "market_cap": 2022217808
-        },
-        {
-            "code": "U",
-            "name": "United Stables",
-            "score": 6,
-            "status": "蓄勢待發",
-            "indicators": [
-                "盤整壓縮",
-                "量能活躍"
-            ],
-            "current_price": 0.999373,
-            "change_24h": -0.03,
-            "change_7d": 0.09,
-            "volume_24h": 254408768,
-            "market_cap": 1610909307
-        },
-        {
-            "code": "MORPHO",
-            "name": "Morpho",
-            "score": 6,
-            "status": "蓄勢待發",
-            "indicators": [
-                "MACD翻正",
-                "KD金叉"
-            ],
-            "current_price": 2.09,
-            "change_24h": -5.8,
-            "change_7d": 2.84,
-            "volume_24h": 21472005,
-            "market_cap": 1470469630
-        },
-        {
-            "code": "GT",
-            "name": "Gate",
-            "score": 6,
-            "status": "蓄勢待發",
-            "indicators": [
-                "RSI超賣",
-                "盤整壓縮"
-            ],
-            "current_price": 9.6,
-            "change_24h": -1.9,
-            "change_7d": 2.36,
-            "volume_24h": 10723905,
-            "market_cap": 1004970095
-        },
-        {
-            "code": "USDD",
-            "name": "USDD",
-            "score": 6,
-            "status": "蓄勢待發",
-            "indicators": [
-                "MACD動能向上",
-                "盤整壓縮"
-            ],
-            "current_price": 0.996374,
-            "change_24h": -0.27,
-            "change_7d": -0.08,
-            "volume_24h": 4228132,
-            "market_cap": 1493655278
+            "current_price": 90.31,
+            "change_24h": -5.23,
+            "volume_24h": 470312994,
+            "high_24h": 95.51,
+            "low_24h": 88.24
         },
         {
             "code": "XRP",
-            "name": "XRP",
-            "score": 5,
+            "symbol": "XRPUSDT",
+            "score": 4,
             "status": "觀察中",
             "indicators": [
-                "RSI latent背離"
+                "跌深",
+                "量能活躍"
             ],
-            "current_price": 1.18,
-            "change_24h": -9.37,
-            "change_7d": -4.88,
-            "volume_24h": 2712447397,
-            "market_cap": 75066133147
+            "current_price": 1.1815,
+            "change_24h": -9.48,
+            "volume_24h": 195813053,
+            "high_24h": 1.3072,
+            "low_24h": 1.1771
+        },
+        {
+            "code": "HYPE",
+            "symbol": "HYPEUSDT",
+            "score": 4,
+            "status": "觀察中",
+            "indicators": [
+                "跌深",
+                "量能活躍"
+            ],
+            "current_price": 78.28,
+            "change_24h": -4.11,
+            "volume_24h": 54443465,
+            "high_24h": 81.813,
+            "low_24h": 76.275
+        },
+        {
+            "code": "DOGE",
+            "symbol": "DOGEUSDT",
+            "score": 4,
+            "status": "觀察中",
+            "indicators": [
+                "跌深",
+                "量能活躍"
+            ],
+            "current_price": 0.07242,
+            "change_24h": -4.45,
+            "volume_24h": 53840326,
+            "high_24h": 0.07592,
+            "low_24h": 0.07013
+        },
+        {
+            "code": "BNB",
+            "symbol": "BNBUSDT",
+            "score": 4,
+            "status": "觀察中",
+            "indicators": [
+                "盤整",
+                "波動收斂"
+            ],
+            "current_price": 696.25,
+            "change_24h": -2.03,
+            "volume_24h": 30671211,
+            "high_24h": 711.64,
+            "low_24h": 684.2
+        },
+        {
+            "code": "BZ",
+            "symbol": "BZUSDT",
+            "score": 4,
+            "status": "觀察中",
+            "indicators": [
+                "盤整",
+                "波動收斂"
+            ],
+            "current_price": 98.04,
+            "change_24h": 0.64,
+            "volume_24h": 16468413,
+            "high_24h": 100.83,
+            "low_24h": 95.78
+        },
+        {
+            "code": "ZEC",
+            "symbol": "ZECUSDT",
+            "score": 3,
+            "status": "觀察中",
+            "indicators": [
+                "盤整",
+                "量能活躍"
+            ],
+            "current_price": 1320.92,
+            "change_24h": 1.32,
+            "volume_24h": 130680220,
+            "high_24h": 1337.18,
+            "low_24h": 1212.92
+        },
+        {
+            "code": "SOXS",
+            "symbol": "SOXSUSDT",
+            "score": 3,
+            "status": "觀察中",
+            "indicators": [
+                "盤整",
+                "量能活躍"
+            ],
+            "current_price": 68.26,
+            "change_24h": 1.55,
+            "volume_24h": 98868561,
+            "high_24h": 85.39,
+            "low_24h": 63.92
+        },
+        {
+            "code": "SPCX",
+            "symbol": "SPCXUSDT",
+            "score": 3,
+            "status": "觀察中",
+            "indicators": [
+                "盤整",
+                "量能活躍"
+            ],
+            "current_price": 130.63,
+            "change_24h": -0.71,
+            "volume_24h": 52934552,
+            "high_24h": 132.09,
+            "low_24h": 120.69
+        },
+        {
+            "code": "QQQ",
+            "symbol": "QQQUSDT",
+            "score": 3,
+            "status": "觀察中",
+            "indicators": [
+                "跌深"
+            ],
+            "current_price": 659.3,
+            "change_24h": -3.66,
+            "volume_24h": 37417692,
+            "high_24h": 684.82,
+            "low_24h": 640.08
+        },
+        {
+            "code": "SUI",
+            "symbol": "SUIUSDT",
+            "score": 3,
+            "status": "觀察中",
+            "indicators": [
+                "跌深"
+            ],
+            "current_price": 0.864,
+            "change_24h": -5.03,
+            "volume_24h": 36187301,
+            "high_24h": 0.9121,
+            "low_24h": 0.8301
         },
         {
             "code": "NEAR",
-            "name": "NEAR Protocol",
-            "score": 5,
+            "symbol": "NEARUSDT",
+            "score": 3,
             "status": "觀察中",
             "indicators": [
-                "RSI latent背離",
-                "7日跌深"
+                "跌深"
             ],
-            "current_price": 3.72,
-            "change_24h": -5.71,
-            "change_7d": -13.42,
-            "volume_24h": 637578998,
-            "market_cap": 4875037485
+            "current_price": 3.725,
+            "change_24h": -5.7,
+            "volume_24h": 33902813,
+            "high_24h": 3.968,
+            "low_24h": 3.626
         },
         {
-            "code": "FIGR_HELOC",
-            "name": "Figure Heloc",
-            "score": 5,
+            "code": "LINK",
+            "symbol": "LINKUSDT",
+            "score": 3,
             "status": "觀察中",
             "indicators": [
-                "盤整壓縮"
+                "跌深"
             ],
-            "current_price": 1.035,
-            "change_24h": -1.09,
-            "change_7d": 0.52,
-            "volume_24h": 503237649,
-            "market_cap": 27175792220
+            "current_price": 10.875,
+            "change_24h": -4.81,
+            "volume_24h": 31419233,
+            "high_24h": 11.454,
+            "low_24h": 10.502
         },
         {
-            "code": "ARB",
-            "name": "Arbitrum",
-            "score": 5,
+            "code": "MU",
+            "symbol": "MUUSDT",
+            "score": 3,
             "status": "觀察中",
             "indicators": [
-                "KD金叉",
-                "量能活躍"
+                "跌深"
             ],
-            "current_price": 0.169149,
-            "change_24h": 3.9,
-            "change_7d": 2.39,
-            "volume_24h": 229562078,
-            "market_cap": 1165885781
+            "current_price": 698.78,
+            "change_24h": -7.38,
+            "volume_24h": 30365306,
+            "high_24h": 763.35,
+            "low_24h": 650.03
         }
     ]
 }
