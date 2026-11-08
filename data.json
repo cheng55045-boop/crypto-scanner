@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-08 17:40:36",
+    "updated_at": "2026-11-08 17:50:36",
     "total_count": 15,
     "source": "Bitunix Futures",
     "stocks": [
@@ -13,9 +13,9 @@
                 "波動收斂",
                 "量能活躍"
             ],
-            "current_price": 88.99,
-            "change_24h": -0.86,
-            "volume_24h": 153374846,
+            "current_price": 89.01,
+            "change_24h": -0.84,
+            "volume_24h": 153112063,
             "high_24h": 89.9,
             "low_24h": 88.67
         },
@@ -29,9 +29,9 @@
                 "波動收斂",
                 "量能活躍"
             ],
-            "current_price": 1.1541,
-            "change_24h": -0.67,
-            "volume_24h": 95375216,
+            "current_price": 1.1546,
+            "change_24h": -0.59,
+            "volume_24h": 95258251,
             "high_24h": 1.1695,
             "low_24h": 1.1483
         },
@@ -45,9 +45,9 @@
                 "波動收斂",
                 "量能活躍"
             ],
-            "current_price": 1246.21,
-            "change_24h": -1.51,
-            "volume_24h": 72654797,
+            "current_price": 1249.76,
+            "change_24h": -0.95,
+            "volume_24h": 72649014,
             "high_24h": 1290.0,
             "low_24h": 1235.52
         },
@@ -60,9 +60,9 @@
                 "盤整",
                 "波動收斂"
             ],
-            "current_price": 76.6,
-            "change_24h": -1.26,
-            "volume_24h": 14803778,
+            "current_price": 76.588,
+            "change_24h": -1.24,
+            "volume_24h": 14848944,
             "high_24h": 78.132,
             "low_24h": 76.389
         },
@@ -75,9 +75,9 @@
                 "盤整",
                 "波動收斂"
             ],
-            "current_price": 3.599,
-            "change_24h": -1.67,
-            "volume_24h": 13594605,
+            "current_price": 3.601,
+            "change_24h": -1.69,
+            "volume_24h": 13572858,
             "high_24h": 3.745,
             "low_24h": 3.584
         },
@@ -90,9 +90,9 @@
                 "盤整",
                 "波動收斂"
             ],
-            "current_price": 0.07091,
-            "change_24h": -1.25,
-            "volume_24h": 12911292,
+            "current_price": 0.07092,
+            "change_24h": -1.23,
+            "volume_24h": 13090581,
             "high_24h": 0.07201,
             "low_24h": 0.07046
         },
@@ -105,9 +105,9 @@
                 "跌深",
                 "波動收斂"
             ],
-            "current_price": 0.15236,
-            "change_24h": -3.8,
-            "volume_24h": 8422184,
+            "current_price": 0.15287,
+            "change_24h": -3.41,
+            "volume_24h": 8456121,
             "high_24h": 0.15913,
             "low_24h": 0.15141
         },
@@ -120,9 +120,9 @@
                 "跌深",
                 "波動收斂"
             ],
-            "current_price": 0.3204,
-            "change_24h": -4.59,
-            "volume_24h": 3431133,
+            "current_price": 0.3207,
+            "change_24h": -4.33,
+            "volume_24h": 3433579,
             "high_24h": 0.3368,
             "low_24h": 0.3195
         },
@@ -134,9 +134,9 @@
             "indicators": [
                 "跌深"
             ],
-            "current_price": 0.005233,
-            "change_24h": -4.91,
-            "volume_24h": 11849702,
+            "current_price": 0.00523,
+            "change_24h": -7.79,
+            "volume_24h": 11723193,
             "high_24h": 0.006038,
             "low_24h": 0.004892
         },
@@ -149,26 +149,11 @@
                 "盤整",
                 "波動收斂"
             ],
-            "current_price": 10.624,
-            "change_24h": -2.51,
-            "volume_24h": 8366160,
+            "current_price": 10.634,
+            "change_24h": -2.49,
+            "volume_24h": 8361771,
             "high_24h": 10.943,
             "low_24h": 10.613
-        },
-        {
-            "code": "UNI",
-            "symbol": "UNIUSDT",
-            "score": 3,
-            "status": "觀察中",
-            "indicators": [
-                "盤整",
-                "波動收斂"
-            ],
-            "current_price": 6.956,
-            "change_24h": -2.07,
-            "volume_24h": 7633326,
-            "high_24h": 7.246,
-            "low_24h": 6.939
         },
         {
             "code": "BNB",
@@ -179,11 +164,26 @@
                 "盤整",
                 "波動收斂"
             ],
-            "current_price": 696.2,
-            "change_24h": 0.12,
-            "volume_24h": 7603691,
+            "current_price": 696.35,
+            "change_24h": 0.07,
+            "volume_24h": 7643383,
             "high_24h": 702.5,
             "low_24h": 694.16
+        },
+        {
+            "code": "UNI",
+            "symbol": "UNIUSDT",
+            "score": 3,
+            "status": "觀察中",
+            "indicators": [
+                "盤整",
+                "波動收斂"
+            ],
+            "current_price": 6.973,
+            "change_24h": -2.09,
+            "volume_24h": 7577892,
+            "high_24h": 7.246,
+            "low_24h": 6.939
         },
         {
             "code": "SUI",
@@ -194,9 +194,9 @@
                 "盤整",
                 "波動收斂"
             ],
-            "current_price": 0.8426,
-            "change_24h": -2.02,
-            "volume_24h": 6369343,
+            "current_price": 0.8436,
+            "change_24h": -1.86,
+            "volume_24h": 6377491,
             "high_24h": 0.8627,
             "low_24h": 0.8401
         },
@@ -209,9 +209,9 @@
                 "盤整",
                 "波動收斂"
             ],
-            "current_price": 222.82,
-            "change_24h": -0.34,
-            "volume_24h": 5108027,
+            "current_price": 222.78,
+            "change_24h": -0.36,
+            "volume_24h": 5112571,
             "high_24h": 226.81,
             "low_24h": 220.22
         },
@@ -224,9 +224,9 @@
                 "盤整",
                 "波動收斂"
             ],
-            "current_price": 0.1785,
+            "current_price": 0.1786,
             "change_24h": -1.87,
-            "volume_24h": 4684304,
+            "volume_24h": 4695217,
             "high_24h": 0.1824,
             "low_24h": 0.1782
         }
