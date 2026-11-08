@@ -1,6 +1,6 @@
 {
-    "updated_at": "2026-11-08 23:00:54",
-    "total_count": 9,
+    "updated_at": "2026-11-08 23:10:39",
+    "total_count": 11,
     "source": "Bitunix Futures",
     "stocks": [
         {
@@ -13,9 +13,9 @@
                 "波動收斂",
                 "量能活躍"
             ],
-            "current_price": 86.72,
-            "change_24h": -2.82,
-            "volume_24h": 255795013,
+            "current_price": 87.0,
+            "change_24h": -2.6,
+            "volume_24h": 260391613,
             "high_24h": 89.96,
             "low_24h": 84.79
         },
@@ -28,9 +28,9 @@
                 "跌深",
                 "波動收斂"
             ],
-            "current_price": 74.782,
-            "change_24h": -3.38,
-            "volume_24h": 25148266,
+            "current_price": 74.91,
+            "change_24h": -3.24,
+            "volume_24h": 25280463,
             "high_24h": 78.132,
             "low_24h": 73.735
         },
@@ -43,9 +43,9 @@
                 "跌深",
                 "量能活躍"
             ],
-            "current_price": 1.1161,
-            "change_24h": -3.78,
-            "volume_24h": 138586140,
+            "current_price": 1.1197,
+            "change_24h": -3.32,
+            "volume_24h": 139710113,
             "high_24h": 1.1695,
             "low_24h": 1.0889
         },
@@ -58,9 +58,9 @@
                 "跌深",
                 "量能活躍"
             ],
-            "current_price": 1208.87,
-            "change_24h": -3.87,
-            "volume_24h": 75875564,
+            "current_price": 1211.79,
+            "change_24h": -3.44,
+            "volume_24h": 75661916,
             "high_24h": 1290.0,
             "low_24h": 1179.03
         },
@@ -73,26 +73,25 @@
                 "盤整",
                 "波動收斂"
             ],
-            "current_price": 686.14,
-            "change_24h": -1.41,
-            "volume_24h": 12568543,
+            "current_price": 687.23,
+            "change_24h": -1.16,
+            "volume_24h": 12786924,
             "high_24h": 702.5,
             "low_24h": 678.64
         },
         {
-            "code": "BCH",
-            "symbol": "BCHUSDT",
-            "score": 4,
+            "code": "ONE",
+            "symbol": "ONEUSDT",
+            "score": 3,
             "status": "觀察中",
             "indicators": [
-                "跌深",
-                "波動收斂"
+                "跌深"
             ],
-            "current_price": 240.46,
-            "change_24h": -3.01,
-            "volume_24h": 6865640,
-            "high_24h": 249.82,
-            "low_24h": 235.46
+            "current_price": 0.001753,
+            "change_24h": -9.49,
+            "volume_24h": 25132712,
+            "high_24h": 0.002248,
+            "low_24h": 0.001605
         },
         {
             "code": "ENA",
@@ -102,9 +101,9 @@
             "indicators": [
                 "跌深"
             ],
-            "current_price": 0.1498,
-            "change_24h": -4.85,
-            "volume_24h": 10714506,
+            "current_price": 0.14942,
+            "change_24h": -5.08,
+            "volume_24h": 10772054,
             "high_24h": 0.15913,
             "low_24h": 0.14405
         },
@@ -116,9 +115,9 @@
             "indicators": [
                 "跌深"
             ],
-            "current_price": 10.431,
-            "change_24h": -3.28,
-            "volume_24h": 10320561,
+            "current_price": 10.457,
+            "change_24h": -3.22,
+            "volume_24h": 10724644,
             "high_24h": 10.838,
             "low_24h": 10.12
         },
@@ -130,11 +129,41 @@
             "indicators": [
                 "跌深"
             ],
-            "current_price": 0.8246,
-            "change_24h": -3.32,
-            "volume_24h": 10267403,
+            "current_price": 0.8269,
+            "change_24h": -3.13,
+            "volume_24h": 10375019,
             "high_24h": 0.859,
             "low_24h": 0.8006
+        },
+        {
+            "code": "BCH",
+            "symbol": "BCHUSDT",
+            "score": 3,
+            "status": "觀察中",
+            "indicators": [
+                "盤整",
+                "波動收斂"
+            ],
+            "current_price": 240.69,
+            "change_24h": -2.86,
+            "volume_24h": 6930126,
+            "high_24h": 249.82,
+            "low_24h": 235.46
+        },
+        {
+            "code": "BZ",
+            "symbol": "BZUSDT",
+            "score": 3,
+            "status": "觀察中",
+            "indicators": [
+                "盤整",
+                "波動收斂"
+            ],
+            "current_price": 97.03,
+            "change_24h": -0.6,
+            "volume_24h": 3903543,
+            "high_24h": 98.55,
+            "low_24h": 96.5
         }
     ]
 }
