@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-08 22:40:37",
+    "updated_at": "2026-11-08 22:50:36",
     "total_count": 11,
     "source": "Bitunix Futures",
     "stocks": [
@@ -12,9 +12,9 @@
                 "跌深",
                 "波動收斂"
             ],
-            "current_price": 74.334,
-            "change_24h": -3.84,
-            "volume_24h": 24865401,
+            "current_price": 74.648,
+            "change_24h": -3.54,
+            "volume_24h": 24931715,
             "high_24h": 78.132,
             "low_24h": 73.735
         },
@@ -27,9 +27,9 @@
                 "跌深",
                 "量能活躍"
             ],
-            "current_price": 85.65,
-            "change_24h": -4.11,
-            "volume_24h": 242562312,
+            "current_price": 86.03,
+            "change_24h": -3.64,
+            "volume_24h": 249105468,
             "high_24h": 89.96,
             "low_24h": 84.79
         },
@@ -42,9 +42,9 @@
                 "跌深",
                 "量能活躍"
             ],
-            "current_price": 1.1067,
-            "change_24h": -4.67,
-            "volume_24h": 133233993,
+            "current_price": 1.1108,
+            "change_24h": -4.22,
+            "volume_24h": 138128080,
             "high_24h": 1.1695,
             "low_24h": 1.0889
         },
@@ -57,9 +57,9 @@
                 "跌深",
                 "量能活躍"
             ],
-            "current_price": 1194.36,
-            "change_24h": -5.03,
-            "volume_24h": 75802524,
+            "current_price": 1204.0,
+            "change_24h": -4.29,
+            "volume_24h": 75398130,
             "high_24h": 1290.0,
             "low_24h": 1179.03
         },
@@ -72,9 +72,9 @@
                 "盤整",
                 "波動收斂"
             ],
-            "current_price": 682.07,
-            "change_24h": -2.12,
-            "volume_24h": 12369589,
+            "current_price": 682.82,
+            "change_24h": -1.91,
+            "volume_24h": 12457015,
             "high_24h": 702.5,
             "low_24h": 678.64
         },
@@ -86,9 +86,9 @@
             "indicators": [
                 "跌深"
             ],
-            "current_price": 0.06868,
-            "change_24h": -3.8,
-            "volume_24h": 20336056,
+            "current_price": 0.06897,
+            "change_24h": -3.36,
+            "volume_24h": 20499548,
             "high_24h": 0.07163,
             "low_24h": 0.06716
         },
@@ -100,9 +100,9 @@
             "indicators": [
                 "跌深"
             ],
-            "current_price": 3.52,
-            "change_24h": -4.17,
-            "volume_24h": 18020994,
+            "current_price": 3.534,
+            "change_24h": -3.73,
+            "volume_24h": 18055601,
             "high_24h": 3.745,
             "low_24h": 3.444
         },
@@ -114,11 +114,25 @@
             "indicators": [
                 "跌深"
             ],
-            "current_price": 0.14762,
-            "change_24h": -6.41,
-            "volume_24h": 10623720,
+            "current_price": 0.14818,
+            "change_24h": -6.02,
+            "volume_24h": 10649619,
             "high_24h": 0.15913,
             "low_24h": 0.14405
+        },
+        {
+            "code": "ADA",
+            "symbol": "ADAUSDT",
+            "score": 3,
+            "status": "觀察中",
+            "indicators": [
+                "跌深"
+            ],
+            "current_price": 0.1745,
+            "change_24h": -3.59,
+            "volume_24h": 10236859,
+            "high_24h": 0.1818,
+            "low_24h": 0.171
         },
         {
             "code": "SUI",
@@ -128,9 +142,9 @@
             "indicators": [
                 "跌深"
             ],
-            "current_price": 0.8143,
-            "change_24h": -4.7,
-            "volume_24h": 10113241,
+            "current_price": 0.8177,
+            "change_24h": -4.26,
+            "volume_24h": 10172316,
             "high_24h": 0.859,
             "low_24h": 0.8006
         },
@@ -142,25 +156,11 @@
             "indicators": [
                 "跌深"
             ],
-            "current_price": 10.301,
-            "change_24h": -4.5,
-            "volume_24h": 10090798,
+            "current_price": 10.348,
+            "change_24h": -4.05,
+            "volume_24h": 10155740,
             "high_24h": 10.838,
             "low_24h": 10.12
-        },
-        {
-            "code": "ADA",
-            "symbol": "ADAUSDT",
-            "score": 3,
-            "status": "觀察中",
-            "indicators": [
-                "跌深"
-            ],
-            "current_price": 0.1737,
-            "change_24h": -4.09,
-            "volume_24h": 10084089,
-            "high_24h": 0.1818,
-            "low_24h": 0.171
         }
     ]
 }
