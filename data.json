@@ -1,6 +1,24 @@
 {
-    "updated_at": "2026-11-09 16:50:45",
-    "total_count": 0,
+    "updated_at": "2026-11-09 17:01:13",
+    "total_count": 1,
     "source": "Bitunix Futures (Multi-TF)",
-    "stocks": []
+    "stocks": [
+        {
+            "code": "HYPE",
+            "symbol": "HYPEUSDT",
+            "score": 3,
+            "score_1h": 3,
+            "score_4h": 3,
+            "status": "觀察中",
+            "indicators": [
+                "RSI背離",
+                "MACD向上",
+                "MACD翻正"
+            ],
+            "current_price": 75.102,
+            "change_24h": -2.39,
+            "volume_24h": 48619783,
+            "backtest_avg": 0.16
+        }
+    ]
 }
