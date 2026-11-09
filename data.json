@@ -1,6 +1,6 @@
 {
-    "updated_at": "2026-11-09 23:20:52",
-    "total_count": 3,
+    "updated_at": "2026-11-09 23:31:05",
+    "total_count": 4,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
@@ -11,13 +11,13 @@
             "score_4h": 4,
             "status": "觀察中",
             "indicators": [
-                "MACD向上",
+                "KD金叉",
                 "MACD翻正",
-                "KD金叉"
+                "MACD向上"
             ],
-            "current_price": 7.029,
-            "change_24h": 1.85,
-            "volume_24h": 10571132,
+            "current_price": 7.003,
+            "change_24h": 2.05,
+            "volume_24h": 10738776,
             "backtest_avg": 0.11
         },
         {
@@ -28,13 +28,13 @@
             "score_4h": 6,
             "status": "觀察中",
             "indicators": [
-                "MACD向上",
                 "KD金叉",
-                "RSI超賣"
+                "RSI超賣",
+                "MACD向上"
             ],
-            "current_price": 134.62,
-            "change_24h": 7.2,
-            "volume_24h": 10449076,
+            "current_price": 134.26,
+            "change_24h": 6.78,
+            "volume_24h": 10443950,
             "backtest_avg": -0.45
         },
         {
@@ -46,13 +46,31 @@
             "status": "觀察中",
             "indicators": [
                 "KD低檔",
-                "MACD向上",
-                "RSI背離"
+                "RSI背離",
+                "MACD向上"
             ],
-            "current_price": 126.7,
-            "change_24h": 0.44,
-            "volume_24h": 15240823,
+            "current_price": 126.66,
+            "change_24h": 0.57,
+            "volume_24h": 15117205,
             "backtest_avg": 0.39
+        },
+        {
+            "code": "AKE",
+            "symbol": "AKEUSDT",
+            "score": 3,
+            "score_1h": 5,
+            "score_4h": 0,
+            "status": "觀察中",
+            "indicators": [
+                "KD低檔",
+                "RSI超賣",
+                "KD金叉",
+                "MACD向上"
+            ],
+            "current_price": 0.003718,
+            "change_24h": -29.76,
+            "volume_24h": 6502614,
+            "backtest_avg": -10.55
         }
     ]
 }
