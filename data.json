@@ -1,24 +1,42 @@
 {
-    "updated_at": "2026-11-09 21:50:47",
-    "total_count": 1,
+    "updated_at": "2026-11-09 22:01:10",
+    "total_count": 2,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
             "code": "SKHY",
             "symbol": "SKHYUSDT",
-            "score": 3,
-            "score_1h": 2,
+            "score": 4,
+            "score_1h": 3,
             "score_4h": 6,
             "status": "觀察中",
             "indicators": [
-                "MACD向上",
                 "KD金叉",
+                "MACD翻正",
+                "MACD向上",
                 "RSI超賣"
             ],
-            "current_price": 135.57,
-            "change_24h": 6.89,
-            "volume_24h": 10695549,
+            "current_price": 135.84,
+            "change_24h": 7.52,
+            "volume_24h": 10540797,
             "backtest_avg": -0.45
+        },
+        {
+            "code": "CRCL",
+            "symbol": "CRCLUSDT",
+            "score": 3,
+            "score_1h": 3,
+            "score_4h": 3,
+            "status": "觀察中",
+            "indicators": [
+                "KD金叉",
+                "MACD翻正",
+                "MACD向上"
+            ],
+            "current_price": 68.05,
+            "change_24h": 3.81,
+            "volume_24h": 10981682,
+            "backtest_avg": 0.44
         }
     ]
 }
