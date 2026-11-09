@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-09 07:20:37",
+    "updated_at": "2026-11-09 07:30:45",
     "total_count": 15,
     "source": "Bitunix Futures",
     "stocks": [
@@ -12,11 +12,11 @@
                 "跌深",
                 "波動收斂"
             ],
-            "current_price": 678.18,
-            "change_24h": -3.03,
-            "volume_24h": 16562566,
+            "current_price": 675.83,
+            "change_24h": -3.38,
+            "volume_24h": 16686368,
             "high_24h": 702.5,
-            "low_24h": 675.15
+            "low_24h": 675.05
         },
         {
             "code": "ADA",
@@ -27,9 +27,9 @@
                 "跌深",
                 "波動收斂"
             ],
-            "current_price": 0.1727,
-            "change_24h": -4.06,
-            "volume_24h": 14986191,
+            "current_price": 0.1721,
+            "change_24h": -4.34,
+            "volume_24h": 15039894,
             "high_24h": 0.1812,
             "low_24h": 0.171
         },
@@ -42,9 +42,9 @@
                 "跌深",
                 "量能活躍"
             ],
-            "current_price": 85.64,
-            "change_24h": -3.85,
-            "volume_24h": 392092620,
+            "current_price": 85.41,
+            "change_24h": -4.1,
+            "volume_24h": 395164074,
             "high_24h": 89.96,
             "low_24h": 84.79
         },
@@ -57,9 +57,9 @@
                 "跌深",
                 "量能活躍"
             ],
-            "current_price": 1.0895,
-            "change_24h": -6.27,
-            "volume_24h": 230530740,
+            "current_price": 1.0853,
+            "change_24h": -6.64,
+            "volume_24h": 231686392,
             "high_24h": 1.1695,
             "low_24h": 1.0817
         },
@@ -72,9 +72,9 @@
                 "跌深",
                 "量能活躍"
             ],
-            "current_price": 1202.67,
-            "change_24h": -4.84,
-            "volume_24h": 79858541,
+            "current_price": 1197.01,
+            "change_24h": -5.15,
+            "volume_24h": 80376489,
             "high_24h": 1290.0,
             "low_24h": 1179.03
         },
@@ -87,9 +87,9 @@
                 "跌深",
                 "波動收斂"
             ],
-            "current_price": 237.52,
-            "change_24h": -3.23,
-            "volume_24h": 8108693,
+            "current_price": 236.87,
+            "change_24h": -3.48,
+            "volume_24h": 8127003,
             "high_24h": 247.41,
             "low_24h": 235.46
         },
@@ -102,9 +102,9 @@
                 "跌深",
                 "波動收斂"
             ],
-            "current_price": 123.29,
-            "change_24h": -3.95,
-            "volume_24h": 7639889,
+            "current_price": 122.8,
+            "change_24h": -4.27,
+            "volume_24h": 7771121,
             "high_24h": 129.16,
             "low_24h": 122.32
         },
@@ -116,9 +116,9 @@
             "indicators": [
                 "跌深"
             ],
-            "current_price": 73.505,
-            "change_24h": -4.9,
-            "volume_24h": 32220935,
+            "current_price": 73.369,
+            "change_24h": -4.98,
+            "volume_24h": 32360964,
             "high_24h": 78.132,
             "low_24h": 73.145
         },
@@ -130,9 +130,9 @@
             "indicators": [
                 "跌深"
             ],
-            "current_price": 0.06835,
-            "change_24h": -3.85,
-            "volume_24h": 28434800,
+            "current_price": 0.06814,
+            "change_24h": -4.18,
+            "volume_24h": 28625538,
             "high_24h": 0.07163,
             "low_24h": 0.06716
         },
@@ -144,9 +144,9 @@
             "indicators": [
                 "跌深"
             ],
-            "current_price": 3.499,
-            "change_24h": -5.61,
-            "volume_24h": 24445160,
+            "current_price": 3.487,
+            "change_24h": -5.86,
+            "volume_24h": 24536192,
             "high_24h": 3.745,
             "low_24h": 3.444
         },
@@ -158,25 +158,11 @@
             "indicators": [
                 "跌深"
             ],
-            "current_price": 6.48,
-            "change_24h": -7.82,
-            "volume_24h": 19615981,
+            "current_price": 6.41,
+            "change_24h": -8.82,
+            "volume_24h": 19909744,
             "high_24h": 7.26,
-            "low_24h": 6.44
-        },
-        {
-            "code": "LINK",
-            "symbol": "LINKUSDT",
-            "score": 3,
-            "status": "觀察中",
-            "indicators": [
-                "跌深"
-            ],
-            "current_price": 10.278,
-            "change_24h": -4.28,
-            "volume_24h": 17002239,
-            "high_24h": 10.808,
-            "low_24h": 10.12
+            "low_24h": 6.37
         },
         {
             "code": "SUI",
@@ -186,11 +172,25 @@
             "indicators": [
                 "跌深"
             ],
-            "current_price": 0.8124,
-            "change_24h": -4.7,
-            "volume_24h": 16720729,
+            "current_price": 0.8091,
+            "change_24h": -5.07,
+            "volume_24h": 17506603,
             "high_24h": 0.859,
             "low_24h": 0.8006
+        },
+        {
+            "code": "LINK",
+            "symbol": "LINKUSDT",
+            "score": 3,
+            "status": "觀察中",
+            "indicators": [
+                "跌深"
+            ],
+            "current_price": 10.236,
+            "change_24h": -4.6,
+            "volume_24h": 17216753,
+            "high_24h": 10.808,
+            "low_24h": 10.12
         },
         {
             "code": "ENA",
@@ -200,9 +200,9 @@
             "indicators": [
                 "跌深"
             ],
-            "current_price": 0.14817,
-            "change_24h": -3.97,
-            "volume_24h": 11548723,
+            "current_price": 0.14699,
+            "change_24h": -4.69,
+            "volume_24h": 11673078,
             "high_24h": 0.15568,
             "low_24h": 0.14405
         },
@@ -214,9 +214,9 @@
             "indicators": [
                 "跌深"
             ],
-            "current_price": 213.55,
-            "change_24h": -3.79,
-            "volume_24h": 10440705,
+            "current_price": 212.37,
+            "change_24h": -4.39,
+            "volume_24h": 10629832,
             "high_24h": 226.81,
             "low_24h": 210.78
         }
