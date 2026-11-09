@@ -1,8 +1,25 @@
 {
-    "updated_at": "2026-11-09 22:50:49",
-    "total_count": 2,
+    "updated_at": "2026-11-09 23:01:09",
+    "total_count": 3,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
+        {
+            "code": "UNI",
+            "symbol": "UNIUSDT",
+            "score": 4,
+            "score_1h": 4,
+            "score_4h": 4,
+            "status": "觀察中",
+            "indicators": [
+                "MACD向上",
+                "KD金叉",
+                "MACD翻正"
+            ],
+            "current_price": 7.033,
+            "change_24h": 3.92,
+            "volume_24h": 10893305,
+            "backtest_avg": 0.11
+        },
         {
             "code": "SKHY",
             "symbol": "SKHYUSDT",
@@ -12,31 +29,30 @@
             "status": "觀察中",
             "indicators": [
                 "MACD向上",
-                "MACD翻正",
-                "RSI超賣",
-                "KD金叉"
+                "KD金叉",
+                "RSI超賣"
             ],
-            "current_price": 135.01,
-            "change_24h": 7.53,
-            "volume_24h": 10629031,
+            "current_price": 134.83,
+            "change_24h": 6.81,
+            "volume_24h": 10572915,
             "backtest_avg": -0.45
         },
         {
-            "code": "CRCL",
-            "symbol": "CRCLUSDT",
+            "code": "MSTR",
+            "symbol": "MSTRUSDT",
             "score": 3,
-            "score_1h": 3,
-            "score_4h": 3,
+            "score_1h": 5,
+            "score_4h": 2,
             "status": "觀察中",
             "indicators": [
                 "MACD向上",
-                "MACD翻正",
-                "KD金叉"
+                "RSI背離",
+                "KD低檔"
             ],
-            "current_price": 68.05,
-            "change_24h": 3.48,
-            "volume_24h": 10435086,
-            "backtest_avg": 0.44
+            "current_price": 126.72,
+            "change_24h": 1.71,
+            "volume_24h": 15738153,
+            "backtest_avg": 0.39
         }
     ]
 }
