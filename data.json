@@ -1,24 +1,25 @@
 {
-    "updated_at": "2026-11-09 14:50:46",
+    "updated_at": "2026-11-09 15:01:17",
     "total_count": 1,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
-            "code": "ZEC",
-            "symbol": "ZECUSDT",
+            "code": "WLD",
+            "symbol": "WLDUSDT",
             "score": 3,
-            "score_1h": 5,
-            "score_4h": 0,
+            "score_1h": 2,
+            "score_4h": 5,
             "status": "觀察中",
             "indicators": [
-                "MACD向上",
+                "MACD翻正",
+                "KD金叉",
                 "KD低檔",
-                "RSI超賣"
+                "MACD向上"
             ],
-            "current_price": 1230.85,
-            "change_24h": -3.61,
-            "volume_24h": 80458699,
-            "backtest_avg": -0.04
+            "current_price": 0.3219,
+            "change_24h": -1.77,
+            "volume_24h": 7271853,
+            "backtest_avg": 0.13
         }
     ]
 }
