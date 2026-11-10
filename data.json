@@ -1,6 +1,40 @@
 {
-    "updated_at": "2026-11-10 07:50:49",
-    "total_count": 0,
+    "updated_at": "2026-11-10 08:01:04",
+    "total_count": 2,
     "source": "Bitunix Futures (Multi-TF)",
-    "stocks": []
+    "stocks": [
+        {
+            "code": "AAVE",
+            "symbol": "AAVEUSDT",
+            "score": 3,
+            "score_1h": 5,
+            "score_4h": 0,
+            "status": "觀察中",
+            "indicators": [
+                "KD金叉",
+                "MACD向上"
+            ],
+            "current_price": 127.09,
+            "change_24h": -0.3,
+            "volume_24h": 6664681,
+            "backtest_avg": -0.62
+        },
+        {
+            "code": "ARB",
+            "symbol": "ARBUSDT",
+            "score": 3,
+            "score_1h": 6,
+            "score_4h": 0,
+            "status": "觀察中",
+            "indicators": [
+                "KD金叉",
+                "KD低檔",
+                "MACD向上"
+            ],
+            "current_price": 0.16746,
+            "change_24h": -1.79,
+            "volume_24h": 6243492,
+            "backtest_avg": -1.61
+        }
+    ]
 }
