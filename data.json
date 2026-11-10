@@ -1,25 +1,8 @@
 {
-    "updated_at": "2026-11-10 05:40:48",
-    "total_count": 2,
+    "updated_at": "2026-11-10 05:50:50",
+    "total_count": 1,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
-        {
-            "code": "ADA",
-            "symbol": "ADAUSDT",
-            "score": 3,
-            "score_1h": 5,
-            "score_4h": 0,
-            "status": "觀察中",
-            "indicators": [
-                "MACD向上",
-                "MACD翻正",
-                "KD金叉"
-            ],
-            "current_price": 0.179,
-            "change_24h": 2.11,
-            "volume_24h": 8641636,
-            "backtest_avg": 0.35
-        },
         {
             "code": "ANTHROPIC",
             "symbol": "ANTHROPICUSDT",
@@ -29,12 +12,12 @@
             "status": "觀察中",
             "indicators": [
                 "KD低檔",
-                "MACD向上",
-                "KD金叉"
+                "KD金叉",
+                "MACD向上"
             ],
-            "current_price": 1385.76,
-            "change_24h": 0.36,
-            "volume_24h": 7058787,
+            "current_price": 1381.2,
+            "change_24h": 0.1,
+            "volume_24h": 7069880,
             "backtest_avg": -1.24
         }
     ]
