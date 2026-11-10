@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-10 02:30:57",
+    "updated_at": "2026-11-10 02:40:50",
     "total_count": 4,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
@@ -13,12 +13,12 @@
             "indicators": [
                 "RSI超賣",
                 "KD金叉",
-                "MACD向上",
-                "KD低檔"
+                "KD低檔",
+                "MACD向上"
             ],
-            "current_price": 6.914,
-            "change_24h": -0.63,
-            "volume_24h": 10808058,
+            "current_price": 6.907,
+            "change_24h": -0.96,
+            "volume_24h": 10808695,
             "backtest_avg": 0.11
         },
         {
@@ -29,12 +29,12 @@
             "score_4h": 4,
             "status": "觀察中",
             "indicators": [
-                "RSI超賣",
-                "MACD向上"
+                "MACD向上",
+                "RSI超賣"
             ],
-            "current_price": 7.56,
-            "change_24h": 5.73,
-            "volume_24h": 32930863,
+            "current_price": 7.48,
+            "change_24h": 5.2,
+            "volume_24h": 32731278,
             "backtest_avg": 0.28
         },
         {
@@ -45,13 +45,13 @@
             "score_4h": 1,
             "status": "觀察中",
             "indicators": [
+                "MACD向上",
                 "KD金叉",
-                "KD低檔",
-                "MACD向上"
+                "KD低檔"
             ],
-            "current_price": 689.29,
-            "change_24h": -0.28,
-            "volume_24h": 14970144,
+            "current_price": 689.28,
+            "change_24h": -0.33,
+            "volume_24h": 14930936,
             "backtest_avg": 0.04
         },
         {
@@ -66,9 +66,9 @@
                 "KD低檔",
                 "MACD向上"
             ],
-            "current_price": 0.002498,
-            "change_24h": -50.25,
-            "volume_24h": 11039264,
+            "current_price": 0.002478,
+            "change_24h": -50.57,
+            "volume_24h": 11228599,
             "backtest_avg": -10.38
         }
     ]
