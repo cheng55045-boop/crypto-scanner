@@ -1,24 +1,59 @@
 {
-    "updated_at": "2026-11-10 15:50:54",
-    "total_count": 1,
+    "updated_at": "2026-11-10 16:01:11",
+    "total_count": 3,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
-            "code": "UNI",
-            "symbol": "UNIUSDT",
+            "code": "XRP",
+            "symbol": "XRPUSDT",
             "score": 3,
-            "score_1h": 5,
-            "score_4h": 1,
+            "score_1h": 3,
+            "score_4h": 4,
             "status": "觀察中",
             "indicators": [
-                "KD金叉",
-                "KD低檔",
-                "MACD向上"
+                "RSI背離",
+                "MACD向上",
+                "MACD翻正"
             ],
-            "current_price": 6.837,
-            "change_24h": -1.89,
-            "volume_24h": 13058286,
-            "backtest_avg": 0.09
+            "current_price": 1.0457,
+            "change_24h": -6.12,
+            "volume_24h": 175776180,
+            "backtest_avg": -0.46
+        },
+        {
+            "code": "BNB",
+            "symbol": "BNBUSDT",
+            "score": 3,
+            "score_1h": 4,
+            "score_4h": 2,
+            "status": "觀察中",
+            "indicators": [
+                "RSI背離",
+                "MACD向上",
+                "KD金叉"
+            ],
+            "current_price": 679.0,
+            "change_24h": -1.79,
+            "volume_24h": 15590773,
+            "backtest_avg": -0.2
+        },
+        {
+            "code": "SKHY",
+            "symbol": "SKHYUSDT",
+            "score": 3,
+            "score_1h": 5,
+            "score_4h": 2,
+            "status": "觀察中",
+            "indicators": [
+                "RSI背離",
+                "MACD向上",
+                "KD金叉",
+                "MACD翻正"
+            ],
+            "current_price": 130.37,
+            "change_24h": -3.24,
+            "volume_24h": 10564099,
+            "backtest_avg": -1.22
         }
     ]
 }
