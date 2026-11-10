@@ -1,6 +1,25 @@
 {
-    "updated_at": "2026-11-10 19:50:48",
-    "total_count": 0,
+    "updated_at": "2026-11-10 20:01:09",
+    "total_count": 1,
     "source": "Bitunix Futures (Multi-TF)",
-    "stocks": []
+    "stocks": [
+        {
+            "code": "ANTHROPIC",
+            "symbol": "ANTHROPICUSDT",
+            "score": 3,
+            "score_1h": 5,
+            "score_4h": 0,
+            "status": "觀察中",
+            "indicators": [
+                "MACD翻正",
+                "KD金叉",
+                "MACD向上",
+                "RSI背離"
+            ],
+            "current_price": 1293.08,
+            "change_24h": -7.99,
+            "volume_24h": 19946258,
+            "backtest_avg": 1.07
+        }
+    ]
 }
