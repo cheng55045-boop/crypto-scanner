@@ -1,24 +1,8 @@
 {
-    "updated_at": "2026-11-10 22:40:53",
-    "total_count": 3,
+    "updated_at": "2026-11-10 22:50:51",
+    "total_count": 2,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
-        {
-            "code": "HYPE",
-            "symbol": "HYPEUSDT",
-            "score": 3,
-            "score_1h": 4,
-            "score_4h": 2,
-            "status": "觀察中",
-            "indicators": [
-                "KD金叉",
-                "MACD向上"
-            ],
-            "current_price": 72.413,
-            "change_24h": -4.24,
-            "volume_24h": 31943388,
-            "backtest_avg": -0.6
-        },
         {
             "code": "SNXX",
             "symbol": "SNXXUSDT",
@@ -32,7 +16,7 @@
             ],
             "current_price": 3.46,
             "change_24h": -7.49,
-            "volume_24h": 13383451,
+            "volume_24h": 13384831,
             "backtest_avg": -3.19
         },
         {
@@ -44,13 +28,13 @@
             "status": "觀察中",
             "indicators": [
                 "RSI背離",
-                "MACD翻正",
                 "KD低檔",
+                "MACD翻正",
                 "MACD向上"
             ],
-            "current_price": 64.78,
-            "change_24h": -4.82,
-            "volume_24h": 9535221,
+            "current_price": 64.82,
+            "change_24h": -4.73,
+            "volume_24h": 9530938,
             "backtest_avg": -0.98
         }
     ]
