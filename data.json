@@ -1,40 +1,57 @@
 {
-    "updated_at": "2026-11-10 08:50:50",
-    "total_count": 2,
+    "updated_at": "2026-11-10 09:01:03",
+    "total_count": 3,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
-            "code": "AAVE",
-            "symbol": "AAVEUSDT",
-            "score": 3,
-            "score_1h": 5,
-            "score_4h": 0,
+            "code": "CRCL",
+            "symbol": "CRCLUSDT",
+            "score": 4,
+            "score_1h": 4,
+            "score_4h": 4,
             "status": "觀察中",
             "indicators": [
                 "MACD向上",
                 "KD金叉"
             ],
-            "current_price": 125.76,
-            "change_24h": -3.51,
-            "volume_24h": 6571050,
-            "backtest_avg": -0.62
+            "current_price": 67.45,
+            "change_24h": 2.9,
+            "volume_24h": 8299346,
+            "backtest_avg": -0.91
         },
         {
-            "code": "ARB",
-            "symbol": "ARBUSDT",
+            "code": "XRP",
+            "symbol": "XRPUSDT",
             "score": 3,
-            "score_1h": 6,
-            "score_4h": 0,
+            "score_1h": 4,
+            "score_4h": 2,
+            "status": "觀察中",
+            "indicators": [
+                "MACD向上",
+                "KD金叉"
+            ],
+            "current_price": 1.0822,
+            "change_24h": -1.4,
+            "volume_24h": 166627272,
+            "backtest_avg": -0.34
+        },
+        {
+            "code": "KORU",
+            "symbol": "KORUUSDT",
+            "score": 3,
+            "score_1h": 3,
+            "score_4h": 4,
             "status": "觀察中",
             "indicators": [
                 "KD低檔",
                 "MACD向上",
-                "KD金叉"
+                "KD金叉",
+                "RSI背離"
             ],
-            "current_price": 0.1681,
-            "change_24h": -3.18,
-            "volume_24h": 6267721,
-            "backtest_avg": -1.61
+            "current_price": 7.64,
+            "change_24h": 17.18,
+            "volume_24h": 29815612,
+            "backtest_avg": 0.49
         }
     ]
 }
