@@ -1,26 +1,8 @@
 {
-    "updated_at": "2026-11-10 05:01:09",
-    "total_count": 3,
+    "updated_at": "2026-11-10 05:10:48",
+    "total_count": 2,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
-        {
-            "code": "KORU",
-            "symbol": "KORUUSDT",
-            "score": 3,
-            "score_1h": 2,
-            "score_4h": 5,
-            "status": "觀察中",
-            "indicators": [
-                "KD低檔",
-                "RSI背離",
-                "RSI超賣",
-                "MACD向上"
-            ],
-            "current_price": 7.52,
-            "change_24h": 7.74,
-            "volume_24h": 32927258,
-            "backtest_avg": 0.49
-        },
         {
             "code": "ADA",
             "symbol": "ADAUSDT",
@@ -29,13 +11,13 @@
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "KD金叉",
+                "MACD向上",
                 "MACD翻正",
-                "MACD向上"
+                "KD金叉"
             ],
-            "current_price": 0.1784,
-            "change_24h": 1.36,
-            "volume_24h": 9306303,
+            "current_price": 0.1788,
+            "change_24h": 1.82,
+            "volume_24h": 9118087,
             "backtest_avg": 0.35
         },
         {
@@ -46,13 +28,13 @@
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "KD低檔",
+                "MACD向上",
                 "KD金叉",
-                "MACD向上"
+                "KD低檔"
             ],
-            "current_price": 1384.42,
-            "change_24h": -0.48,
-            "volume_24h": 7008309,
+            "current_price": 1391.36,
+            "change_24h": 0.41,
+            "volume_24h": 7002379,
             "backtest_avg": -1.24
         }
     ]
