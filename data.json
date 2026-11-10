@@ -1,43 +1,6 @@
 {
-    "updated_at": "2026-11-10 17:50:50",
-    "total_count": 2,
+    "updated_at": "2026-11-10 18:01:04",
+    "total_count": 0,
     "source": "Bitunix Futures (Multi-TF)",
-    "stocks": [
-        {
-            "code": "KORU",
-            "symbol": "KORUUSDT",
-            "score": 4,
-            "score_1h": 5,
-            "score_4h": 3,
-            "status": "觀察中",
-            "indicators": [
-                "KD金叉",
-                "MACD向上",
-                "KD低檔",
-                "RSI背離",
-                "MACD翻正"
-            ],
-            "current_price": 7.03,
-            "change_24h": -7.62,
-            "volume_24h": 30221108,
-            "backtest_avg": 0.06
-        },
-        {
-            "code": "1000PEPE",
-            "symbol": "1000PEPEUSDT",
-            "score": 3,
-            "score_1h": 4,
-            "score_4h": 2,
-            "status": "觀察中",
-            "indicators": [
-                "KD金叉",
-                "RSI背離",
-                "MACD向上"
-            ],
-            "current_price": 0.00528,
-            "change_24h": 0.74,
-            "volume_24h": 39052634,
-            "backtest_avg": -0.45
-        }
-    ]
+    "stocks": []
 }
