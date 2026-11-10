@@ -1,6 +1,24 @@
 {
-    "updated_at": "2026-11-10 12:50:50",
-    "total_count": 0,
+    "updated_at": "2026-11-10 13:01:12",
+    "total_count": 1,
     "source": "Bitunix Futures (Multi-TF)",
-    "stocks": []
+    "stocks": [
+        {
+            "code": "BNB",
+            "symbol": "BNBUSDT",
+            "score": 3,
+            "score_1h": 5,
+            "score_4h": 1,
+            "status": "觀察中",
+            "indicators": [
+                "MACD向上",
+                "KD低檔",
+                "KD金叉"
+            ],
+            "current_price": 687.94,
+            "change_24h": 0.07,
+            "volume_24h": 11622451,
+            "backtest_avg": -0.2
+        }
+    ]
 }
