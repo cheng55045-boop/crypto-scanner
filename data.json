@@ -1,24 +1,24 @@
 {
-    "updated_at": "2026-11-10 14:50:51",
+    "updated_at": "2026-11-10 15:01:09",
     "total_count": 1,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
-            "code": "AAVE",
-            "symbol": "AAVEUSDT",
+            "code": "UNI",
+            "symbol": "UNIUSDT",
             "score": 3,
-            "score_1h": 6,
-            "score_4h": 0,
+            "score_1h": 5,
+            "score_4h": 1,
             "status": "觀察中",
             "indicators": [
+                "MACD向上",
                 "KD金叉",
-                "RSI背離",
-                "MACD向上"
+                "KD低檔"
             ],
-            "current_price": 124.61,
-            "change_24h": -6.51,
-            "volume_24h": 6852942,
-            "backtest_avg": -0.39
+            "current_price": 7.124,
+            "change_24h": 2.96,
+            "volume_24h": 11783966,
+            "backtest_avg": 0.09
         }
     ]
 }
