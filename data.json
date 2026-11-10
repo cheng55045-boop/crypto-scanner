@@ -1,61 +1,41 @@
 {
-    "updated_at": "2026-11-10 00:50:46",
-    "total_count": 3,
+    "updated_at": "2026-11-10 01:01:08",
+    "total_count": 2,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
+            "code": "UNI",
+            "symbol": "UNIUSDT",
+            "score": 3,
+            "score_1h": 4,
+            "score_4h": 2,
+            "status": "觀察中",
+            "indicators": [
+                "MACD向上",
+                "KD低檔",
+                "RSI超賣"
+            ],
+            "current_price": 7.016,
+            "change_24h": 1.12,
+            "volume_24h": 10307339,
+            "backtest_avg": 0.11
+        },
+        {
             "code": "AKE",
             "symbol": "AKEUSDT",
-            "score": 4,
-            "score_1h": 7,
+            "score": 3,
+            "score_1h": 5,
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "KD金叉",
-                "MACD向上",
-                "RSI超賣",
-                "KD低檔"
-            ],
-            "current_price": 0.002532,
-            "change_24h": -52.07,
-            "volume_24h": 9530100,
-            "backtest_avg": -10.38
-        },
-        {
-            "code": "SKHY",
-            "symbol": "SKHYUSDT",
-            "score": 3,
-            "score_1h": 3,
-            "score_4h": 4,
-            "status": "觀察中",
-            "indicators": [
-                "KD金叉",
-                "MACD向上",
-                "RSI超賣"
-            ],
-            "current_price": 134.25,
-            "change_24h": 6.16,
-            "volume_24h": 10883058,
-            "backtest_avg": -0.45
-        },
-        {
-            "code": "SAMSUNG",
-            "symbol": "SAMSUNGUSDT",
-            "score": 3,
-            "score_1h": 3,
-            "score_4h": 5,
-            "status": "觀察中",
-            "indicators": [
-                "KD金叉",
                 "MACD向上",
                 "KD低檔",
-                "MACD翻正",
                 "RSI超賣"
             ],
-            "current_price": 148.45,
-            "change_24h": 5.22,
-            "volume_24h": 6055120,
-            "backtest_avg": -0.07
+            "current_price": 0.002503,
+            "change_24h": -51.99,
+            "volume_24h": 9657350,
+            "backtest_avg": -10.38
         }
     ]
 }
