@@ -1,6 +1,6 @@
 {
-    "updated_at": "2026-11-10 02:50:50",
-    "total_count": 4,
+    "updated_at": "2026-11-10 03:01:07",
+    "total_count": 1,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
@@ -11,65 +11,15 @@
             "score_4h": 2,
             "status": "觀察中",
             "indicators": [
-                "KD低檔",
                 "MACD向上",
-                "RSI超賣",
-                "KD金叉"
+                "RSI背離",
+                "KD低檔",
+                "RSI超賣"
             ],
-            "current_price": 6.944,
-            "change_24h": -0.1,
-            "volume_24h": 10814163,
+            "current_price": 6.948,
+            "change_24h": 0.1,
+            "volume_24h": 10820256,
             "backtest_avg": 0.11
-        },
-        {
-            "code": "KORU",
-            "symbol": "KORUUSDT",
-            "score": 3,
-            "score_1h": 3,
-            "score_4h": 4,
-            "status": "觀察中",
-            "indicators": [
-                "MACD向上",
-                "RSI超賣"
-            ],
-            "current_price": 7.53,
-            "change_24h": 6.81,
-            "volume_24h": 32646087,
-            "backtest_avg": 0.28
-        },
-        {
-            "code": "BNB",
-            "symbol": "BNBUSDT",
-            "score": 3,
-            "score_1h": 5,
-            "score_4h": 1,
-            "status": "觀察中",
-            "indicators": [
-                "MACD向上",
-                "KD低檔",
-                "KD金叉"
-            ],
-            "current_price": 689.74,
-            "change_24h": -0.05,
-            "volume_24h": 14931660,
-            "backtest_avg": 0.04
-        },
-        {
-            "code": "AKE",
-            "symbol": "AKEUSDT",
-            "score": 3,
-            "score_1h": 5,
-            "score_4h": 0,
-            "status": "觀察中",
-            "indicators": [
-                "KD低檔",
-                "MACD向上",
-                "RSI超賣"
-            ],
-            "current_price": 0.002467,
-            "change_24h": -51.68,
-            "volume_24h": 11263088,
-            "backtest_avg": -10.38
         }
     ]
 }
