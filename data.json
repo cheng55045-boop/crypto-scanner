@@ -1,42 +1,41 @@
 {
-    "updated_at": "2026-11-11 10:50:49",
+    "updated_at": "2026-11-11 11:01:07",
     "total_count": 2,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
-            "code": "JCT",
-            "symbol": "JCTUSDT",
-            "score": 5,
-            "score_1h": 7,
-            "score_4h": 2,
+            "code": "1000PEPE",
+            "symbol": "1000PEPEUSDT",
+            "score": 3,
+            "score_1h": 5,
+            "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "RSI超賣",
+                "KD低檔",
                 "MACD向上",
-                "RSI背離",
-                "KD低檔"
+                "RSI超賣"
             ],
-            "current_price": 0.005869,
-            "change_24h": 2.68,
-            "volume_24h": 20893003,
-            "backtest_avg": 17.61
+            "current_price": 0.005019,
+            "change_24h": -4.9,
+            "volume_24h": 52276610,
+            "backtest_avg": -1.6
         },
         {
-            "code": "ARB",
-            "symbol": "ARBUSDT",
+            "code": "JCT",
+            "symbol": "JCTUSDT",
             "score": 3,
-            "score_1h": 4,
+            "score_1h": 5,
             "score_4h": 2,
             "status": "觀察中",
             "indicators": [
-                "KD金叉",
+                "KD低檔",
                 "MACD向上",
-                "RSI背離"
+                "RSI超賣"
             ],
-            "current_price": 0.15869,
-            "change_24h": -4.05,
-            "volume_24h": 7621064,
-            "backtest_avg": -1.57
+            "current_price": 0.005855,
+            "change_24h": -1.18,
+            "volume_24h": 20895801,
+            "backtest_avg": 17.61
         }
     ]
 }
