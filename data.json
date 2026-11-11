@@ -1,71 +1,58 @@
 {
-    "updated_at": "2026-11-11 07:50:42",
-    "total_count": 4,
+    "updated_at": "2026-11-11 08:01:03",
+    "total_count": 3,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
-            "code": "MSTR",
-            "symbol": "MSTRUSDT",
-            "score": 4,
+            "code": "1000PEPE",
+            "symbol": "1000PEPEUSDT",
+            "score": 3,
             "score_1h": 5,
-            "score_4h": 3,
+            "score_4h": 0,
             "status": "觀察中",
             "indicators": [
                 "MACD向上",
-                "KD金叉"
+                "RSI超賣",
+                "KD低檔"
             ],
-            "current_price": 122.52,
-            "change_24h": -2.84,
-            "volume_24h": 16174341,
-            "backtest_avg": 0.21
+            "current_price": 0.005249,
+            "change_24h": -1.82,
+            "volume_24h": 49780847,
+            "backtest_avg": -1.6
         },
         {
-            "code": "1000PEPE",
-            "symbol": "1000PEPEUSDT",
+            "code": "JCT",
+            "symbol": "JCTUSDT",
+            "score": 3,
+            "score_1h": 6,
+            "score_4h": 1,
+            "status": "觀察中",
+            "indicators": [
+                "MACD向上",
+                "KD金叉",
+                "RSI超賣",
+                "KD低檔"
+            ],
+            "current_price": 0.006444,
+            "change_24h": 10.55,
+            "volume_24h": 21765895,
+            "backtest_avg": 17.61
+        },
+        {
+            "code": "TAO",
+            "symbol": "TAOUSDT",
             "score": 3,
             "score_1h": 4,
             "score_4h": 2,
             "status": "觀察中",
             "indicators": [
-                "RSI超賣",
-                "MACD向上"
-            ],
-            "current_price": 0.005268,
-            "change_24h": -1.38,
-            "volume_24h": 49653046,
-            "backtest_avg": -1.6
-        },
-        {
-            "code": "ANTHROPIC",
-            "symbol": "ANTHROPICUSDT",
-            "score": 3,
-            "score_1h": 6,
-            "score_4h": 0,
-            "status": "觀察中",
-            "indicators": [
-                "KD低檔",
                 "MACD向上",
-                "KD金叉"
+                "RSI超賣"
             ],
-            "current_price": 1373.41,
-            "change_24h": -1.48,
-            "volume_24h": 21498594,
-            "backtest_avg": 3.05
-        },
-        {
-            "code": "CRCL",
-            "symbol": "CRCLUSDT",
-            "score": 3,
-            "score_1h": 3,
-            "score_4h": 3,
-            "status": "觀察中",
-            "indicators": [
-                "MACD向上"
-            ],
-            "current_price": 65.8,
-            "change_24h": -3.42,
-            "volume_24h": 10005139,
-            "backtest_avg": -0.94
+            "current_price": 219.95,
+            "change_24h": -1.03,
+            "volume_24h": 12203852,
+            "backtest_avg": 0.16
         }
     ]
 }
