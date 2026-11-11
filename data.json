@@ -1,23 +1,57 @@
 {
-    "updated_at": "2026-11-11 00:50:57",
-    "total_count": 1,
+    "updated_at": "2026-11-11 01:01:05",
+    "total_count": 3,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
-            "code": "JCT",
-            "symbol": "JCTUSDT",
+            "code": "XRP",
+            "symbol": "XRPUSDT",
             "score": 3,
-            "score_1h": 5,
-            "score_4h": 0,
+            "score_1h": 2,
+            "score_4h": 5,
             "status": "觀察中",
             "indicators": [
-                "RSI背離",
-                "MACD向上"
+                "MACD向上",
+                "RSI背離"
             ],
-            "current_price": 0.005204,
-            "change_24h": -50.87,
-            "volume_24h": 20501770,
-            "backtest_avg": 8.59
+            "current_price": 1.052,
+            "change_24h": -4.34,
+            "volume_24h": 204662571,
+            "backtest_avg": -0.18
+        },
+        {
+            "code": "CRCL",
+            "symbol": "CRCLUSDT",
+            "score": 3,
+            "score_1h": 2,
+            "score_4h": 5,
+            "status": "觀察中",
+            "indicators": [
+                "KD低檔",
+                "MACD向上",
+                "RSI背離"
+            ],
+            "current_price": 65.05,
+            "change_24h": -4.21,
+            "volume_24h": 9590868,
+            "backtest_avg": -0.77
+        },
+        {
+            "code": "PIEVERSE",
+            "symbol": "PIEVERSEUSDT",
+            "score": 3,
+            "score_1h": 3,
+            "score_4h": 3,
+            "status": "觀察中",
+            "indicators": [
+                "KD低檔",
+                "RSI超賣",
+                "RSI背離"
+            ],
+            "current_price": 1.8347,
+            "change_24h": -10.92,
+            "volume_24h": 7431420,
+            "backtest_avg": -6.72
         }
     ]
 }
