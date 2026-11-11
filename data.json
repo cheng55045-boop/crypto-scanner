@@ -1,6 +1,6 @@
 {
-    "updated_at": "2026-11-11 01:50:54",
-    "total_count": 3,
+    "updated_at": "2026-11-11 02:01:07",
+    "total_count": 5,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
@@ -11,13 +11,47 @@
             "score_4h": 5,
             "status": "觀察中",
             "indicators": [
-                "RSI背離",
-                "MACD向上"
+                "MACD向上",
+                "RSI背離"
             ],
-            "current_price": 1.0576,
-            "change_24h": -3.85,
-            "volume_24h": 207619035,
+            "current_price": 1.0535,
+            "change_24h": -4.2,
+            "volume_24h": 207953989,
             "backtest_avg": -0.18
+        },
+        {
+            "code": "LINK",
+            "symbol": "LINKUSDT",
+            "score": 3,
+            "score_1h": 5,
+            "score_4h": 0,
+            "status": "觀察中",
+            "indicators": [
+                "MACD向上",
+                "KD金叉",
+                "MACD翻正"
+            ],
+            "current_price": 10.36,
+            "change_24h": -2.62,
+            "volume_24h": 16844514,
+            "backtest_avg": -0.24
+        },
+        {
+            "code": "ADA",
+            "symbol": "ADAUSDT",
+            "score": 3,
+            "score_1h": 5,
+            "score_4h": 0,
+            "status": "觀察中",
+            "indicators": [
+                "MACD向上",
+                "KD金叉",
+                "MACD翻正"
+            ],
+            "current_price": 0.1752,
+            "change_24h": -1.07,
+            "volume_24h": 15116315,
+            "backtest_avg": 0.83
         },
         {
             "code": "CRCL",
@@ -27,31 +61,31 @@
             "score_4h": 5,
             "status": "觀察中",
             "indicators": [
-                "RSI背離",
+                "MACD向上",
                 "KD低檔",
-                "MACD向上"
+                "RSI背離"
             ],
-            "current_price": 65.5,
-            "change_24h": -3.8,
-            "volume_24h": 9700596,
+            "current_price": 65.37,
+            "change_24h": -3.95,
+            "volume_24h": 9702397,
             "backtest_avg": -0.77
         },
         {
-            "code": "PIEVERSE",
-            "symbol": "PIEVERSEUSDT",
+            "code": "ARB",
+            "symbol": "ARBUSDT",
             "score": 3,
-            "score_1h": 3,
-            "score_4h": 3,
+            "score_1h": 5,
+            "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "RSI背離",
-                "KD低檔",
-                "RSI超賣"
+                "MACD向上",
+                "KD金叉",
+                "MACD翻正"
             ],
-            "current_price": 1.8333,
-            "change_24h": -10.52,
-            "volume_24h": 6967055,
-            "backtest_avg": -6.72
+            "current_price": 0.16433,
+            "change_24h": -5.33,
+            "volume_24h": 8003375,
+            "backtest_avg": -1.27
         }
     ]
 }
