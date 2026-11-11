@@ -1,27 +1,28 @@
 {
-    "updated_at": "2026-11-11 02:50:45",
-    "total_count": 5,
+    "updated_at": "2026-11-11 03:01:05",
+    "total_count": 4,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
-            "code": "XRP",
-            "symbol": "XRPUSDT",
+            "code": "KORU",
+            "symbol": "KORUUSDT",
             "score": 3,
-            "score_1h": 2,
-            "score_4h": 5,
+            "score_1h": 3,
+            "score_4h": 3,
             "status": "觀察中",
             "indicators": [
-                "MACD向上",
-                "RSI背離"
+                "KD低檔",
+                "RSI背離",
+                "KD金叉"
             ],
-            "current_price": 1.06,
-            "change_24h": -3.31,
-            "volume_24h": 208545585,
-            "backtest_avg": -0.18
+            "current_price": 7.97,
+            "change_24h": 5.7,
+            "volume_24h": 28502147,
+            "backtest_avg": 0.81
         },
         {
-            "code": "LINK",
-            "symbol": "LINKUSDT",
+            "code": "SUI",
+            "symbol": "SUIUSDT",
             "score": 3,
             "score_1h": 5,
             "score_4h": 0,
@@ -31,27 +32,27 @@
                 "MACD向上",
                 "MACD翻正"
             ],
-            "current_price": 10.381,
-            "change_24h": -1.92,
-            "volume_24h": 17192221,
-            "backtest_avg": -0.24
+            "current_price": 0.8276,
+            "change_24h": -1.46,
+            "volume_24h": 26992369,
+            "backtest_avg": 0.02
         },
         {
-            "code": "ADA",
-            "symbol": "ADAUSDT",
+            "code": "JCT",
+            "symbol": "JCTUSDT",
             "score": 3,
             "score_1h": 5,
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "KD金叉",
+                "RSI超賣",
                 "MACD向上",
                 "MACD翻正"
             ],
-            "current_price": 0.1756,
-            "change_24h": -0.9,
-            "volume_24h": 15488752,
-            "backtest_avg": 0.83
+            "current_price": 0.005765,
+            "change_24h": -35.46,
+            "volume_24h": 19794659,
+            "backtest_avg": 8.93
         },
         {
             "code": "CRCL",
@@ -61,31 +62,14 @@
             "score_4h": 5,
             "status": "觀察中",
             "indicators": [
-                "MACD向上",
                 "KD低檔",
-                "RSI背離"
+                "RSI背離",
+                "MACD向上"
             ],
-            "current_price": 65.66,
-            "change_24h": -3.46,
-            "volume_24h": 9818909,
+            "current_price": 65.57,
+            "change_24h": -3.52,
+            "volume_24h": 9844275,
             "backtest_avg": -0.77
-        },
-        {
-            "code": "ARB",
-            "symbol": "ARBUSDT",
-            "score": 3,
-            "score_1h": 5,
-            "score_4h": 0,
-            "status": "觀察中",
-            "indicators": [
-                "KD金叉",
-                "MACD向上",
-                "MACD翻正"
-            ],
-            "current_price": 0.16774,
-            "change_24h": -2.9,
-            "volume_24h": 7990976,
-            "backtest_avg": -1.27
         }
     ]
 }
