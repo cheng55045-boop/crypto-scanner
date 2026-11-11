@@ -1,6 +1,6 @@
 {
-    "updated_at": "2026-11-11 07:30:54",
-    "total_count": 5,
+    "updated_at": "2026-11-11 07:40:47",
+    "total_count": 4,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
@@ -11,12 +11,12 @@
             "score_4h": 3,
             "status": "觀察中",
             "indicators": [
-                "MACD向上",
-                "KD金叉"
+                "KD金叉",
+                "MACD向上"
             ],
-            "current_price": 122.6,
-            "change_24h": -2.5,
-            "volume_24h": 16142657,
+            "current_price": 122.45,
+            "change_24h": -2.77,
+            "volume_24h": 16202146,
             "backtest_avg": 0.21
         },
         {
@@ -27,12 +27,12 @@
             "score_4h": 2,
             "status": "觀察中",
             "indicators": [
-                "MACD向上",
-                "RSI超賣"
+                "RSI超賣",
+                "MACD向上"
             ],
-            "current_price": 0.005291,
-            "change_24h": -0.8,
-            "volume_24h": 49733887,
+            "current_price": 0.005272,
+            "change_24h": -1.01,
+            "volume_24h": 49586673,
             "backtest_avg": -1.6
         },
         {
@@ -43,31 +43,14 @@
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "MACD向上",
+                "KD低檔",
                 "KD金叉",
-                "KD低檔"
+                "MACD向上"
             ],
-            "current_price": 1373.6,
-            "change_24h": -1.44,
-            "volume_24h": 21491688,
+            "current_price": 1374.96,
+            "change_24h": -1.43,
+            "volume_24h": 21490807,
             "backtest_avg": 3.05
-        },
-        {
-            "code": "JCT",
-            "symbol": "JCTUSDT",
-            "score": 3,
-            "score_1h": 5,
-            "score_4h": 0,
-            "status": "觀察中",
-            "indicators": [
-                "MACD向上",
-                "RSI超賣",
-                "KD低檔"
-            ],
-            "current_price": 0.006813,
-            "change_24h": 9.73,
-            "volume_24h": 21426985,
-            "backtest_avg": 17.61
         },
         {
             "code": "CRCL",
@@ -79,9 +62,9 @@
             "indicators": [
                 "MACD向上"
             ],
-            "current_price": 65.84,
-            "change_24h": -3.05,
-            "volume_24h": 10023441,
+            "current_price": 65.76,
+            "change_24h": -3.34,
+            "volume_24h": 10024904,
             "backtest_avg": -0.94
         }
     ]
