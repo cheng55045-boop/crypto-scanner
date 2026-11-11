@@ -1,25 +1,6 @@
 {
-    "updated_at": "2026-11-11 12:50:48",
-    "total_count": 1,
+    "updated_at": "2026-11-11 13:01:04",
+    "total_count": 0,
     "source": "Bitunix Futures (Multi-TF)",
-    "stocks": [
-        {
-            "code": "1000PEPE",
-            "symbol": "1000PEPEUSDT",
-            "score": 3,
-            "score_1h": 5,
-            "score_4h": 2,
-            "status": "觀察中",
-            "indicators": [
-                "KD低檔",
-                "RSI超賣",
-                "RSI背離",
-                "MACD向上"
-            ],
-            "current_price": 0.004992,
-            "change_24h": -5.63,
-            "volume_24h": 53333936,
-            "backtest_avg": -1.6
-        }
-    ]
+    "stocks": []
 }
