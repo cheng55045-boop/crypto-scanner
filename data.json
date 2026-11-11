@@ -1,6 +1,23 @@
 {
-    "updated_at": "2026-11-10 23:50:50",
-    "total_count": 0,
+    "updated_at": "2026-11-11 00:01:03",
+    "total_count": 1,
     "source": "Bitunix Futures (Multi-TF)",
-    "stocks": []
+    "stocks": [
+        {
+            "code": "JCT",
+            "symbol": "JCTUSDT",
+            "score": 3,
+            "score_1h": 5,
+            "score_4h": 0,
+            "status": "觀察中",
+            "indicators": [
+                "RSI背離",
+                "MACD向上"
+            ],
+            "current_price": 0.005197,
+            "change_24h": -51.59,
+            "volume_24h": 20560446,
+            "backtest_avg": 8.59
+        }
+    ]
 }
