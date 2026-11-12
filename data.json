@@ -1,25 +1,89 @@
 {
-    "updated_at": "2026-11-12 00:50:53",
-    "total_count": 3,
+    "updated_at": "2026-11-12 01:01:06",
+    "total_count": 8,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
-            "code": "ARIA",
-            "symbol": "ARIAUSDT",
+            "code": "1000PEPE",
+            "symbol": "1000PEPEUSDT",
+            "score": 4,
+            "score_1h": 4,
+            "score_4h": 4,
+            "status": "觀察中",
+            "indicators": [
+                "MACD翻正",
+                "RSI背離",
+                "MACD向上"
+            ],
+            "current_price": 0.00455,
+            "change_24h": -15.66,
+            "volume_24h": 44584551,
+            "backtest_avg": -1.45
+        },
+        {
+            "code": "DOGE",
+            "symbol": "DOGEUSDT",
+            "score": 3,
+            "score_1h": 4,
+            "score_4h": 2,
+            "status": "觀察中",
+            "indicators": [
+                "RSI背離",
+                "MACD向上"
+            ],
+            "current_price": 0.06757,
+            "change_24h": -1.01,
+            "volume_24h": 24935659,
+            "backtest_avg": -0.41
+        },
+        {
+            "code": "SUI",
+            "symbol": "SUIUSDT",
+            "score": 3,
+            "score_1h": 4,
+            "score_4h": 2,
+            "status": "觀察中",
+            "indicators": [
+                "RSI背離",
+                "MACD向上"
+            ],
+            "current_price": 0.8219,
+            "change_24h": -0.51,
+            "volume_24h": 14180581,
+            "backtest_avg": -0.29
+        },
+        {
+            "code": "ANTHROPIC",
+            "symbol": "ANTHROPICUSDT",
+            "score": 3,
+            "score_1h": 3,
+            "score_4h": 3,
+            "status": "觀察中",
+            "indicators": [
+                "MACD翻正",
+                "MACD向上"
+            ],
+            "current_price": 1386.55,
+            "change_24h": 2.02,
+            "volume_24h": 11577123,
+            "backtest_avg": 1.59
+        },
+        {
+            "code": "ENA",
+            "symbol": "ENAUSDT",
             "score": 3,
             "score_1h": 4,
             "score_4h": 3,
             "status": "觀察中",
             "indicators": [
-                "KD低檔",
-                "RSI超賣",
-                "MACD向上",
-                "KD金叉"
+                "MACD翻正",
+                "RSI背離",
+                "MACD向上"
             ],
-            "current_price": 0.22977,
-            "change_24h": 5.24,
-            "volume_24h": 21062192,
-            "backtest_avg": -4.51
+            "current_price": 0.14622,
+            "change_24h": -3.75,
+            "volume_24h": 9941011,
+            "backtest_avg": -1.4
         },
         {
             "code": "AVAX",
@@ -30,28 +94,45 @@
             "status": "觀察中",
             "indicators": [
                 "MACD翻正",
-                "MACD向上",
-                "RSI背離"
+                "RSI背離",
+                "MACD向上"
             ],
-            "current_price": 8.583,
-            "change_24h": 1.88,
-            "volume_24h": 8887515,
+            "current_price": 8.559,
+            "change_24h": 1.66,
+            "volume_24h": 8914364,
             "backtest_avg": -3.35
         },
         {
-            "code": "AAVE",
-            "symbol": "AAVEUSDT",
+            "code": "TAO",
+            "symbol": "TAOUSDT",
             "score": 3,
             "score_1h": 4,
             "score_4h": 2,
             "status": "觀察中",
             "indicators": [
-                "MACD向上",
-                "RSI背離"
+                "RSI背離",
+                "MACD向上"
             ],
-            "current_price": 120.0,
-            "change_24h": -3.01,
-            "volume_24h": 6563561,
+            "current_price": 216.89,
+            "change_24h": -1.01,
+            "volume_24h": 8527453,
+            "backtest_avg": -0.22
+        },
+        {
+            "code": "AAVE",
+            "symbol": "AAVEUSDT",
+            "score": 3,
+            "score_1h": 5,
+            "score_4h": 2,
+            "status": "觀察中",
+            "indicators": [
+                "MACD翻正",
+                "RSI背離",
+                "MACD向上"
+            ],
+            "current_price": 119.66,
+            "change_24h": -3.62,
+            "volume_24h": 6575886,
             "backtest_avg": -0.53
         }
     ]
