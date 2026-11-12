@@ -1,6 +1,6 @@
 {
-    "updated_at": "2026-11-12 05:30:56",
-    "total_count": 6,
+    "updated_at": "2026-11-12 05:40:50",
+    "total_count": 7,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
@@ -11,15 +11,15 @@
             "score_4h": 7,
             "status": "觀察中",
             "indicators": [
-                "KD金叉",
-                "RSI超賣",
                 "RSI背離",
+                "MACD向上",
                 "KD低檔",
-                "MACD向上"
+                "RSI超賣",
+                "KD金叉"
             ],
-            "current_price": 1.0414,
-            "change_24h": -1.49,
-            "volume_24h": 134263442,
+            "current_price": 1.0425,
+            "change_24h": -1.5,
+            "volume_24h": 134341774,
             "backtest_avg": -0.14
         },
         {
@@ -33,9 +33,9 @@
                 "MACD向上",
                 "RSI背離"
             ],
-            "current_price": 8.582,
-            "change_24h": 1.79,
-            "volume_24h": 8550395,
+            "current_price": 8.593,
+            "change_24h": 1.93,
+            "volume_24h": 8563643,
             "backtest_avg": -3.35
         },
         {
@@ -49,9 +49,9 @@
                 "MACD向上",
                 "KD金叉"
             ],
-            "current_price": 8.04,
-            "change_24h": -2.19,
-            "volume_24h": 26392250,
+            "current_price": 8.06,
+            "change_24h": -1.83,
+            "volume_24h": 26481751,
             "backtest_avg": -1.44
         },
         {
@@ -65,9 +65,9 @@
                 "MACD向上",
                 "RSI背離"
             ],
-            "current_price": 0.816,
-            "change_24h": -1.34,
-            "volume_24h": 12112475,
+            "current_price": 0.8169,
+            "change_24h": -1.15,
+            "volume_24h": 12122004,
             "backtest_avg": -0.29
         },
         {
@@ -82,9 +82,9 @@
                 "RSI背離",
                 "KD低檔"
             ],
-            "current_price": 1368.44,
-            "change_24h": -1.39,
-            "volume_24h": 8798254,
+            "current_price": 1371.39,
+            "change_24h": -0.26,
+            "volume_24h": 8638247,
             "backtest_avg": 1.14
         },
         {
@@ -96,13 +96,29 @@
             "status": "觀察中",
             "indicators": [
                 "MACD向上",
-                "RSI超賣",
-                "KD低檔"
+                "KD低檔",
+                "RSI超賣"
             ],
-            "current_price": 0.15077,
-            "change_24h": -7.59,
-            "volume_24h": 6481358,
+            "current_price": 0.15059,
+            "change_24h": -7.78,
+            "volume_24h": 6478845,
             "backtest_avg": -2.12
+        },
+        {
+            "code": "SAMSUNG",
+            "symbol": "SAMSUNGUSDT",
+            "score": 3,
+            "score_1h": 4,
+            "score_4h": 2,
+            "status": "觀察中",
+            "indicators": [
+                "MACD向上",
+                "RSI背離"
+            ],
+            "current_price": 156.88,
+            "change_24h": 1.76,
+            "volume_24h": 5141558,
+            "backtest_avg": -0.91
         }
     ]
 }
