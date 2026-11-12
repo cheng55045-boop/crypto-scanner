@@ -1,23 +1,104 @@
 {
-    "updated_at": "2026-11-12 02:50:41",
-    "total_count": 1,
+    "updated_at": "2026-11-12 03:01:11",
+    "total_count": 6,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
-            "code": "1000PEPE",
-            "symbol": "1000PEPEUSDT",
-            "score": 4,
+            "code": "ZEC",
+            "symbol": "ZECUSDT",
+            "score": 3,
             "score_1h": 4,
-            "score_4h": 4,
+            "score_4h": 2,
             "status": "觀察中",
             "indicators": [
-                "MACD向上",
-                "MACD翻正"
+                "KD金叉",
+                "MACD向上"
             ],
-            "current_price": 0.004611,
-            "change_24h": -15.42,
-            "volume_24h": 41847901,
-            "backtest_avg": -1.45
+            "current_price": 992.3,
+            "change_24h": -2.84,
+            "volume_24h": 130956291,
+            "backtest_avg": -0.67
+        },
+        {
+            "code": "NEAR",
+            "symbol": "NEARUSDT",
+            "score": 3,
+            "score_1h": 4,
+            "score_4h": 2,
+            "status": "觀察中",
+            "indicators": [
+                "KD金叉",
+                "MACD向上"
+            ],
+            "current_price": 3.568,
+            "change_24h": -3.12,
+            "volume_24h": 32768626,
+            "backtest_avg": -2.82
+        },
+        {
+            "code": "LINK",
+            "symbol": "LINKUSDT",
+            "score": 3,
+            "score_1h": 3,
+            "score_4h": 3,
+            "status": "觀察中",
+            "indicators": [
+                "MACD翻正",
+                "MACD向上"
+            ],
+            "current_price": 10.153,
+            "change_24h": -2.02,
+            "volume_24h": 14837533,
+            "backtest_avg": -0.63
+        },
+        {
+            "code": "ENA",
+            "symbol": "ENAUSDT",
+            "score": 3,
+            "score_1h": 3,
+            "score_4h": 3,
+            "status": "觀察中",
+            "indicators": [
+                "MACD翻正",
+                "MACD向上"
+            ],
+            "current_price": 0.14493,
+            "change_24h": -5.38,
+            "volume_24h": 9971046,
+            "backtest_avg": -1.4
+        },
+        {
+            "code": "ANTHROPIC",
+            "symbol": "ANTHROPICUSDT",
+            "score": 3,
+            "score_1h": 4,
+            "score_4h": 3,
+            "status": "觀察中",
+            "indicators": [
+                "MACD翻正",
+                "KD金叉",
+                "MACD向上"
+            ],
+            "current_price": 1381.25,
+            "change_24h": 0.21,
+            "volume_24h": 9812251,
+            "backtest_avg": 1.59
+        },
+        {
+            "code": "SKHY",
+            "symbol": "SKHYUSDT",
+            "score": 3,
+            "score_1h": 4,
+            "score_4h": 2,
+            "status": "觀察中",
+            "indicators": [
+                "KD金叉",
+                "MACD向上"
+            ],
+            "current_price": 140.87,
+            "change_24h": 3.61,
+            "volume_24h": 9042982,
+            "backtest_avg": -2.52
         }
     ]
 }
