@@ -1,6 +1,6 @@
 {
-    "updated_at": "2026-11-13 19:01:05",
-    "total_count": 5,
+    "updated_at": "2026-11-13 19:10:49",
+    "total_count": 4,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
@@ -11,12 +11,12 @@
             "score_4h": 3,
             "status": "觀察中",
             "indicators": [
-                "MACD向上",
-                "KD金叉"
+                "KD金叉",
+                "MACD向上"
             ],
-            "current_price": 3.628,
-            "change_24h": -1.55,
-            "volume_24h": 6297501,
+            "current_price": 3.618,
+            "change_24h": -1.63,
+            "volume_24h": 6291991,
             "backtest_avg": -0.4
         },
         {
@@ -30,9 +30,9 @@
                 "MACD向上",
                 "RSI背離"
             ],
-            "current_price": 7.45,
-            "change_24h": -7.45,
-            "volume_24h": 25243716,
+            "current_price": 7.56,
+            "change_24h": -6.09,
+            "volume_24h": 25144924,
             "backtest_avg": -2.05
         },
         {
@@ -43,32 +43,15 @@
             "score_4h": 4,
             "status": "觀察中",
             "indicators": [
+                "KD金叉",
                 "MACD向上",
                 "RSI超賣",
-                "KD金叉",
                 "MACD翻正"
             ],
-            "current_price": 0.20992,
-            "change_24h": 16.35,
-            "volume_24h": 8243348,
+            "current_price": 0.2092,
+            "change_24h": 14.67,
+            "volume_24h": 8221593,
             "backtest_avg": 0.19
-        },
-        {
-            "code": "INJ",
-            "symbol": "INJUSDT",
-            "score": 3,
-            "score_1h": 3,
-            "score_4h": 3,
-            "status": "觀察中",
-            "indicators": [
-                "MACD向上",
-                "RSI超賣",
-                "KD低檔"
-            ],
-            "current_price": 8.099,
-            "change_24h": 9.39,
-            "volume_24h": 8035138,
-            "backtest_avg": 1.59
         },
         {
             "code": "SKHY",
@@ -81,9 +64,9 @@
                 "MACD向上",
                 "RSI背離"
             ],
-            "current_price": 130.72,
-            "change_24h": -4.61,
-            "volume_24h": 7642963,
+            "current_price": 131.92,
+            "change_24h": -3.62,
+            "volume_24h": 7586715,
             "backtest_avg": -1.35
         }
     ]
