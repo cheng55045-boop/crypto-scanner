@@ -1,24 +1,24 @@
 {
-    "updated_at": "2026-11-13 06:20:47",
+    "updated_at": "2026-11-13 06:30:56",
     "total_count": 4,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
             "code": "ARIA",
             "symbol": "ARIAUSDT",
-            "score": 7,
-            "score_1h": 7,
-            "score_4h": 7,
+            "score": 6,
+            "score_1h": 6,
+            "score_4h": 6,
             "status": "蓄勢待發",
             "indicators": [
-                "RSI超賣",
                 "KD金叉",
+                "RSI超賣",
                 "MACD向上",
                 "KD低檔"
             ],
-            "current_price": 0.21454,
-            "change_24h": 7.6,
-            "volume_24h": 11832494,
+            "current_price": 0.22153,
+            "change_24h": 13.21,
+            "volume_24h": 11835892,
             "backtest_avg": -3.76
         },
         {
@@ -30,12 +30,12 @@
             "status": "觀察中",
             "indicators": [
                 "RSI超賣",
-                "KD低檔",
-                "MACD向上"
+                "MACD向上",
+                "KD低檔"
             ],
-            "current_price": 0.004536,
-            "change_24h": -0.41,
-            "volume_24h": 32012760,
+            "current_price": 0.004602,
+            "change_24h": 0.89,
+            "volume_24h": 32557876,
             "backtest_avg": -0.69
         },
         {
@@ -46,13 +46,13 @@
             "score_4h": 2,
             "status": "觀察中",
             "indicators": [
+                "RSI背離",
                 "KD金叉",
-                "MACD向上",
-                "RSI背離"
+                "MACD向上"
             ],
-            "current_price": 134.62,
-            "change_24h": -2.56,
-            "volume_24h": 9359626,
+            "current_price": 134.79,
+            "change_24h": -2.04,
+            "volume_24h": 9379371,
             "backtest_avg": -0.52
         },
         {
@@ -64,12 +64,12 @@
             "status": "觀察中",
             "indicators": [
                 "RSI超賣",
-                "KD低檔",
-                "MACD向上"
+                "MACD向上",
+                "KD低檔"
             ],
-            "current_price": 3.702,
-            "change_24h": 2.15,
-            "volume_24h": 9306637,
+            "current_price": 3.705,
+            "change_24h": 2.4,
+            "volume_24h": 9309588,
             "backtest_avg": -0.55
         }
     ]
