@@ -1,25 +1,23 @@
 {
-    "updated_at": "2026-11-13 15:50:52",
+    "updated_at": "2026-11-13 16:01:06",
     "total_count": 1,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
-            "code": "INJ",
-            "symbol": "INJUSDT",
+            "code": "NATGAS",
+            "symbol": "NATGASUSDT",
             "score": 3,
-            "score_1h": 1,
-            "score_4h": 6,
+            "score_1h": 4,
+            "score_4h": 3,
             "status": "觀察中",
             "indicators": [
-                "KD金叉",
                 "MACD向上",
-                "RSI超賣",
-                "KD低檔"
+                "RSI超賣"
             ],
-            "current_price": 8.131,
-            "change_24h": 10.67,
-            "volume_24h": 7178402,
-            "backtest_avg": 0.86
+            "current_price": 3.623,
+            "change_24h": -0.38,
+            "volume_24h": 7818931,
+            "backtest_avg": -0.4
         }
     ]
 }
