@@ -1,25 +1,8 @@
 {
-    "updated_at": "2026-11-13 20:50:52",
-    "total_count": 2,
+    "updated_at": "2026-11-13 21:01:04",
+    "total_count": 1,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
-        {
-            "code": "ARIA",
-            "symbol": "ARIAUSDT",
-            "score": 4,
-            "score_1h": 4,
-            "score_4h": 4,
-            "status": "觀察中",
-            "indicators": [
-                "MACD向上",
-                "KD金叉",
-                "KD低檔"
-            ],
-            "current_price": 0.20165,
-            "change_24h": 5.01,
-            "volume_24h": 6882079,
-            "backtest_avg": 0.19
-        },
         {
             "code": "SKHY",
             "symbol": "SKHYUSDT",
@@ -29,12 +12,12 @@
             "status": "觀察中",
             "indicators": [
                 "KD金叉",
-                "MACD翻正",
-                "MACD向上"
+                "MACD向上",
+                "RSI超賣"
             ],
-            "current_price": 132.43,
-            "change_24h": -3.76,
-            "volume_24h": 7581289,
+            "current_price": 131.94,
+            "change_24h": -4.3,
+            "volume_24h": 7601036,
             "backtest_avg": -1.35
         }
     ]
