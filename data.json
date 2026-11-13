@@ -1,24 +1,24 @@
 {
-    "updated_at": "2026-11-13 06:01:06",
+    "updated_at": "2026-11-13 06:10:51",
     "total_count": 4,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
             "code": "ARIA",
             "symbol": "ARIAUSDT",
-            "score": 6,
-            "score_1h": 6,
-            "score_4h": 6,
+            "score": 7,
+            "score_1h": 7,
+            "score_4h": 7,
             "status": "蓄勢待發",
             "indicators": [
+                "KD金叉",
                 "RSI超賣",
                 "KD低檔",
-                "KD金叉",
                 "MACD向上"
             ],
-            "current_price": 0.21968,
-            "change_24h": 12.71,
-            "volume_24h": 11869241,
+            "current_price": 0.21773,
+            "change_24h": 9.69,
+            "volume_24h": 11838269,
             "backtest_avg": -3.76
         },
         {
@@ -33,9 +33,9 @@
                 "KD低檔",
                 "MACD向上"
             ],
-            "current_price": 0.004475,
-            "change_24h": -1.79,
-            "volume_24h": 31527351,
+            "current_price": 0.004539,
+            "change_24h": -0.55,
+            "volume_24h": 31773082,
             "backtest_avg": -0.69
         },
         {
@@ -46,13 +46,13 @@
             "score_4h": 2,
             "status": "觀察中",
             "indicators": [
-                "RSI背離",
                 "KD金叉",
+                "RSI背離",
                 "MACD向上"
             ],
-            "current_price": 133.84,
-            "change_24h": -2.5,
-            "volume_24h": 9312330,
+            "current_price": 134.29,
+            "change_24h": -2.38,
+            "volume_24h": 9337881,
             "backtest_avg": -0.52
         },
         {
@@ -67,9 +67,9 @@
                 "KD低檔",
                 "MACD向上"
             ],
-            "current_price": 3.713,
-            "change_24h": 2.68,
-            "volume_24h": 9274921,
+            "current_price": 3.71,
+            "change_24h": 2.51,
+            "volume_24h": 9284940,
             "backtest_avg": -0.55
         }
     ]
