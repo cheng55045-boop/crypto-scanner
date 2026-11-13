@@ -1,25 +1,44 @@
 {
-    "updated_at": "2026-11-13 03:50:51",
+    "updated_at": "2026-11-13 04:01:03",
     "total_count": 4,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
             "code": "ARIA",
             "symbol": "ARIAUSDT",
-            "score": 5,
-            "score_1h": 5,
-            "score_4h": 6,
+            "score": 6,
+            "score_1h": 6,
+            "score_4h": 7,
+            "status": "蓄勢待發",
+            "indicators": [
+                "KD金叉",
+                "RSI超賣",
+                "MACD翻正",
+                "MACD向上",
+                "KD低檔"
+            ],
+            "current_price": 0.22001,
+            "change_24h": 5.28,
+            "volume_24h": 12062319,
+            "backtest_avg": -0.73
+        },
+        {
+            "code": "1000PEPE",
+            "symbol": "1000PEPEUSDT",
+            "score": 4,
+            "score_1h": 7,
+            "score_4h": 1,
             "status": "觀察中",
             "indicators": [
                 "MACD向上",
-                "RSI超賣",
-                "RSI背離",
-                "KD低檔"
+                "KD低檔",
+                "KD金叉",
+                "RSI超賣"
             ],
-            "current_price": 0.22002,
-            "change_24h": 3.01,
-            "volume_24h": 12060588,
-            "backtest_avg": -0.73
+            "current_price": 0.004556,
+            "change_24h": -0.48,
+            "volume_24h": 28461158,
+            "backtest_avg": -0.95
         },
         {
             "code": "NATGAS",
@@ -30,47 +49,30 @@
             "status": "觀察中",
             "indicators": [
                 "MACD向上",
-                "RSI超賣",
-                "RSI背離",
-                "KD低檔"
+                "KD低檔",
+                "RSI超賣"
             ],
-            "current_price": 3.739,
-            "change_24h": 2.78,
-            "volume_24h": 9350475,
-            "backtest_avg": -0.62
-        },
-        {
-            "code": "1000PEPE",
-            "symbol": "1000PEPEUSDT",
-            "score": 3,
-            "score_1h": 4,
-            "score_4h": 2,
-            "status": "觀察中",
-            "indicators": [
-                "MACD向上",
-                "RSI超賣",
-                "KD低檔"
-            ],
-            "current_price": 0.004557,
-            "change_24h": -0.6,
-            "volume_24h": 28065806,
-            "backtest_avg": -0.95
+            "current_price": 3.743,
+            "change_24h": 2.89,
+            "volume_24h": 9323844,
+            "backtest_avg": -0.55
         },
         {
             "code": "ONE",
             "symbol": "ONEUSDT",
-            "score": 3,
+            "score": 4,
             "score_1h": 4,
-            "score_4h": 3,
+            "score_4h": 4,
             "status": "觀察中",
             "indicators": [
+                "RSI背離",
                 "MACD向上",
                 "RSI超賣"
             ],
-            "current_price": 0.001494,
-            "change_24h": 2.82,
-            "volume_24h": 7796053,
-            "backtest_avg": -0.02
+            "current_price": 0.001493,
+            "change_24h": 3.1,
+            "volume_24h": 7813709,
+            "backtest_avg": 0.61
         }
     ]
 }
