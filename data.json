@@ -1,24 +1,24 @@
 {
-    "updated_at": "2026-11-13 15:30:56",
+    "updated_at": "2026-11-13 15:35:00",
     "total_count": 1,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
             "code": "INJ",
             "symbol": "INJUSDT",
-            "score": 3,
-            "score_1h": 1,
-            "score_4h": 6,
+            "score": 4,
+            "score_1h": 2,
+            "score_4h": 7,
             "status": "觀察中",
             "indicators": [
+                "MACD向上",
                 "RSI超賣",
-                "KD金叉",
                 "KD低檔",
-                "MACD向上"
+                "KD金叉"
             ],
-            "current_price": 8.044,
-            "change_24h": 10.07,
-            "volume_24h": 7267522,
+            "current_price": 8.022,
+            "change_24h": 9.97,
+            "volume_24h": 7243979,
             "backtest_avg": 0.86
         }
     ]
