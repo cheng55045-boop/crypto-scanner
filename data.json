@@ -1,8 +1,26 @@
 {
-    "updated_at": "2026-11-13 05:00:58",
+    "updated_at": "2026-11-13 05:10:47",
     "total_count": 4,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
+        {
+            "code": "ARIA",
+            "symbol": "ARIAUSDT",
+            "score": 5,
+            "score_1h": 5,
+            "score_4h": 7,
+            "status": "觀察中",
+            "indicators": [
+                "KD金叉",
+                "KD低檔",
+                "RSI超賣",
+                "MACD向上"
+            ],
+            "current_price": 0.21597,
+            "change_24h": 6.21,
+            "volume_24h": 11862964,
+            "backtest_avg": -0.73
+        },
         {
             "code": "1000PEPE",
             "symbol": "1000PEPEUSDT",
@@ -11,33 +29,15 @@
             "score_4h": 1,
             "status": "觀察中",
             "indicators": [
-                "MACD向上",
                 "KD低檔",
                 "RSI背離",
-                "RSI超賣"
-            ],
-            "current_price": 0.004447,
-            "change_24h": -2.58,
-            "volume_24h": 30570256,
-            "backtest_avg": -0.95
-        },
-        {
-            "code": "ARIA",
-            "symbol": "ARIAUSDT",
-            "score": 4,
-            "score_1h": 4,
-            "score_4h": 6,
-            "status": "觀察中",
-            "indicators": [
-                "MACD向上",
-                "KD低檔",
                 "RSI超賣",
-                "KD金叉"
+                "MACD向上"
             ],
-            "current_price": 0.21725,
-            "change_24h": 11.92,
-            "volume_24h": 11954365,
-            "backtest_avg": -0.73
+            "current_price": 0.004477,
+            "change_24h": -2.05,
+            "volume_24h": 30635675,
+            "backtest_avg": -0.95
         },
         {
             "code": "NATGAS",
@@ -47,15 +47,15 @@
             "score_4h": 3,
             "status": "觀察中",
             "indicators": [
-                "MACD翻正",
-                "MACD向上",
                 "KD低檔",
+                "MACD向上",
                 "KD金叉",
+                "MACD翻正",
                 "RSI超賣"
             ],
-            "current_price": 3.728,
-            "change_24h": 2.61,
-            "volume_24h": 9224217,
+            "current_price": 3.721,
+            "change_24h": 2.23,
+            "volume_24h": 9241043,
             "backtest_avg": -0.55
         },
         {
@@ -66,12 +66,12 @@
             "score_4h": 4,
             "status": "觀察中",
             "indicators": [
-                "MACD向上",
-                "RSI背離"
+                "RSI背離",
+                "MACD向上"
             ],
-            "current_price": 0.001476,
-            "change_24h": 1.8,
-            "volume_24h": 7838000,
+            "current_price": 0.001471,
+            "change_24h": 1.46,
+            "volume_24h": 7845992,
             "backtest_avg": 0.61
         }
     ]
