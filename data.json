@@ -1,27 +1,8 @@
 {
-    "updated_at": "2026-11-13 14:01:09",
+    "updated_at": "2026-11-13 14:10:45",
     "total_count": 2,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
-        {
-            "code": "INJ",
-            "symbol": "INJUSDT",
-            "score": 4,
-            "score_1h": 3,
-            "score_4h": 7,
-            "status": "觀察中",
-            "indicators": [
-                "KD金叉",
-                "RSI超賣",
-                "KD低檔",
-                "MACD向上",
-                "MACD翻正"
-            ],
-            "current_price": 8.194,
-            "change_24h": 9.82,
-            "volume_24h": 6948479,
-            "backtest_avg": 0.86
-        },
         {
             "code": "AKE",
             "symbol": "AKEUSDT",
@@ -30,14 +11,33 @@
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "MACD向上",
                 "KD金叉",
-                "KD低檔"
+                "KD低檔",
+                "MACD向上"
             ],
-            "current_price": 0.006132,
-            "change_24h": 129.66,
-            "volume_24h": 32389865,
+            "current_price": 0.006487,
+            "change_24h": 140.71,
+            "volume_24h": 32892761,
             "backtest_avg": -2.43
+        },
+        {
+            "code": "INJ",
+            "symbol": "INJUSDT",
+            "score": 3,
+            "score_1h": 2,
+            "score_4h": 6,
+            "status": "觀察中",
+            "indicators": [
+                "KD金叉",
+                "MACD翻正",
+                "MACD向上",
+                "KD低檔",
+                "RSI超賣"
+            ],
+            "current_price": 8.22,
+            "change_24h": 10.16,
+            "volume_24h": 6980639,
+            "backtest_avg": 0.86
         }
     ]
 }
