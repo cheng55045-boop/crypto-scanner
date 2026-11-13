@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-13 01:20:53",
+    "updated_at": "2026-11-13 01:30:55",
     "total_count": 4,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
@@ -12,13 +12,13 @@
             "status": "蓄勢待發",
             "indicators": [
                 "MACD向上",
-                "RSI背離",
+                "RSI超賣",
                 "KD低檔",
-                "RSI超賣"
+                "RSI背離"
             ],
-            "current_price": 0.2086,
-            "change_24h": -9.67,
-            "volume_24h": 12046948,
+            "current_price": 0.21373,
+            "change_24h": -7.94,
+            "volume_24h": 12073138,
             "backtest_avg": -0.98
         },
         {
@@ -30,13 +30,13 @@
             "status": "觀察中",
             "indicators": [
                 "MACD向上",
-                "RSI背離",
+                "RSI超賣",
                 "MACD翻正",
-                "RSI超賣"
+                "RSI背離"
             ],
-            "current_price": 0.001514,
-            "change_24h": 3.54,
-            "volume_24h": 7836942,
+            "current_price": 0.001524,
+            "change_24h": 4.1,
+            "volume_24h": 7835744,
             "backtest_avg": 0.19
         },
         {
@@ -50,9 +50,9 @@
                 "MACD向上",
                 "KD金叉"
             ],
-            "current_price": 0.1747,
-            "change_24h": 0.34,
-            "volume_24h": 11609758,
+            "current_price": 0.1745,
+            "change_24h": 0.52,
+            "volume_24h": 11627466,
             "backtest_avg": 0.9
         },
         {
@@ -64,12 +64,12 @@
             "status": "觀察中",
             "indicators": [
                 "MACD向上",
-                "KD低檔",
-                "RSI超賣"
+                "RSI超賣",
+                "KD低檔"
             ],
-            "current_price": 3.754,
-            "change_24h": 3.62,
-            "volume_24h": 9542076,
+            "current_price": 3.753,
+            "change_24h": 3.53,
+            "volume_24h": 9544276,
             "backtest_avg": -0.62
         }
     ]
