@@ -1,6 +1,6 @@
 {
-    "updated_at": "2026-11-13 02:01:04",
-    "total_count": 4,
+    "updated_at": "2026-11-13 02:10:54",
+    "total_count": 5,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
@@ -11,13 +11,13 @@
             "score_4h": 6,
             "status": "觀察中",
             "indicators": [
-                "MACD向上",
                 "RSI超賣",
-                "RSI背離"
+                "RSI背離",
+                "MACD向上"
             ],
-            "current_price": 0.2104,
-            "change_24h": -9.43,
-            "volume_24h": 12196179,
+            "current_price": 0.21147,
+            "change_24h": -1.85,
+            "volume_24h": 12082067,
             "backtest_avg": -0.73
         },
         {
@@ -29,12 +29,12 @@
             "status": "觀察中",
             "indicators": [
                 "KD低檔",
-                "MACD向上",
-                "RSI超賣"
+                "RSI超賣",
+                "MACD向上"
             ],
-            "current_price": 0.004557,
-            "change_24h": -0.08,
-            "volume_24h": 25848273,
+            "current_price": 0.004674,
+            "change_24h": 2.73,
+            "volume_24h": 26555805,
             "backtest_avg": -0.8
         },
         {
@@ -48,10 +48,27 @@
                 "KD金叉",
                 "MACD向上"
             ],
-            "current_price": 0.174,
-            "change_24h": 0.52,
-            "volume_24h": 11762808,
+            "current_price": 0.1735,
+            "change_24h": 0.17,
+            "volume_24h": 11751836,
             "backtest_avg": 0.99
+        },
+        {
+            "code": "NATGAS",
+            "symbol": "NATGASUSDT",
+            "score": 3,
+            "score_1h": 3,
+            "score_4h": 3,
+            "status": "觀察中",
+            "indicators": [
+                "KD低檔",
+                "RSI超賣",
+                "MACD向上"
+            ],
+            "current_price": 3.743,
+            "change_24h": 3.0,
+            "volume_24h": 9396519,
+            "backtest_avg": -0.62
         },
         {
             "code": "ONE",
@@ -61,12 +78,12 @@
             "score_4h": 3,
             "status": "觀察中",
             "indicators": [
-                "MACD向上",
-                "RSI超賣"
+                "RSI超賣",
+                "MACD向上"
             ],
-            "current_price": 0.00152,
-            "change_24h": 3.59,
-            "volume_24h": 7829418,
+            "current_price": 0.001521,
+            "change_24h": 3.7,
+            "volume_24h": 7819486,
             "backtest_avg": 1.28
         }
     ]
