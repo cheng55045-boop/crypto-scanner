@@ -1,23 +1,24 @@
 {
-    "updated_at": "2026-11-14 13:50:47",
+    "updated_at": "2026-11-14 14:01:04",
     "total_count": 1,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
-            "code": "CRCL",
-            "symbol": "CRCLUSDT",
+            "code": "JCT",
+            "symbol": "JCTUSDT",
             "score": 3,
             "score_1h": 5,
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
+                "MACD向上",
                 "KD金叉",
-                "MACD向上"
+                "MACD翻正"
             ],
-            "current_price": 60.36,
-            "change_24h": -4.6,
-            "volume_24h": 7063801,
-            "backtest_avg": 0.46
+            "current_price": 0.001897,
+            "change_24h": -7.15,
+            "volume_24h": 5328112,
+            "backtest_avg": 3.16
         }
     ]
 }
