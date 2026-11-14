@@ -1,75 +1,90 @@
 {
-    "updated_at": "2026-11-14 03:50:46",
-    "total_count": 4,
+    "updated_at": "2026-11-14 04:01:02",
+    "total_count": 5,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
-            "code": "ARIA",
-            "symbol": "ARIAUSDT",
-            "score": 4,
-            "score_1h": 4,
-            "score_4h": 4,
-            "status": "觀察中",
-            "indicators": [
-                "RSI超賣",
-                "MACD向上",
-                "KD低檔"
-            ],
-            "current_price": 0.20173,
-            "change_24h": -8.36,
-            "volume_24h": 5739612,
-            "backtest_avg": 1.48
-        },
-        {
-            "code": "KORU",
-            "symbol": "KORUUSDT",
-            "score": 3,
-            "score_1h": 5,
-            "score_4h": 0,
-            "status": "觀察中",
-            "indicators": [
-                "RSI超賣",
-                "MACD向上",
-                "KD低檔"
-            ],
-            "current_price": 7.38,
-            "change_24h": -8.78,
-            "volume_24h": 19982293,
-            "backtest_avg": -1.85
-        },
-        {
             "code": "SNXX",
             "symbol": "SNXXUSDT",
-            "score": 3,
-            "score_1h": 5,
-            "score_4h": 0,
-            "status": "觀察中",
-            "indicators": [
-                "RSI超賣",
-                "MACD向上",
-                "KD低檔"
-            ],
-            "current_price": 3.387,
-            "change_24h": -14.73,
-            "volume_24h": 15086659,
-            "backtest_avg": -0.22
-        },
-        {
-            "code": "JCT",
-            "symbol": "JCTUSDT",
-            "score": 3,
-            "score_1h": 5,
+            "score": 4,
+            "score_1h": 7,
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
                 "KD低檔",
+                "MACD向上",
+                "RSI超賣",
+                "KD金叉"
+            ],
+            "current_price": 3.391,
+            "change_24h": -13.74,
+            "volume_24h": 15009943,
+            "backtest_avg": -0.22
+        },
+        {
+            "code": "SOL",
+            "symbol": "SOLUSDT",
+            "score": 3,
+            "score_1h": 5,
+            "score_4h": 0,
+            "status": "觀察中",
+            "indicators": [
                 "RSI背離",
                 "MACD向上"
             ],
-            "current_price": 0.002049,
-            "change_24h": -2.8,
-            "volume_24h": 6976137,
-            "backtest_avg": -2.54
+            "current_price": 75.07,
+            "change_24h": -4.27,
+            "volume_24h": 377430375,
+            "backtest_avg": 0.41
+        },
+        {
+            "code": "MSTR",
+            "symbol": "MSTRUSDT",
+            "score": 3,
+            "score_1h": 5,
+            "score_4h": 0,
+            "status": "觀察中",
+            "indicators": [
+                "MACD向上",
+                "KD金叉"
+            ],
+            "current_price": 106.72,
+            "change_24h": -4.18,
+            "volume_24h": 19953690,
+            "backtest_avg": -0.13
+        },
+        {
+            "code": "CRCL",
+            "symbol": "CRCLUSDT",
+            "score": 3,
+            "score_1h": 5,
+            "score_4h": 0,
+            "status": "觀察中",
+            "indicators": [
+                "MACD向上",
+                "KD金叉"
+            ],
+            "current_price": 60.22,
+            "change_24h": -3.79,
+            "volume_24h": 8995914,
+            "backtest_avg": -0.04
+        },
+        {
+            "code": "ARIA",
+            "symbol": "ARIAUSDT",
+            "score": 3,
+            "score_1h": 4,
+            "score_4h": 2,
+            "status": "觀察中",
+            "indicators": [
+                "MACD向上",
+                "RSI超賣",
+                "KD低檔"
+            ],
+            "current_price": 0.20059,
+            "change_24h": -8.77,
+            "volume_24h": 5707729,
+            "backtest_avg": 1.48
         }
     ]
 }
