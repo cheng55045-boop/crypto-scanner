@@ -1,23 +1,23 @@
 {
-    "updated_at": "2026-11-14 08:50:53",
-    "total_count": 5,
+    "updated_at": "2026-11-14 09:01:01",
+    "total_count": 2,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
-            "code": "SOL",
-            "symbol": "SOLUSDT",
+            "code": "BNB",
+            "symbol": "BNBUSDT",
             "score": 3,
             "score_1h": 5,
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "RSI背離",
-                "MACD向上"
+                "MACD向上",
+                "RSI背離"
             ],
-            "current_price": 75.24,
-            "change_24h": -5.97,
-            "volume_24h": 374781685,
-            "backtest_avg": 0.41
+            "current_price": 614.61,
+            "change_24h": -2.67,
+            "volume_24h": 18257618,
+            "backtest_avg": 1.2
         },
         {
             "code": "SNXX",
@@ -27,63 +27,14 @@
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "KD低檔",
                 "MACD向上",
-                "RSI超賣"
+                "RSI超賣",
+                "KD低檔"
             ],
-            "current_price": 3.415,
-            "change_24h": -12.14,
-            "volume_24h": 14097183,
+            "current_price": 3.408,
+            "change_24h": -12.41,
+            "volume_24h": 14085206,
             "backtest_avg": -0.22
-        },
-        {
-            "code": "ADA",
-            "symbol": "ADAUSDT",
-            "score": 3,
-            "score_1h": 5,
-            "score_4h": 0,
-            "status": "觀察中",
-            "indicators": [
-                "RSI背離",
-                "MACD向上"
-            ],
-            "current_price": 0.1629,
-            "change_24h": -4.35,
-            "volume_24h": 10933319,
-            "backtest_avg": 0.58
-        },
-        {
-            "code": "AVAX",
-            "symbol": "AVAXUSDT",
-            "score": 3,
-            "score_1h": 6,
-            "score_4h": 0,
-            "status": "觀察中",
-            "indicators": [
-                "KD低檔",
-                "RSI背離",
-                "MACD向上"
-            ],
-            "current_price": 8.026,
-            "change_24h": -3.18,
-            "volume_24h": 7474452,
-            "backtest_avg": -0.69
-        },
-        {
-            "code": "HBAR",
-            "symbol": "HBARUSDT",
-            "score": 3,
-            "score_1h": 5,
-            "score_4h": 0,
-            "status": "觀察中",
-            "indicators": [
-                "RSI背離",
-                "MACD向上"
-            ],
-            "current_price": 0.0598,
-            "change_24h": -4.07,
-            "volume_24h": 5680697,
-            "backtest_avg": 1.14
         }
     ]
 }
