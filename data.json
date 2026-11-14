@@ -1,25 +1,24 @@
 {
-    "updated_at": "2026-11-14 01:50:51",
-    "total_count": 7,
+    "updated_at": "2026-11-14 02:01:04",
+    "total_count": 4,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
-            "code": "AVAX",
-            "symbol": "AVAXUSDT",
-            "score": 4,
-            "score_1h": 7,
+            "code": "NEAR",
+            "symbol": "NEARUSDT",
+            "score": 3,
+            "score_1h": 5,
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
                 "KD低檔",
-                "KD金叉",
-                "RSI超賣",
+                "RSI背離",
                 "MACD向上"
             ],
-            "current_price": 8.179,
-            "change_24h": -2.31,
-            "volume_24h": 9311658,
-            "backtest_avg": -0.19
+            "current_price": 3.426,
+            "change_24h": -0.78,
+            "volume_24h": 28164238,
+            "backtest_avg": 0.34
         },
         {
             "code": "KORU",
@@ -30,12 +29,12 @@
             "status": "觀察中",
             "indicators": [
                 "KD低檔",
-                "RSI超賣",
-                "MACD向上"
+                "MACD向上",
+                "RSI超賣"
             ],
             "current_price": 7.47,
-            "change_24h": -12.94,
-            "volume_24h": 21550736,
+            "change_24h": -13.24,
+            "volume_24h": 21467183,
             "backtest_avg": -1.85
         },
         {
@@ -47,63 +46,13 @@
             "status": "觀察中",
             "indicators": [
                 "KD低檔",
-                "RSI超賣",
-                "MACD向上"
-            ],
-            "current_price": 3.428,
-            "change_24h": -18.15,
-            "volume_24h": 15507009,
-            "backtest_avg": -1.03
-        },
-        {
-            "code": "INJ",
-            "symbol": "INJUSDT",
-            "score": 3,
-            "score_1h": 3,
-            "score_4h": 3,
-            "status": "觀察中",
-            "indicators": [
-                "KD低檔",
+                "MACD向上",
                 "RSI超賣"
             ],
-            "current_price": 8.082,
-            "change_24h": 7.73,
-            "volume_24h": 9252906,
-            "backtest_avg": 1.59
-        },
-        {
-            "code": "CRCL",
-            "symbol": "CRCLUSDT",
-            "score": 3,
-            "score_1h": 5,
-            "score_4h": 0,
-            "status": "觀察中",
-            "indicators": [
-                "KD低檔",
-                "RSI超賣",
-                "MACD向上"
-            ],
-            "current_price": 61.54,
-            "change_24h": -4.11,
-            "volume_24h": 9170875,
-            "backtest_avg": -0.17
-        },
-        {
-            "code": "JCT",
-            "symbol": "JCTUSDT",
-            "score": 3,
-            "score_1h": 6,
-            "score_4h": 0,
-            "status": "觀察中",
-            "indicators": [
-                "KD低檔",
-                "KD金叉",
-                "MACD向上"
-            ],
-            "current_price": 0.00202,
-            "change_24h": -7.25,
-            "volume_24h": 7410264,
-            "backtest_avg": -2.36
+            "current_price": 3.439,
+            "change_24h": -18.26,
+            "volume_24h": 15495789,
+            "backtest_avg": -1.03
         },
         {
             "code": "SKHY",
@@ -114,13 +63,13 @@
             "status": "觀察中",
             "indicators": [
                 "KD低檔",
-                "RSI超賣",
-                "MACD向上"
+                "MACD向上",
+                "RSI超賣"
             ],
-            "current_price": 130.46,
-            "change_24h": -6.83,
-            "volume_24h": 6174769,
-            "backtest_avg": -0.84
+            "current_price": 130.62,
+            "change_24h": -6.99,
+            "volume_24h": 6152208,
+            "backtest_avg": -1.15
         }
     ]
 }
