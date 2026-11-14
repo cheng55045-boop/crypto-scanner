@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-14 01:20:50",
+    "updated_at": "2026-11-14 01:31:03",
     "total_count": 7,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
@@ -11,14 +11,14 @@
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "KD金叉",
                 "MACD向上",
                 "KD低檔",
+                "KD金叉",
                 "RSI超賣"
             ],
-            "current_price": 8.226,
-            "change_24h": -1.08,
-            "volume_24h": 9483300,
+            "current_price": 8.206,
+            "change_24h": -1.39,
+            "volume_24h": 9434536,
             "backtest_avg": -0.19
         },
         {
@@ -33,9 +33,9 @@
                 "KD低檔",
                 "RSI超賣"
             ],
-            "current_price": 7.47,
-            "change_24h": -13.64,
-            "volume_24h": 22179482,
+            "current_price": 7.48,
+            "change_24h": -13.33,
+            "volume_24h": 21895611,
             "backtest_avg": -1.85
         },
         {
@@ -50,10 +50,26 @@
                 "KD低檔",
                 "RSI超賣"
             ],
-            "current_price": 3.436,
-            "change_24h": -18.81,
-            "volume_24h": 15621275,
+            "current_price": 3.435,
+            "change_24h": -18.47,
+            "volume_24h": 15589798,
             "backtest_avg": -1.03
+        },
+        {
+            "code": "INJ",
+            "symbol": "INJUSDT",
+            "score": 3,
+            "score_1h": 3,
+            "score_4h": 3,
+            "status": "觀察中",
+            "indicators": [
+                "KD低檔",
+                "RSI超賣"
+            ],
+            "current_price": 8.08,
+            "change_24h": 8.3,
+            "volume_24h": 9246431,
+            "backtest_avg": 1.59
         },
         {
             "code": "CRCL",
@@ -67,26 +83,10 @@
                 "KD低檔",
                 "RSI超賣"
             ],
-            "current_price": 61.5,
-            "change_24h": -4.06,
-            "volume_24h": 9259701,
+            "current_price": 61.58,
+            "change_24h": -4.19,
+            "volume_24h": 9227942,
             "backtest_avg": -0.17
-        },
-        {
-            "code": "INJ",
-            "symbol": "INJUSDT",
-            "score": 3,
-            "score_1h": 3,
-            "score_4h": 3,
-            "status": "觀察中",
-            "indicators": [
-                "KD低檔",
-                "RSI超賣"
-            ],
-            "current_price": 8.055,
-            "change_24h": 7.83,
-            "volume_24h": 9258673,
-            "backtest_avg": 1.59
         },
         {
             "code": "JCT",
@@ -96,13 +96,13 @@
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "KD金叉",
                 "MACD向上",
-                "KD低檔"
+                "KD低檔",
+                "KD金叉"
             ],
-            "current_price": 0.002044,
-            "change_24h": -8.71,
-            "volume_24h": 7492596,
+            "current_price": 0.002024,
+            "change_24h": -8.91,
+            "volume_24h": 7482408,
             "backtest_avg": -2.36
         },
         {
@@ -117,9 +117,9 @@
                 "KD低檔",
                 "RSI超賣"
             ],
-            "current_price": 130.63,
-            "change_24h": -7.38,
-            "volume_24h": 6342511,
+            "current_price": 130.58,
+            "change_24h": -7.1,
+            "volume_24h": 6296536,
             "backtest_avg": -0.84
         }
     ]
