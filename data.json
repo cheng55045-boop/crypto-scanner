@@ -1,6 +1,6 @@
 {
-    "updated_at": "2026-11-14 05:01:05",
-    "total_count": 1,
+    "updated_at": "2026-11-14 05:10:47",
+    "total_count": 2,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
@@ -11,15 +11,32 @@
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "RSI超賣",
                 "KD低檔",
-                "RSI背離",
-                "MACD向上"
+                "MACD向上",
+                "RSI超賣",
+                "RSI背離"
             ],
-            "current_price": 3.387,
-            "change_24h": -13.27,
-            "volume_24h": 14664742,
+            "current_price": 3.392,
+            "change_24h": -13.23,
+            "volume_24h": 14615205,
             "backtest_avg": -0.22
+        },
+        {
+            "code": "ARIA",
+            "symbol": "ARIAUSDT",
+            "score": 3,
+            "score_1h": 5,
+            "score_4h": 2,
+            "status": "觀察中",
+            "indicators": [
+                "KD低檔",
+                "MACD向上",
+                "RSI超賣"
+            ],
+            "current_price": 0.20086,
+            "change_24h": -7.01,
+            "volume_24h": 5472562,
+            "backtest_avg": 1.48
         }
     ]
 }
