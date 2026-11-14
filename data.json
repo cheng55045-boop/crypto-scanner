@@ -1,43 +1,43 @@
 {
-    "updated_at": "2026-11-14 06:50:45",
+    "updated_at": "2026-11-14 07:01:01",
     "total_count": 2,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
-            "code": "ARIA",
-            "symbol": "ARIAUSDT",
-            "score": 5,
-            "score_1h": 7,
-            "score_4h": 2,
-            "status": "觀察中",
-            "indicators": [
-                "RSI超賣",
-                "MACD向上",
-                "KD低檔",
-                "KD金叉"
-            ],
-            "current_price": 0.1972,
-            "change_24h": -10.53,
-            "volume_24h": 5231517,
-            "backtest_avg": 1.48
-        },
-        {
             "code": "SNXX",
             "symbol": "SNXXUSDT",
-            "score": 3,
-            "score_1h": 5,
+            "score": 5,
+            "score_1h": 9,
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
                 "RSI背離",
                 "RSI超賣",
-                "MACD向上",
-                "KD低檔"
+                "KD低檔",
+                "KD金叉",
+                "MACD向上"
             ],
-            "current_price": 3.407,
-            "change_24h": -12.15,
-            "volume_24h": 14388835,
+            "current_price": 3.412,
+            "change_24h": -13.36,
+            "volume_24h": 14367998,
             "backtest_avg": -0.22
+        },
+        {
+            "code": "ARIA",
+            "symbol": "ARIAUSDT",
+            "score": 3,
+            "score_1h": 5,
+            "score_4h": 2,
+            "status": "觀察中",
+            "indicators": [
+                "RSI超賣",
+                "KD低檔",
+                "MACD向上"
+            ],
+            "current_price": 0.19957,
+            "change_24h": -11.76,
+            "volume_24h": 5188608,
+            "backtest_avg": 1.48
         }
     ]
 }
