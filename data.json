@@ -1,26 +1,73 @@
 {
-    "updated_at": "2026-11-14 07:50:52",
-    "total_count": 1,
+    "updated_at": "2026-11-14 08:00:59",
+    "total_count": 4,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
             "code": "SNXX",
             "symbol": "SNXXUSDT",
-            "score": 5,
-            "score_1h": 9,
+            "score": 3,
+            "score_1h": 5,
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "KD金叉",
-                "KD低檔",
+                "MACD向上",
+                "RSI超賣",
+                "KD低檔"
+            ],
+            "current_price": 3.425,
+            "change_24h": -13.99,
+            "volume_24h": 14216193,
+            "backtest_avg": -0.22
+        },
+        {
+            "code": "ADA",
+            "symbol": "ADAUSDT",
+            "score": 3,
+            "score_1h": 5,
+            "score_4h": 0,
+            "status": "觀察中",
+            "indicators": [
+                "MACD向上",
+                "RSI背離"
+            ],
+            "current_price": 0.1628,
+            "change_24h": -4.57,
+            "volume_24h": 11137018,
+            "backtest_avg": 0.58
+        },
+        {
+            "code": "AVAX",
+            "symbol": "AVAXUSDT",
+            "score": 3,
+            "score_1h": 6,
+            "score_4h": 0,
+            "status": "觀察中",
+            "indicators": [
                 "MACD向上",
                 "RSI背離",
-                "RSI超賣"
+                "KD低檔"
             ],
-            "current_price": 3.405,
-            "change_24h": -14.79,
-            "volume_24h": 14236388,
-            "backtest_avg": -0.22
+            "current_price": 8.009,
+            "change_24h": -3.0,
+            "volume_24h": 7522571,
+            "backtest_avg": -0.69
+        },
+        {
+            "code": "HBAR",
+            "symbol": "HBARUSDT",
+            "score": 3,
+            "score_1h": 5,
+            "score_4h": 0,
+            "status": "觀察中",
+            "indicators": [
+                "MACD向上",
+                "RSI背離"
+            ],
+            "current_price": 0.05964,
+            "change_24h": -4.13,
+            "volume_24h": 5755738,
+            "backtest_avg": 1.14
         }
     ]
 }
