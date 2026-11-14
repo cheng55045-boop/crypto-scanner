@@ -1,6 +1,26 @@
 {
-    "updated_at": "2026-11-14 15:50:46",
-    "total_count": 0,
+    "updated_at": "2026-11-14 16:01:02",
+    "total_count": 1,
     "source": "Bitunix Futures (Multi-TF)",
-    "stocks": []
+    "stocks": [
+        {
+            "code": "AKE",
+            "symbol": "AKEUSDT",
+            "score": 3,
+            "score_1h": 0,
+            "score_4h": 8,
+            "status": "觀察中",
+            "indicators": [
+                "RSI超賣",
+                "MACD向上",
+                "RSI背離",
+                "KD金叉",
+                "KD低檔"
+            ],
+            "current_price": 0.013257,
+            "change_24h": 27.98,
+            "volume_24h": 78057459,
+            "backtest_avg": -19.61
+        }
+    ]
 }
