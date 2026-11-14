@@ -1,24 +1,23 @@
 {
-    "updated_at": "2026-11-14 12:50:47",
+    "updated_at": "2026-11-14 13:01:05",
     "total_count": 1,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
-            "code": "SNXX",
-            "symbol": "SNXXUSDT",
+            "code": "CRCL",
+            "symbol": "CRCLUSDT",
             "score": 3,
             "score_1h": 5,
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "RSI超賣",
-                "MACD向上",
-                "KD低檔"
+                "KD金叉",
+                "MACD向上"
             ],
-            "current_price": 3.408,
-            "change_24h": -12.12,
-            "volume_24h": 12896668,
-            "backtest_avg": 0.51
+            "current_price": 60.37,
+            "change_24h": -3.81,
+            "volume_24h": 7410879,
+            "backtest_avg": 0.46
         }
     ]
 }
