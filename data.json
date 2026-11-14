@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-14 07:20:48",
+    "updated_at": "2026-11-14 07:30:58",
     "total_count": 1,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
@@ -11,15 +11,15 @@
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "MACD向上",
-                "KD低檔",
                 "KD金叉",
+                "MACD向上",
                 "RSI超賣",
+                "KD低檔",
                 "RSI背離"
             ],
-            "current_price": 3.398,
-            "change_24h": -14.49,
-            "volume_24h": 14299835,
+            "current_price": 3.412,
+            "change_24h": -14.61,
+            "volume_24h": 14283226,
             "backtest_avg": -0.22
         }
     ]
