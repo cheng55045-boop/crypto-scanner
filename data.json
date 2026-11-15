@@ -1,40 +1,25 @@
 {
-    "updated_at": "2026-11-15 05:50:48",
-    "total_count": 2,
+    "updated_at": "2026-11-15 06:01:04",
+    "total_count": 1,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
             "code": "AKE",
             "symbol": "AKEUSDT",
             "score": 3,
-            "score_1h": 2,
+            "score_1h": 3,
             "score_4h": 5,
             "status": "觀察中",
             "indicators": [
-                "KD低檔",
+                "MACD向上",
                 "RSI超賣",
-                "MACD向上"
+                "RSI背離",
+                "KD低檔"
             ],
-            "current_price": 0.012211,
-            "change_24h": 2.3,
-            "volume_24h": 48013259,
+            "current_price": 0.011787,
+            "change_24h": -1.53,
+            "volume_24h": 48079913,
             "backtest_avg": -22.36
-        },
-        {
-            "code": "KAVA",
-            "symbol": "KAVAUSDT",
-            "score": 3,
-            "score_1h": 4,
-            "score_4h": 2,
-            "status": "觀察中",
-            "indicators": [
-                "KD金叉",
-                "MACD向上"
-            ],
-            "current_price": 0.03001,
-            "change_24h": -56.15,
-            "volume_24h": 9018953,
-            "backtest_avg": 3.67
         }
     ]
 }
