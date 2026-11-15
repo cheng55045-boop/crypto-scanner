@@ -1,43 +1,75 @@
 {
-    "updated_at": "2026-11-15 09:50:50",
-    "total_count": 2,
+    "updated_at": "2026-11-15 10:01:01",
+    "total_count": 4,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
-            "code": "AKE",
-            "symbol": "AKEUSDT",
-            "score": 4,
-            "score_1h": 4,
+            "code": "HYPE",
+            "symbol": "HYPEUSDT",
+            "score": 3,
+            "score_1h": 2,
             "score_4h": 5,
             "status": "觀察中",
             "indicators": [
                 "KD金叉",
-                "KD低檔",
-                "MACD向上",
-                "RSI超賣"
+                "MACD翻正",
+                "MACD向上"
             ],
-            "current_price": 0.011211,
-            "change_24h": -15.62,
-            "volume_24h": 36471153,
-            "backtest_avg": -22.36
+            "current_price": 67.733,
+            "change_24h": -2.56,
+            "volume_24h": 65776645,
+            "backtest_avg": 2.48
+        },
+        {
+            "code": "ADA",
+            "symbol": "ADAUSDT",
+            "score": 3,
+            "score_1h": 3,
+            "score_4h": 3,
+            "status": "觀察中",
+            "indicators": [
+                "KD金叉",
+                "MACD翻正",
+                "MACD向上"
+            ],
+            "current_price": 0.1529,
+            "change_24h": -6.77,
+            "volume_24h": 16142044,
+            "backtest_avg": 1.93
         },
         {
             "code": "ASTER",
             "symbol": "ASTERUSDT",
             "score": 3,
-            "score_1h": 4,
+            "score_1h": 3,
             "score_4h": 3,
             "status": "觀察中",
             "indicators": [
+                "RSI背離",
                 "KD金叉",
-                "MACD向上",
-                "MACD翻正",
-                "KD低檔"
+                "MACD翻正"
             ],
-            "current_price": 0.5257,
-            "change_24h": -18.14,
-            "volume_24h": 11038549,
-            "backtest_avg": 0.87
+            "current_price": 0.5236,
+            "change_24h": -18.47,
+            "volume_24h": 11059771,
+            "backtest_avg": 6.45
+        },
+        {
+            "code": "KAVA",
+            "symbol": "KAVAUSDT",
+            "score": 3,
+            "score_1h": 5,
+            "score_4h": 2,
+            "status": "觀察中",
+            "indicators": [
+                "RSI背離",
+                "KD金叉",
+                "MACD向上"
+            ],
+            "current_price": 0.03417,
+            "change_24h": -49.75,
+            "volume_24h": 10415523,
+            "backtest_avg": -0.67
         }
     ]
 }
