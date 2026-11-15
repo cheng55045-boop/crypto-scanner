@@ -1,24 +1,23 @@
 {
-    "updated_at": "2026-11-15 03:50:50",
+    "updated_at": "2026-11-15 04:01:06",
     "total_count": 1,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
-            "code": "AKE",
-            "symbol": "AKEUSDT",
+            "code": "ZEC",
+            "symbol": "ZECUSDT",
             "score": 3,
-            "score_1h": 2,
-            "score_4h": 5,
+            "score_1h": 4,
+            "score_4h": 2,
             "status": "觀察中",
             "indicators": [
-                "KD低檔",
-                "MACD向上",
-                "RSI超賣"
+                "KD金叉",
+                "MACD向上"
             ],
-            "current_price": 0.009716,
-            "change_24h": -22.22,
-            "volume_24h": 47850937,
-            "backtest_avg": -15.39
+            "current_price": 914.04,
+            "change_24h": 1.15,
+            "volume_24h": 108495734,
+            "backtest_avg": 1.6
         }
     ]
 }
