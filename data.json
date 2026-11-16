@@ -1,8 +1,26 @@
 {
-    "updated_at": "2026-11-16 03:50:47",
-    "total_count": 2,
+    "updated_at": "2026-11-16 04:01:11",
+    "total_count": 3,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
+        {
+            "code": "AKE",
+            "symbol": "AKEUSDT",
+            "score": 4,
+            "score_1h": 5,
+            "score_4h": 4,
+            "status": "觀察中",
+            "indicators": [
+                "MACD向上",
+                "KD金叉",
+                "RSI超賣",
+                "MACD翻正"
+            ],
+            "current_price": 0.009276,
+            "change_24h": 3.91,
+            "volume_24h": 19565115,
+            "backtest_avg": -19.46
+        },
         {
             "code": "SOPH",
             "symbol": "SOPHUSDT",
@@ -11,14 +29,14 @@
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
+                "MACD向上",
                 "RSI超賣",
                 "RSI背離",
-                "KD低檔",
-                "MACD向上"
+                "KD低檔"
             ],
-            "current_price": 0.00089,
-            "change_24h": -54.98,
-            "volume_24h": 5516953,
+            "current_price": 0.000913,
+            "change_24h": -50.97,
+            "volume_24h": 5514488,
             "backtest_avg": -4.54
         },
         {
@@ -29,12 +47,12 @@
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "RSI背離",
-                "MACD向上"
+                "MACD向上",
+                "RSI背離"
             ],
-            "current_price": 6.847,
-            "change_24h": -0.68,
-            "volume_24h": 4937758,
+            "current_price": 6.917,
+            "change_24h": -0.7,
+            "volume_24h": 4929949,
             "backtest_avg": -0.51
         }
     ]
