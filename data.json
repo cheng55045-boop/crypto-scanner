@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-16 06:30:58",
+    "updated_at": "2026-11-16 06:40:50",
     "total_count": 4,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
@@ -11,14 +11,14 @@
             "score_4h": 4,
             "status": "觀察中",
             "indicators": [
+                "KD低檔",
                 "KD金叉",
-                "RSI超賣",
                 "MACD向上",
-                "KD低檔"
+                "RSI超賣"
             ],
-            "current_price": 0.01031,
-            "change_24h": -6.88,
-            "volume_24h": 17600178,
+            "current_price": 0.010607,
+            "change_24h": -6.03,
+            "volume_24h": 17605835,
             "backtest_avg": -19.46
         },
         {
@@ -30,12 +30,12 @@
             "status": "觀察中",
             "indicators": [
                 "KD金叉",
-                "MACD向上",
-                "RSI背離"
+                "RSI背離",
+                "MACD向上"
             ],
-            "current_price": 0.22938,
-            "change_24h": 5.67,
-            "volume_24h": 5637299,
+            "current_price": 0.23281,
+            "change_24h": 5.92,
+            "volume_24h": 5633514,
             "backtest_avg": 6.19
         },
         {
@@ -46,13 +46,13 @@
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "RSI超賣",
+                "KD低檔",
                 "MACD向上",
-                "KD低檔"
+                "RSI超賣"
             ],
-            "current_price": 0.000922,
-            "change_24h": -52.5,
-            "volume_24h": 5270291,
+            "current_price": 0.000958,
+            "change_24h": -49.02,
+            "volume_24h": 5284092,
             "backtest_avg": -4.54
         },
         {
@@ -63,13 +63,13 @@
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "RSI超賣",
+                "RSI背離",
                 "MACD向上",
-                "RSI背離"
+                "RSI超賣"
             ],
-            "current_price": 6.666,
-            "change_24h": -4.77,
-            "volume_24h": 4930971,
+            "current_price": 6.699,
+            "change_24h": -3.96,
+            "volume_24h": 4992491,
             "backtest_avg": -0.63
         }
     ]
