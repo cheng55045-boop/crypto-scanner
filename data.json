@@ -1,6 +1,6 @@
 {
-    "updated_at": "2026-11-16 08:40:52",
-    "total_count": 4,
+    "updated_at": "2026-11-16 08:50:47",
+    "total_count": 3,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
@@ -11,13 +11,13 @@
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
+                "MACD向上",
                 "KD低檔",
-                "RSI超賣",
-                "MACD向上"
+                "RSI超賣"
             ],
-            "current_price": 0.010985,
-            "change_24h": -5.51,
-            "volume_24h": 17956434,
+            "current_price": 0.010774,
+            "change_24h": -6.59,
+            "volume_24h": 18218251,
             "backtest_avg": -19.46
         },
         {
@@ -28,13 +28,13 @@
             "score_4h": 3,
             "status": "觀察中",
             "indicators": [
+                "MACD向上",
                 "KD金叉",
-                "RSI超賣",
-                "MACD向上"
+                "RSI超賣"
             ],
-            "current_price": 0.002371,
-            "change_24h": 21.9,
-            "volume_24h": 10816134,
+            "current_price": 0.002393,
+            "change_24h": 21.72,
+            "volume_24h": 10924217,
             "backtest_avg": 0.43
         },
         {
@@ -45,31 +45,14 @@
             "score_4h": 3,
             "status": "觀察中",
             "indicators": [
-                "KD低檔",
                 "MACD向上",
+                "KD低檔",
                 "MACD翻正"
             ],
-            "current_price": 5.178,
-            "change_24h": 4.44,
-            "volume_24h": 10160508,
+            "current_price": 5.186,
+            "change_24h": 4.58,
+            "volume_24h": 10140407,
             "backtest_avg": -0.36
-        },
-        {
-            "code": "SOPH",
-            "symbol": "SOPHUSDT",
-            "score": 3,
-            "score_1h": 5,
-            "score_4h": 0,
-            "status": "觀察中",
-            "indicators": [
-                "KD低檔",
-                "RSI超賣",
-                "MACD向上"
-            ],
-            "current_price": 0.000912,
-            "change_24h": -40.55,
-            "volume_24h": 4732406,
-            "backtest_avg": -4.54
         }
     ]
 }
