@@ -1,6 +1,6 @@
 {
-    "updated_at": "2026-11-16 11:01:11",
-    "total_count": 3,
+    "updated_at": "2026-11-16 11:10:48",
+    "total_count": 2,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
@@ -15,9 +15,9 @@
                 "RSI背離",
                 "MACD向上"
             ],
-            "current_price": 591.8,
-            "change_24h": -1.1,
-            "volume_24h": 11013254,
+            "current_price": 591.9,
+            "change_24h": -0.79,
+            "volume_24h": 11030889,
             "backtest_avg": 0.12
         },
         {
@@ -29,31 +29,14 @@
             "status": "觀察中",
             "indicators": [
                 "KD金叉",
+                "KD低檔",
                 "RSI背離",
-                "MACD向上",
-                "KD低檔"
+                "MACD向上"
             ],
-            "current_price": 5.168,
-            "change_24h": 0.37,
-            "volume_24h": 9358127,
+            "current_price": 5.149,
+            "change_24h": 0.57,
+            "volume_24h": 9371627,
             "backtest_avg": -0.41
-        },
-        {
-            "code": "AAVE",
-            "symbol": "AAVEUSDT",
-            "score": 3,
-            "score_1h": 5,
-            "score_4h": 0,
-            "status": "觀察中",
-            "indicators": [
-                "KD金叉",
-                "RSI背離",
-                "KD低檔"
-            ],
-            "current_price": 109.83,
-            "change_24h": 2.66,
-            "volume_24h": 4864054,
-            "backtest_avg": -1.2
         }
     ]
 }
