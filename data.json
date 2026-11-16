@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-16 08:01:13",
+    "updated_at": "2026-11-16 08:10:48",
     "total_count": 4,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
@@ -11,13 +11,13 @@
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "RSI超賣",
                 "KD低檔",
+                "RSI超賣",
                 "MACD向上"
             ],
-            "current_price": 0.010413,
-            "change_24h": -12.8,
-            "volume_24h": 17438855,
+            "current_price": 0.010351,
+            "change_24h": -12.07,
+            "volume_24h": 17666669,
             "backtest_avg": -19.46
         },
         {
@@ -32,9 +32,9 @@
                 "KD金叉",
                 "MACD向上"
             ],
-            "current_price": 0.002424,
-            "change_24h": 24.18,
-            "volume_24h": 10149789,
+            "current_price": 0.002394,
+            "change_24h": 22.21,
+            "volume_24h": 10182783,
             "backtest_avg": 0.43
         },
         {
@@ -45,13 +45,13 @@
             "score_4h": 3,
             "status": "觀察中",
             "indicators": [
-                "MACD翻正",
                 "KD低檔",
-                "MACD向上"
+                "MACD向上",
+                "MACD翻正"
             ],
-            "current_price": 5.18,
-            "change_24h": 4.35,
-            "volume_24h": 10145560,
+            "current_price": 5.172,
+            "change_24h": 4.02,
+            "volume_24h": 10156455,
             "backtest_avg": -0.36
         },
         {
@@ -62,13 +62,13 @@
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "RSI超賣",
                 "KD低檔",
+                "RSI超賣",
                 "MACD向上"
             ],
-            "current_price": 0.000904,
-            "change_24h": -46.03,
-            "volume_24h": 5027178,
+            "current_price": 0.000911,
+            "change_24h": -37.99,
+            "volume_24h": 4882007,
             "backtest_avg": -4.54
         }
     ]
