@@ -1,42 +1,6 @@
 {
-    "updated_at": "2026-11-16 11:50:50",
-    "total_count": 2,
+    "updated_at": "2026-11-16 12:01:06",
+    "total_count": 0,
     "source": "Bitunix Futures (Multi-TF)",
-    "stocks": [
-        {
-            "code": "BNB",
-            "symbol": "BNBUSDT",
-            "score": 5,
-            "score_1h": 6,
-            "score_4h": 4,
-            "status": "觀察中",
-            "indicators": [
-                "RSI背離",
-                "KD金叉",
-                "MACD向上"
-            ],
-            "current_price": 591.37,
-            "change_24h": -1.1,
-            "volume_24h": 10970398,
-            "backtest_avg": 0.12
-        },
-        {
-            "code": "UNI",
-            "symbol": "UNIUSDT",
-            "score": 3,
-            "score_1h": 4,
-            "score_4h": 3,
-            "status": "觀察中",
-            "indicators": [
-                "KD低檔",
-                "RSI背離",
-                "KD金叉",
-                "MACD向上"
-            ],
-            "current_price": 5.149,
-            "change_24h": -0.33,
-            "volume_24h": 9182758,
-            "backtest_avg": -0.41
-        }
-    ]
+    "stocks": []
 }
