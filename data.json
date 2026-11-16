@@ -1,43 +1,8 @@
 {
-    "updated_at": "2026-11-16 02:50:49",
-    "total_count": 3,
+    "updated_at": "2026-11-16 03:01:08",
+    "total_count": 1,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
-        {
-            "code": "SOPH",
-            "symbol": "SOPHUSDT",
-            "score": 5,
-            "score_1h": 9,
-            "score_4h": 0,
-            "status": "觀察中",
-            "indicators": [
-                "KD金叉",
-                "RSI超賣",
-                "MACD向上",
-                "RSI背離",
-                "KD低檔"
-            ],
-            "current_price": 0.001014,
-            "change_24h": -47.08,
-            "volume_24h": 5575769,
-            "backtest_avg": -1.49
-        },
-        {
-            "code": "INIT",
-            "symbol": "INITUSDT",
-            "score": 3,
-            "score_1h": 4,
-            "score_4h": 2,
-            "status": "觀察中",
-            "indicators": [
-                "KD低檔",
-                "MACD向上"
-            ],
-            "current_price": 0.10479,
-            "change_24h": 5.93,
-            "volume_24h": 8196179,
-            "backtest_avg": -5.55
-        },
         {
             "code": "INJ",
             "symbol": "INJUSDT",
@@ -46,12 +11,12 @@
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "RSI背離",
-                "MACD向上"
+                "MACD向上",
+                "RSI背離"
             ],
-            "current_price": 6.879,
-            "change_24h": -0.43,
-            "volume_24h": 5079169,
+            "current_price": 6.917,
+            "change_24h": 0.61,
+            "volume_24h": 5027751,
             "backtest_avg": -0.51
         }
     ]
