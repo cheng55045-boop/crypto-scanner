@@ -1,6 +1,25 @@
 {
-    "updated_at": "2026-11-17 12:50:46",
-    "total_count": 0,
+    "updated_at": "2026-11-17 13:01:05",
+    "total_count": 1,
     "source": "Bitunix Futures (Multi-TF)",
-    "stocks": []
+    "stocks": [
+        {
+            "code": "EVAA",
+            "symbol": "EVAAUSDT",
+            "score": 3,
+            "score_1h": 6,
+            "score_4h": 0,
+            "status": "觀察中",
+            "indicators": [
+                "KD金叉",
+                "KD低檔",
+                "MACD向上",
+                "RSI超賣"
+            ],
+            "current_price": 3.6281,
+            "change_24h": 16.03,
+            "volume_24h": 36932768,
+            "backtest_avg": -3.18
+        }
+    ]
 }
