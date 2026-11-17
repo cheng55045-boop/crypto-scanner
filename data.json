@@ -1,6 +1,58 @@
 {
-    "updated_at": "2026-11-17 03:50:52",
-    "total_count": 0,
+    "updated_at": "2026-11-17 04:01:09",
+    "total_count": 3,
     "source": "Bitunix Futures (Multi-TF)",
-    "stocks": []
+    "stocks": [
+        {
+            "code": "EVAA",
+            "symbol": "EVAAUSDT",
+            "score": 3,
+            "score_1h": 6,
+            "score_4h": 0,
+            "status": "觀察中",
+            "indicators": [
+                "KD低檔",
+                "KD金叉",
+                "MACD向上",
+                "RSI背離"
+            ],
+            "current_price": 3.5376,
+            "change_24h": 36.24,
+            "volume_24h": 43481042,
+            "backtest_avg": -2.79
+        },
+        {
+            "code": "SKHY",
+            "symbol": "SKHYUSDT",
+            "score": 3,
+            "score_1h": 4,
+            "score_4h": 3,
+            "status": "觀察中",
+            "indicators": [
+                "MACD向上",
+                "KD金叉"
+            ],
+            "current_price": 124.8,
+            "change_24h": -2.12,
+            "volume_24h": 8904018,
+            "backtest_avg": 0.07
+        },
+        {
+            "code": "AVAX",
+            "symbol": "AVAXUSDT",
+            "score": 3,
+            "score_1h": 3,
+            "score_4h": 3,
+            "status": "觀察中",
+            "indicators": [
+                "MACD翻正",
+                "MACD向上",
+                "KD金叉"
+            ],
+            "current_price": 7.183,
+            "change_24h": -0.6,
+            "volume_24h": 6122753,
+            "backtest_avg": 0.1
+        }
+    ]
 }
