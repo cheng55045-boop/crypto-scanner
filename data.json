@@ -1,8 +1,26 @@
 {
-    "updated_at": "2026-11-17 05:50:45",
+    "updated_at": "2026-11-17 06:01:03",
     "total_count": 2,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
+        {
+            "code": "JCT",
+            "symbol": "JCTUSDT",
+            "score": 4,
+            "score_1h": 4,
+            "score_4h": 5,
+            "status": "觀察中",
+            "indicators": [
+                "KD金叉",
+                "MACD向上",
+                "KD低檔",
+                "RSI超賣"
+            ],
+            "current_price": 0.002292,
+            "change_24h": 5.19,
+            "volume_24h": 6481337,
+            "backtest_avg": 0.34
+        },
         {
             "code": "EVAA",
             "symbol": "EVAAUSDT",
@@ -15,27 +33,10 @@
                 "MACD向上",
                 "KD低檔"
             ],
-            "current_price": 3.6541,
-            "change_24h": 35.17,
-            "volume_24h": 43415819,
-            "backtest_avg": -2.0
-        },
-        {
-            "code": "JCT",
-            "symbol": "JCTUSDT",
-            "score": 3,
-            "score_1h": 2,
-            "score_4h": 5,
-            "status": "觀察中",
-            "indicators": [
-                "RSI超賣",
-                "MACD向上",
-                "KD低檔"
-            ],
-            "current_price": 0.00228,
-            "change_24h": 6.99,
-            "volume_24h": 6505916,
-            "backtest_avg": 0.23
+            "current_price": 3.6933,
+            "change_24h": 34.59,
+            "volume_24h": 43240106,
+            "backtest_avg": -2.81
         }
     ]
 }
