@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-18 21:10:41",
+    "updated_at": "2026-11-18 21:20:46",
     "total_count": 4,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
@@ -15,9 +15,9 @@
                 "MACD向上",
                 "MACD翻正"
             ],
-            "current_price": 0.9687,
-            "change_24h": -0.08,
-            "volume_24h": 159055828,
+            "current_price": 0.9704,
+            "change_24h": 0.2,
+            "volume_24h": 158947708,
             "backtest_avg": -0.32
         },
         {
@@ -29,12 +29,12 @@
             "status": "觀察中",
             "indicators": [
                 "KD金叉",
-                "KD低檔",
-                "MACD向上"
+                "MACD向上",
+                "KD低檔"
             ],
-            "current_price": 6.69,
-            "change_24h": 2.92,
-            "volume_24h": 38783193,
+            "current_price": 6.76,
+            "change_24h": 4.48,
+            "volume_24h": 38740928,
             "backtest_avg": -2.98
         },
         {
@@ -46,13 +46,13 @@
             "status": "觀察中",
             "indicators": [
                 "KD金叉",
-                "KD低檔",
                 "MACD向上",
-                "MACD翻正"
+                "MACD翻正",
+                "KD低檔"
             ],
-            "current_price": 3.3628,
-            "change_24h": 62.8,
-            "volume_24h": 10431220,
+            "current_price": 3.3516,
+            "change_24h": 63.23,
+            "volume_24h": 10459030,
             "backtest_avg": -2.34
         },
         {
@@ -63,14 +63,14 @@
             "score_4h": 5,
             "status": "觀察中",
             "indicators": [
-                "RSI超賣",
                 "KD金叉",
+                "RSI超賣",
                 "RSI背離",
                 "KD低檔"
             ],
-            "current_price": 144.32,
-            "change_24h": 0.83,
-            "volume_24h": 5589844,
+            "current_price": 145.21,
+            "change_24h": 1.6,
+            "volume_24h": 5578326,
             "backtest_avg": -1.06
         }
     ]
