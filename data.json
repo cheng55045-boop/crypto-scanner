@@ -1,114 +1,25 @@
 {
-    "updated_at": "2026-11-18 15:50:56",
-    "total_count": 6,
+    "updated_at": "2026-11-18 16:01:14",
+    "total_count": 1,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
-        {
-            "code": "SNXX",
-            "symbol": "SNXXUSDT",
-            "score": 5,
-            "score_1h": 5,
-            "score_4h": 5,
-            "status": "觀察中",
-            "indicators": [
-                "MACD向上",
-                "RSI背離",
-                "KD低檔",
-                "RSI超賣"
-            ],
-            "current_price": 2.69,
-            "change_24h": 3.78,
-            "volume_24h": 21751011,
-            "backtest_avg": -4.48
-        },
-        {
-            "code": "MUU",
-            "symbol": "MUUUSDT",
-            "score": 5,
-            "score_1h": 5,
-            "score_4h": 5,
-            "status": "觀察中",
-            "indicators": [
-                "MACD向上",
-                "RSI背離",
-                "KD低檔",
-                "RSI超賣"
-            ],
-            "current_price": 13.78,
-            "change_24h": 8.5,
-            "volume_24h": 7564151,
-            "backtest_avg": -2.65
-        },
-        {
-            "code": "SAMSUNG",
-            "symbol": "SAMSUNGUSDT",
-            "score": 4,
-            "score_1h": 5,
-            "score_4h": 3,
-            "status": "觀察中",
-            "indicators": [
-                "MACD向上",
-                "RSI背離",
-                "KD低檔",
-                "RSI超賣"
-            ],
-            "current_price": 143.31,
-            "change_24h": 3.2,
-            "volume_24h": 6057235,
-            "backtest_avg": -1.0
-        },
         {
             "code": "KORU",
             "symbol": "KORUUSDT",
             "score": 3,
-            "score_1h": 4,
-            "score_4h": 3,
-            "status": "觀察中",
-            "indicators": [
-                "MACD向上",
-                "RSI背離",
-                "KD低檔"
-            ],
-            "current_price": 6.58,
-            "change_24h": 8.94,
-            "volume_24h": 40905593,
-            "backtest_avg": -2.81
-        },
-        {
-            "code": "CRCL",
-            "symbol": "CRCLUSDT",
-            "score": 3,
             "score_1h": 3,
-            "score_4h": 4,
+            "score_4h": 5,
             "status": "觀察中",
             "indicators": [
+                "RSI超賣",
+                "KD低檔",
                 "KD金叉",
-                "MACD向上",
-                "KD低檔",
-                "RSI超賣"
+                "MACD向上"
             ],
-            "current_price": 54.02,
-            "change_24h": 0.32,
-            "volume_24h": 14730519,
-            "backtest_avg": -0.94
-        },
-        {
-            "code": "SKHY",
-            "symbol": "SKHYUSDT",
-            "score": 3,
-            "score_1h": 3,
-            "score_4h": 4,
-            "status": "觀察中",
-            "indicators": [
-                "MACD向上",
-                "RSI背離",
-                "KD低檔",
-                "RSI超賣"
-            ],
-            "current_price": 121.63,
-            "change_24h": 2.75,
-            "volume_24h": 11805255,
-            "backtest_avg": -1.21
+            "current_price": 6.61,
+            "change_24h": 7.13,
+            "volume_24h": 40503618,
+            "backtest_avg": -2.81
         }
     ]
 }
