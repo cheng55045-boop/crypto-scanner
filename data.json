@@ -1,23 +1,23 @@
 {
-    "updated_at": "2026-11-18 00:50:54",
+    "updated_at": "2026-11-18 01:01:03",
     "total_count": 1,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
-            "code": "SUI",
-            "symbol": "SUIUSDT",
+            "code": "KORU",
+            "symbol": "KORUUSDT",
             "score": 3,
-            "score_1h": 4,
-            "score_4h": 2,
+            "score_1h": 3,
+            "score_4h": 3,
             "status": "觀察中",
             "indicators": [
-                "MACD向上",
-                "RSI背離"
+                "MACD翻正",
+                "MACD向上"
             ],
-            "current_price": 0.7355,
-            "change_24h": 2.88,
-            "volume_24h": 12723447,
-            "backtest_avg": -1.57
+            "current_price": 7.07,
+            "change_24h": 4.9,
+            "volume_24h": 33577746,
+            "backtest_avg": -1.31
         }
     ]
 }
