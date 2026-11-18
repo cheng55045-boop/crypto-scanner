@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-18 11:40:55",
+    "updated_at": "2026-11-18 11:50:49",
     "total_count": 8,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
@@ -11,12 +11,12 @@
             "score_4h": 4,
             "status": "觀察中",
             "indicators": [
-                "KD金叉",
-                "MACD向上"
+                "MACD向上",
+                "KD金叉"
             ],
-            "current_price": 99.1,
-            "change_24h": 1.83,
-            "volume_24h": 6262982,
+            "current_price": 99.27,
+            "change_24h": 1.91,
+            "volume_24h": 6242054,
             "backtest_avg": 0.27
         },
         {
@@ -27,12 +27,12 @@
             "score_4h": 2,
             "status": "觀察中",
             "indicators": [
-                "KD金叉",
-                "MACD向上"
+                "MACD向上",
+                "KD金叉"
             ],
-            "current_price": 74.46,
-            "change_24h": 1.36,
-            "volume_24h": 366996917,
+            "current_price": 74.44,
+            "change_24h": 1.43,
+            "volume_24h": 366386878,
             "backtest_avg": -0.84
         },
         {
@@ -43,13 +43,13 @@
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
+                "MACD向上",
                 "KD金叉",
-                "MACD翻正",
-                "MACD向上"
+                "MACD翻正"
             ],
-            "current_price": 937.14,
-            "change_24h": -0.93,
-            "volume_24h": 71730108,
+            "current_price": 938.85,
+            "change_24h": -0.68,
+            "volume_24h": 69973814,
             "backtest_avg": -2.11
         },
         {
@@ -60,12 +60,12 @@
             "score_4h": 2,
             "status": "觀察中",
             "indicators": [
-                "KD金叉",
-                "MACD向上"
+                "MACD向上",
+                "KD金叉"
             ],
-            "current_price": 0.7252,
-            "change_24h": -1.08,
-            "volume_24h": 12657826,
+            "current_price": 0.7263,
+            "change_24h": -1.1,
+            "volume_24h": 12625378,
             "backtest_avg": -1.05
         },
         {
@@ -76,12 +76,12 @@
             "score_4h": 2,
             "status": "觀察中",
             "indicators": [
-                "KD金叉",
-                "MACD向上"
+                "MACD向上",
+                "KD金叉"
             ],
-            "current_price": 0.11196,
-            "change_24h": -4.71,
-            "volume_24h": 9465177,
+            "current_price": 0.11217,
+            "change_24h": -4.65,
+            "volume_24h": 9407638,
             "backtest_avg": -0.82
         },
         {
@@ -92,12 +92,12 @@
             "score_4h": 2,
             "status": "觀察中",
             "indicators": [
-                "KD低檔",
-                "MACD向上"
+                "MACD向上",
+                "KD低檔"
             ],
-            "current_price": 0.1528,
-            "change_24h": -1.04,
-            "volume_24h": 8448585,
+            "current_price": 0.1529,
+            "change_24h": -1.16,
+            "volume_24h": 8417140,
             "backtest_avg": -1.01
         },
         {
@@ -108,12 +108,12 @@
             "score_4h": 2,
             "status": "觀察中",
             "indicators": [
-                "KD金叉",
-                "MACD向上"
+                "MACD向上",
+                "KD金叉"
             ],
-            "current_price": 5.218,
-            "change_24h": -2.03,
-            "volume_24h": 7751542,
+            "current_price": 5.237,
+            "change_24h": -2.13,
+            "volume_24h": 7661776,
             "backtest_avg": -0.03
         },
         {
@@ -124,12 +124,12 @@
             "score_4h": 2,
             "status": "觀察中",
             "indicators": [
-                "KD金叉",
-                "MACD向上"
+                "MACD向上",
+                "KD金叉"
             ],
-            "current_price": 195.1,
-            "change_24h": 0.57,
-            "volume_24h": 5855569,
+            "current_price": 195.43,
+            "change_24h": 0.62,
+            "volume_24h": 5842149,
             "backtest_avg": -1.38
         }
     ]
