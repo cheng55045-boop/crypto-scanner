@@ -1,41 +1,56 @@
 {
-    "updated_at": "2026-11-19 12:50:48",
-    "total_count": 2,
+    "updated_at": "2026-11-19 13:01:06",
+    "total_count": 3,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
-            "code": "PIEVERSE",
-            "symbol": "PIEVERSEUSDT",
+            "code": "SOL",
+            "symbol": "SOLUSDT",
             "score": 3,
-            "score_1h": 6,
-            "score_4h": 0,
+            "score_1h": 4,
+            "score_4h": 2,
             "status": "觀察中",
             "indicators": [
-                "KD低檔",
                 "KD金叉",
                 "MACD向上"
             ],
-            "current_price": 3.0631,
-            "change_24h": 8.69,
-            "volume_24h": 23805704,
-            "backtest_avg": -1.97
+            "current_price": 74.91,
+            "change_24h": 0.89,
+            "volume_24h": 307895169,
+            "backtest_avg": -0.87
         },
         {
-            "code": "VELVET",
-            "symbol": "VELVETUSDT",
+            "code": "MMT",
+            "symbol": "MMTUSDT",
             "score": 3,
-            "score_1h": 5,
-            "score_4h": 1,
+            "score_1h": 4,
+            "score_4h": 2,
             "status": "觀察中",
             "indicators": [
-                "MACD向上",
                 "KD金叉",
+                "MACD向上",
                 "RSI超賣"
             ],
-            "current_price": 0.07929,
-            "change_24h": 37.73,
-            "volume_24h": 6290028,
-            "backtest_avg": -3.72
+            "current_price": 0.208,
+            "change_24h": -15.79,
+            "volume_24h": 22546481,
+            "backtest_avg": -14.36
+        },
+        {
+            "code": "1000PEPE",
+            "symbol": "1000PEPEUSDT",
+            "score": 3,
+            "score_1h": 5,
+            "score_4h": 0,
+            "status": "觀察中",
+            "indicators": [
+                "KD金叉",
+                "MACD向上"
+            ],
+            "current_price": 0.004007,
+            "change_24h": 6.65,
+            "volume_24h": 14827610,
+            "backtest_avg": -0.96
         }
     ]
 }
