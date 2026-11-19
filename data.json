@@ -1,42 +1,6 @@
 {
-    "updated_at": "2026-11-19 19:50:50",
-    "total_count": 2,
+    "updated_at": "2026-11-19 20:01:06",
+    "total_count": 0,
     "source": "Bitunix Futures (Multi-TF)",
-    "stocks": [
-        {
-            "code": "SOL",
-            "symbol": "SOLUSDT",
-            "score": 4,
-            "score_1h": 5,
-            "score_4h": 3,
-            "status": "觀察中",
-            "indicators": [
-                "MACD翻正",
-                "KD金叉",
-                "RSI背離",
-                "MACD向上"
-            ],
-            "current_price": 73.54,
-            "change_24h": 0.57,
-            "volume_24h": 354772541,
-            "backtest_avg": -0.97
-        },
-        {
-            "code": "NEAR",
-            "symbol": "NEARUSDT",
-            "score": 3,
-            "score_1h": 5,
-            "score_4h": 0,
-            "status": "觀察中",
-            "indicators": [
-                "MACD翻正",
-                "KD金叉",
-                "RSI背離"
-            ],
-            "current_price": 3.275,
-            "change_24h": 1.02,
-            "volume_24h": 21659020,
-            "backtest_avg": -1.47
-        }
-    ]
+    "stocks": []
 }
