@@ -1,6 +1,6 @@
 {
-    "updated_at": "2026-11-19 12:40:45",
-    "total_count": 1,
+    "updated_at": "2026-11-19 12:50:48",
+    "total_count": 2,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
@@ -11,14 +11,31 @@
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
+                "KD低檔",
+                "KD金叉",
+                "MACD向上"
+            ],
+            "current_price": 3.0631,
+            "change_24h": 8.69,
+            "volume_24h": 23805704,
+            "backtest_avg": -1.97
+        },
+        {
+            "code": "VELVET",
+            "symbol": "VELVETUSDT",
+            "score": 3,
+            "score_1h": 5,
+            "score_4h": 1,
+            "status": "觀察中",
+            "indicators": [
                 "MACD向上",
                 "KD金叉",
-                "KD低檔"
+                "RSI超賣"
             ],
-            "current_price": 3.0374,
-            "change_24h": 7.75,
-            "volume_24h": 23825387,
-            "backtest_avg": -1.97
+            "current_price": 0.07929,
+            "change_24h": 37.73,
+            "volume_24h": 6290028,
+            "backtest_avg": -3.72
         }
     ]
 }
