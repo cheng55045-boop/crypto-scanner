@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-20 03:59:54",
+    "updated_at": "2026-11-20 04:01:03",
     "total_count": 5,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
@@ -7,37 +7,19 @@
             "code": "UNI",
             "symbol": "UNIUSDT",
             "score": 4,
-            "score_1h": 8,
-            "score_4h": 0,
+            "score_1h": 6,
+            "score_4h": 2,
             "status": "觀察中",
             "indicators": [
                 "MACD向上",
+                "KD金叉",
                 "RSI背離",
-                "KD金叉",
                 "KD低檔"
             ],
-            "current_price": 4.807,
-            "change_24h": -7.66,
-            "volume_24h": 9727994,
+            "current_price": 4.789,
+            "change_24h": -8.01,
+            "volume_24h": 9752231,
             "backtest_avg": -0.01
-        },
-        {
-            "code": "MUU",
-            "symbol": "MUUUSDT",
-            "score": 4,
-            "score_1h": 3,
-            "score_4h": 6,
-            "status": "觀察中",
-            "indicators": [
-                "MACD向上",
-                "MACD翻正",
-                "KD金叉",
-                "KD低檔"
-            ],
-            "current_price": 12.9,
-            "change_24h": -11.52,
-            "volume_24h": 6944945,
-            "backtest_avg": -2.55
         },
         {
             "code": "SOL",
@@ -48,45 +30,66 @@
             "status": "觀察中",
             "indicators": [
                 "MACD向上",
+                "KD金叉",
                 "RSI背離",
                 "KD低檔"
             ],
-            "current_price": 72.86,
-            "change_24h": -1.75,
-            "volume_24h": 379219151,
-            "backtest_avg": -1.19
+            "current_price": 72.73,
+            "change_24h": -1.98,
+            "volume_24h": 379196979,
+            "backtest_avg": -1.14
         },
         {
-            "code": "XRP",
-            "symbol": "XRPUSDT",
+            "code": "LINK",
+            "symbol": "LINKUSDT",
             "score": 3,
             "score_1h": 4,
             "score_4h": 2,
             "status": "觀察中",
             "indicators": [
                 "MACD向上",
-                "KD金叉"
+                "KD金叉",
+                "RSI背離"
             ],
-            "current_price": 0.9629,
-            "change_24h": -0.59,
-            "volume_24h": 111164404,
-            "backtest_avg": -0.27
+            "current_price": 8.863,
+            "change_24h": -2.66,
+            "volume_24h": 31235199,
+            "backtest_avg": -0.68
         },
         {
-            "code": "SNXX",
-            "symbol": "SNXXUSDT",
+            "code": "EVAA",
+            "symbol": "EVAAUSDT",
             "score": 3,
-            "score_1h": 2,
-            "score_4h": 5,
+            "score_1h": 6,
+            "score_4h": 0,
+            "status": "觀察中",
+            "indicators": [
+                "RSI超賣",
+                "KD金叉",
+                "MACD向上",
+                "KD低檔"
+            ],
+            "current_price": 5.4738,
+            "change_24h": 37.41,
+            "volume_24h": 28514401,
+            "backtest_avg": 0.3
+        },
+        {
+            "code": "SKHY",
+            "symbol": "SKHYUSDT",
+            "score": 3,
+            "score_1h": 3,
+            "score_4h": 3,
             "status": "觀察中",
             "indicators": [
                 "MACD向上",
-                "KD金叉"
+                "RSI背離",
+                "KD低檔"
             ],
-            "current_price": 2.427,
-            "change_24h": -13.54,
-            "volume_24h": 18539037,
-            "backtest_avg": -0.3
+            "current_price": 119.03,
+            "change_24h": -5.38,
+            "volume_24h": 10468240,
+            "backtest_avg": -0.54
         }
     ]
 }
