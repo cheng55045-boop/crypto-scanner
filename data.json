@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-20 00:50:44",
+    "updated_at": "2026-11-20 01:01:04",
     "total_count": 2,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
@@ -11,29 +11,29 @@
             "score_4h": 5,
             "status": "觀察中",
             "indicators": [
-                "MACD向上",
-                "KD金叉"
+                "KD金叉",
+                "MACD向上"
             ],
-            "current_price": 2.455,
-            "change_24h": -13.07,
-            "volume_24h": 17440291,
+            "current_price": 2.45,
+            "change_24h": -13.06,
+            "volume_24h": 17504304,
             "backtest_avg": 0.36
         },
         {
             "code": "UNI",
             "symbol": "UNIUSDT",
             "score": 3,
-            "score_1h": 6,
+            "score_1h": 5,
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
                 "RSI超賣",
-                "MACD向上",
-                "KD金叉"
+                "KD低檔",
+                "MACD向上"
             ],
-            "current_price": 4.916,
-            "change_24h": -5.19,
-            "volume_24h": 9190743,
+            "current_price": 4.923,
+            "change_24h": -5.0,
+            "volume_24h": 9207554,
             "backtest_avg": -0.01
         }
     ]
