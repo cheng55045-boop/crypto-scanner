@@ -1,41 +1,93 @@
 {
-    "updated_at": "2026-11-20 11:50:51",
-    "total_count": 2,
+    "updated_at": "2026-11-20 12:01:08",
+    "total_count": 5,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
-            "code": "AKE",
-            "symbol": "AKEUSDT",
-            "score": 4,
+            "code": "XRP",
+            "symbol": "XRPUSDT",
+            "score": 3,
+            "score_1h": 5,
+            "score_4h": 0,
+            "status": "觀察中",
+            "indicators": [
+                "MACD翻正",
+                "MACD向上",
+                "KD金叉"
+            ],
+            "current_price": 0.9514,
+            "change_24h": -3.78,
+            "volume_24h": 100278415,
+            "backtest_avg": 0.15
+        },
+        {
+            "code": "KORU",
+            "symbol": "KORUUSDT",
+            "score": 3,
             "score_1h": 4,
-            "score_4h": 5,
+            "score_4h": 3,
+            "status": "觀察中",
+            "indicators": [
+                "MACD向上",
+                "RSI超賣",
+                "KD金叉",
+                "KD低檔"
+            ],
+            "current_price": 5.86,
+            "change_24h": -20.16,
+            "volume_24h": 31496411,
+            "backtest_avg": -0.51
+        },
+        {
+            "code": "DOGE",
+            "symbol": "DOGEUSDT",
+            "score": 3,
+            "score_1h": 5,
+            "score_4h": 0,
+            "status": "觀察中",
+            "indicators": [
+                "MACD翻正",
+                "MACD向上",
+                "KD金叉"
+            ],
+            "current_price": 0.05686,
+            "change_24h": -4.65,
+            "volume_24h": 17469681,
+            "backtest_avg": -0.04
+        },
+        {
+            "code": "ADA",
+            "symbol": "ADAUSDT",
+            "score": 3,
+            "score_1h": 5,
+            "score_4h": 0,
+            "status": "觀察中",
+            "indicators": [
+                "MACD翻正",
+                "MACD向上",
+                "KD金叉"
+            ],
+            "current_price": 0.1467,
+            "change_24h": -4.8,
+            "volume_24h": 9143533,
+            "backtest_avg": -0.42
+        },
+        {
+            "code": "ICNT",
+            "symbol": "ICNTUSDT",
+            "score": 3,
+            "score_1h": 5,
+            "score_4h": 1,
             "status": "觀察中",
             "indicators": [
                 "RSI背離",
                 "KD金叉",
                 "MACD向上"
             ],
-            "current_price": 0.005594,
-            "change_24h": -43.23,
-            "volume_24h": 16976514,
-            "backtest_avg": 0.78
-        },
-        {
-            "code": "MUU",
-            "symbol": "MUUUSDT",
-            "score": 3,
-            "score_1h": 4,
-            "score_4h": 2,
-            "status": "觀察中",
-            "indicators": [
-                "KD低檔",
-                "KD金叉",
-                "MACD向上"
-            ],
-            "current_price": 12.13,
-            "change_24h": -22.34,
-            "volume_24h": 7292643,
-            "backtest_avg": -1.24
+            "current_price": 0.4322,
+            "change_24h": 14.37,
+            "volume_24h": 8222630,
+            "backtest_avg": -7.98
         }
     ]
 }
