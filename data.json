@@ -1,42 +1,23 @@
 {
-    "updated_at": "2026-11-21 00:50:56",
-    "total_count": 5,
+    "updated_at": "2026-11-21 01:01:07",
+    "total_count": 3,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
-            "code": "ZEC",
-            "symbol": "ZECUSDT",
-            "score": 4,
+            "code": "ANTHROPIC",
+            "symbol": "ANTHROPICUSDT",
+            "score": 3,
             "score_1h": 4,
-            "score_4h": 4,
+            "score_4h": 2,
             "status": "觀察中",
             "indicators": [
-                "KD金叉",
-                "MACD向上",
-                "KD低檔"
-            ],
-            "current_price": 756.08,
-            "change_24h": -14.71,
-            "volume_24h": 79341591,
-            "backtest_avg": 0.48
-        },
-        {
-            "code": "PIPPIN",
-            "symbol": "PIPPINUSDT",
-            "score": 4,
-            "score_1h": 7,
-            "score_4h": 0,
-            "status": "觀察中",
-            "indicators": [
-                "MACD向上",
-                "MACD翻正",
                 "KD低檔",
-                "RSI背離"
+                "MACD向上"
             ],
-            "current_price": 0.01819,
-            "change_24h": -3.96,
-            "volume_24h": 10237792,
-            "backtest_avg": -9.95
+            "current_price": 88.23,
+            "change_24h": -4.77,
+            "volume_24h": 89080326,
+            "backtest_avg": 0.96
         },
         {
             "code": "AKE",
@@ -46,48 +27,31 @@
             "score_4h": 5,
             "status": "觀察中",
             "indicators": [
-                "MACD向上",
+                "RSI超賣",
                 "KD低檔",
-                "RSI超賣"
+                "MACD向上"
             ],
-            "current_price": 0.006242,
-            "change_24h": -40.53,
-            "volume_24h": 26278825,
+            "current_price": 0.006213,
+            "change_24h": -40.52,
+            "volume_24h": 26335835,
             "backtest_avg": 6.53
         },
         {
-            "code": "TAO",
-            "symbol": "TAOUSDT",
-            "score": 3,
-            "score_1h": 6,
-            "score_4h": 0,
-            "status": "觀察中",
-            "indicators": [
-                "MACD向上",
-                "KD低檔",
-                "RSI背離"
-            ],
-            "current_price": 180.71,
-            "change_24h": -5.42,
-            "volume_24h": 13625496,
-            "backtest_avg": -0.64
-        },
-        {
-            "code": "KERNEL",
-            "symbol": "KERNELUSDT",
+            "code": "PIPPIN",
+            "symbol": "PIPPINUSDT",
             "score": 3,
             "score_1h": 5,
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "KD金叉",
                 "MACD向上",
-                "KD低檔"
+                "KD低檔",
+                "RSI超賣"
             ],
-            "current_price": 0.04665,
-            "change_24h": 17.27,
-            "volume_24h": 7997746,
-            "backtest_avg": -1.29
+            "current_price": 0.01829,
+            "change_24h": -0.38,
+            "volume_24h": 10162606,
+            "backtest_avg": -9.33
         }
     ]
 }
