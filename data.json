@@ -1,24 +1,25 @@
 {
-    "updated_at": "2026-11-21 09:50:47",
-    "total_count": 3,
+    "updated_at": "2026-11-21 10:01:04",
+    "total_count": 2,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
             "code": "AKE",
             "symbol": "AKEUSDT",
-            "score": 3,
-            "score_1h": 3,
+            "score": 4,
+            "score_1h": 4,
             "score_4h": 5,
             "status": "觀察中",
             "indicators": [
+                "KD金叉",
                 "RSI超賣",
                 "MACD向上",
                 "KD低檔"
             ],
-            "current_price": 0.005167,
-            "change_24h": -38.1,
-            "volume_24h": 22813196,
-            "backtest_avg": 3.28
+            "current_price": 0.00516,
+            "change_24h": -41.58,
+            "volume_24h": 22458002,
+            "backtest_avg": 4.57
         },
         {
             "code": "BLESS",
@@ -29,30 +30,13 @@
             "status": "觀察中",
             "indicators": [
                 "KD金叉",
-                "KD低檔",
-                "RSI背離"
-            ],
-            "current_price": 0.014237,
-            "change_24h": 22.19,
-            "volume_24h": 12727890,
-            "backtest_avg": -5.57
-        },
-        {
-            "code": "PIPPIN",
-            "symbol": "PIPPINUSDT",
-            "score": 3,
-            "score_1h": 5,
-            "score_4h": 0,
-            "status": "觀察中",
-            "indicators": [
-                "RSI超賣",
-                "MACD向上",
+                "RSI背離",
                 "KD低檔"
             ],
-            "current_price": 0.01719,
-            "change_24h": -2.22,
-            "volume_24h": 9777981,
-            "backtest_avg": -10.53
+            "current_price": 0.013202,
+            "change_24h": 12.41,
+            "volume_24h": 13362417,
+            "backtest_avg": -4.46
         }
     ]
 }
