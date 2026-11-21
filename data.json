@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-21 19:50:47",
+    "updated_at": "2026-11-21 20:01:01",
     "total_count": 1,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
@@ -7,18 +7,19 @@
             "code": "IDOL",
             "symbol": "IDOLUSDT",
             "score": 3,
-            "score_1h": 5,
+            "score_1h": 6,
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "RSI超賣",
+                "MACD向上",
                 "RSI背離",
-                "MACD向上"
+                "MACD翻正",
+                "RSI超賣"
             ],
-            "current_price": 0.037184,
-            "change_24h": 81.96,
-            "volume_24h": 5734494,
-            "backtest_avg": -2.99
+            "current_price": 0.038005,
+            "change_24h": 74.02,
+            "volume_24h": 5857300,
+            "backtest_avg": -2.93
         }
     ]
 }
