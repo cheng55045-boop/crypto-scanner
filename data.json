@@ -1,26 +1,8 @@
 {
-    "updated_at": "2026-11-21 20:20:46",
-    "total_count": 2,
+    "updated_at": "2026-11-21 20:30:51",
+    "total_count": 1,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
-        {
-            "code": "EVAA",
-            "symbol": "EVAAUSDT",
-            "score": 3,
-            "score_1h": 2,
-            "score_4h": 6,
-            "status": "觀察中",
-            "indicators": [
-                "RSI背離",
-                "MACD向上",
-                "KD低檔",
-                "RSI超賣"
-            ],
-            "current_price": 6.3447,
-            "change_24h": 9.33,
-            "volume_24h": 22727039,
-            "backtest_avg": -5.26
-        },
         {
             "code": "IDOL",
             "symbol": "IDOLUSDT",
@@ -29,14 +11,14 @@
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "RSI背離",
                 "MACD向上",
+                "RSI超賣",
                 "MACD翻正",
-                "RSI超賣"
+                "RSI背離"
             ],
-            "current_price": 0.038629,
-            "change_24h": 74.1,
-            "volume_24h": 6211926,
+            "current_price": 0.040917,
+            "change_24h": 79.01,
+            "volume_24h": 6570485,
             "backtest_avg": -2.93
         }
     ]
