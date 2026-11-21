@@ -1,41 +1,42 @@
 {
-    "updated_at": "2026-11-21 16:50:51",
+    "updated_at": "2026-11-21 17:01:04",
     "total_count": 4,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
-            "code": "EVAA",
-            "symbol": "EVAAUSDT",
-            "score": 5,
-            "score_1h": 6,
-            "score_4h": 5,
-            "status": "觀察中",
-            "indicators": [
-                "KD金叉",
-                "MACD向上",
-                "MACD翻正",
-                "KD低檔"
-            ],
-            "current_price": 6.1818,
-            "change_24h": 6.92,
-            "volume_24h": 24224339,
-            "backtest_avg": -4.3
-        },
-        {
-            "code": "NEAR",
-            "symbol": "NEARUSDT",
+            "code": "ANTHROPIC",
+            "symbol": "ANTHROPICUSDT",
             "score": 3,
-            "score_1h": 4,
-            "score_4h": 2,
+            "score_1h": 3,
+            "score_4h": 4,
             "status": "觀察中",
             "indicators": [
                 "RSI背離",
-                "MACD向上"
+                "MACD向上",
+                "MACD翻正"
             ],
-            "current_price": 2.852,
-            "change_24h": -0.31,
-            "volume_24h": 25237749,
-            "backtest_avg": 1.95
+            "current_price": 89.79,
+            "change_24h": 3.74,
+            "volume_24h": 30245523,
+            "backtest_avg": 1.65
+        },
+        {
+            "code": "EVAA",
+            "symbol": "EVAAUSDT",
+            "score": 3,
+            "score_1h": 3,
+            "score_4h": 5,
+            "status": "觀察中",
+            "indicators": [
+                "KD低檔",
+                "KD金叉",
+                "MACD向上",
+                "RSI超賣"
+            ],
+            "current_price": 6.1828,
+            "change_24h": 9.68,
+            "volume_24h": 23919389,
+            "backtest_avg": -5.26
         },
         {
             "code": "BLESS",
@@ -45,31 +46,30 @@
             "score_4h": 6,
             "status": "觀察中",
             "indicators": [
-                "RSI背離",
+                "KD低檔",
                 "MACD向上",
-                "KD低檔"
+                "RSI背離"
             ],
-            "current_price": 0.011558,
-            "change_24h": -6.87,
-            "volume_24h": 22308015,
+            "current_price": 0.011465,
+            "change_24h": -6.15,
+            "volume_24h": 22315057,
             "backtest_avg": -4.46
         },
         {
             "code": "AKE",
             "symbol": "AKEUSDT",
             "score": 3,
-            "score_1h": 3,
+            "score_1h": 2,
             "score_4h": 5,
             "status": "觀察中",
             "indicators": [
-                "RSI背離",
-                "RSI超賣",
+                "KD低檔",
                 "MACD向上",
-                "KD低檔"
+                "RSI超賣"
             ],
-            "current_price": 0.005193,
-            "change_24h": -15.23,
-            "volume_24h": 11610784,
+            "current_price": 0.005151,
+            "change_24h": -23.26,
+            "volume_24h": 11426319,
             "backtest_avg": 4.57
         }
     ]
