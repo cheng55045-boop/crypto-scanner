@@ -1,6 +1,6 @@
 {
-    "updated_at": "2026-11-21 08:30:51",
-    "total_count": 3,
+    "updated_at": "2026-11-21 08:40:46",
+    "total_count": 2,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
@@ -11,12 +11,12 @@
             "score_4h": 2,
             "status": "觀察中",
             "indicators": [
-                "KD金叉",
-                "MACD向上"
+                "MACD向上",
+                "KD金叉"
             ],
-            "current_price": 86.51,
-            "change_24h": -6.4,
-            "volume_24h": 81902839,
+            "current_price": 86.43,
+            "change_24h": -6.12,
+            "volume_24h": 81811729,
             "backtest_avg": 1.44
         },
         {
@@ -27,31 +27,14 @@
             "score_4h": 5,
             "status": "觀察中",
             "indicators": [
-                "KD低檔",
+                "MACD向上",
                 "RSI超賣",
-                "MACD向上"
+                "KD低檔"
             ],
-            "current_price": 0.005191,
-            "change_24h": -32.11,
-            "volume_24h": 26358615,
+            "current_price": 0.005089,
+            "change_24h": -27.03,
+            "volume_24h": 26218747,
             "backtest_avg": 2.59
-        },
-        {
-            "code": "PIPPIN",
-            "symbol": "PIPPINUSDT",
-            "score": 3,
-            "score_1h": 5,
-            "score_4h": 0,
-            "status": "觀察中",
-            "indicators": [
-                "KD低檔",
-                "RSI超賣",
-                "MACD向上"
-            ],
-            "current_price": 0.01764,
-            "change_24h": 2.98,
-            "volume_24h": 10184441,
-            "backtest_avg": -10.53
         }
     ]
 }
