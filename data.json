@@ -1,42 +1,59 @@
 {
-    "updated_at": "2026-11-21 05:50:54",
-    "total_count": 3,
+    "updated_at": "2026-11-21 06:01:01",
+    "total_count": 4,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
             "code": "AKE",
             "symbol": "AKEUSDT",
-            "score": 3,
-            "score_1h": 3,
+            "score": 5,
+            "score_1h": 5,
             "score_4h": 5,
             "status": "觀察中",
             "indicators": [
+                "RSI超賣",
                 "KD低檔",
-                "MACD向上",
                 "RSI背離",
-                "RSI超賣"
+                "MACD向上"
             ],
-            "current_price": 0.00511,
-            "change_24h": -51.59,
-            "volume_24h": 28750217,
-            "backtest_avg": 4.61
+            "current_price": 0.004777,
+            "change_24h": -54.73,
+            "volume_24h": 28874391,
+            "backtest_avg": 6.15
         },
         {
             "code": "PIPPIN",
             "symbol": "PIPPINUSDT",
-            "score": 3,
-            "score_1h": 5,
+            "score": 4,
+            "score_1h": 7,
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
                 "KD低檔",
                 "MACD向上",
+                "KD金叉",
                 "RSI超賣"
             ],
-            "current_price": 0.01813,
-            "change_24h": -7.78,
-            "volume_24h": 10755609,
+            "current_price": 0.01794,
+            "change_24h": -9.76,
+            "volume_24h": 10750882,
             "backtest_avg": -10.53
+        },
+        {
+            "code": "EVAA",
+            "symbol": "EVAAUSDT",
+            "score": 3,
+            "score_1h": 5,
+            "score_4h": 2,
+            "status": "觀察中",
+            "indicators": [
+                "KD金叉",
+                "MACD向上"
+            ],
+            "current_price": 6.0739,
+            "change_24h": 9.27,
+            "volume_24h": 30894218,
+            "backtest_avg": -5.75
         },
         {
             "code": "MMT",
@@ -50,9 +67,9 @@
                 "MACD向上",
                 "RSI超賣"
             ],
-            "current_price": 0.2516,
-            "change_24h": -1.29,
-            "volume_24h": 9590778,
+            "current_price": 0.2476,
+            "change_24h": -1.94,
+            "volume_24h": 9578704,
             "backtest_avg": -11.48
         }
     ]
