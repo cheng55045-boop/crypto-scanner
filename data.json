@@ -1,25 +1,8 @@
 {
-    "updated_at": "2026-11-22 01:50:52",
-    "total_count": 7,
+    "updated_at": "2026-11-22 02:01:01",
+    "total_count": 6,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
-        {
-            "code": "IDOL",
-            "symbol": "IDOLUSDT",
-            "score": 5,
-            "score_1h": 6,
-            "score_4h": 4,
-            "status": "觀察中",
-            "indicators": [
-                "KD低檔",
-                "MACD向上",
-                "KD金叉"
-            ],
-            "current_price": 0.020361,
-            "change_24h": -15.03,
-            "volume_24h": 14938528,
-            "backtest_avg": -2.75
-        },
         {
             "code": "NEAR",
             "symbol": "NEARUSDT",
@@ -28,15 +11,48 @@
             "score_4h": 4,
             "status": "觀察中",
             "indicators": [
-                "MACD向上",
                 "KD低檔",
                 "RSI超賣",
+                "KD金叉",
+                "MACD向上"
+            ],
+            "current_price": 2.907,
+            "change_24h": 3.82,
+            "volume_24h": 21031070,
+            "backtest_avg": 1.05
+        },
+        {
+            "code": "IDOL",
+            "symbol": "IDOLUSDT",
+            "score": 4,
+            "score_1h": 4,
+            "score_4h": 4,
+            "status": "觀察中",
+            "indicators": [
+                "KD低檔",
+                "MACD向上",
                 "KD金叉"
             ],
-            "current_price": 2.915,
-            "change_24h": 4.0,
-            "volume_24h": 20992931,
-            "backtest_avg": 1.05
+            "current_price": 0.019604,
+            "change_24h": -18.32,
+            "volume_24h": 15089476,
+            "backtest_avg": -3.12
+        },
+        {
+            "code": "BNB",
+            "symbol": "BNBUSDT",
+            "score": 3,
+            "score_1h": 5,
+            "score_4h": 0,
+            "status": "觀察中",
+            "indicators": [
+                "KD金叉",
+                "MACD向上"
+            ],
+            "current_price": 550.01,
+            "change_24h": 2.0,
+            "volume_24h": 22447816,
+            "backtest_avg": 0.61
         },
         {
             "code": "EVAA",
@@ -50,75 +66,43 @@
                 "RSI超賣",
                 "MACD向上"
             ],
-            "current_price": 6.0582,
-            "change_24h": -5.12,
-            "volume_24h": 20080726,
-            "backtest_avg": -3.67
+            "current_price": 6.1178,
+            "change_24h": -3.46,
+            "volume_24h": 20064743,
+            "backtest_avg": -4.8
         },
         {
-            "code": "ANTHROPIC",
-            "symbol": "ANTHROPICUSDT",
-            "score": 3,
-            "score_1h": 5,
-            "score_4h": 2,
-            "status": "觀察中",
-            "indicators": [
-                "MACD向上",
-                "RSI背離"
-            ],
-            "current_price": 90.41,
-            "change_24h": 2.77,
-            "volume_24h": 9356963,
-            "backtest_avg": 0.92
-        },
-        {
-            "code": "AKE",
-            "symbol": "AKEUSDT",
-            "score": 3,
-            "score_1h": 2,
-            "score_4h": 5,
-            "status": "觀察中",
-            "indicators": [
-                "KD低檔",
-                "RSI超賣",
-                "MACD向上"
-            ],
-            "current_price": 0.004467,
-            "change_24h": -24.35,
-            "volume_24h": 8934480,
-            "backtest_avg": 8.98
-        },
-        {
-            "code": "AAVE",
-            "symbol": "AAVEUSDT",
+            "code": "AVAX",
+            "symbol": "AVAXUSDT",
             "score": 3,
             "score_1h": 5,
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "MACD向上",
-                "KD金叉"
+                "KD金叉",
+                "MACD向上"
             ],
-            "current_price": 97.46,
-            "change_24h": -0.49,
-            "volume_24h": 6808007,
-            "backtest_avg": 0.33
+            "current_price": 6.574,
+            "change_24h": 1.15,
+            "volume_24h": 7342483,
+            "backtest_avg": 0.2
         },
         {
-            "code": "INJ",
-            "symbol": "INJUSDT",
+            "code": "PUMPFUN",
+            "symbol": "PUMPFUNUSDT",
             "score": 3,
-            "score_1h": 3,
-            "score_4h": 3,
+            "score_1h": 4,
+            "score_4h": 2,
             "status": "觀察中",
             "indicators": [
+                "RSI超賣",
                 "MACD向上",
                 "KD金叉"
             ],
-            "current_price": 5.974,
-            "change_24h": -5.88,
-            "volume_24h": 5037722,
-            "backtest_avg": 1.06
+            "current_price": 0.002336,
+            "change_24h": -4.07,
+            "volume_24h": 5647898,
+            "backtest_avg": 0.56
         }
     ]
 }
