@@ -1,6 +1,6 @@
 {
-    "updated_at": "2026-11-22 12:40:47",
-    "total_count": 1,
+    "updated_at": "2026-11-22 12:50:47",
+    "total_count": 2,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
@@ -11,14 +11,30 @@
             "score_4h": 4,
             "status": "觀察中",
             "indicators": [
-                "MACD向上",
                 "KD低檔",
-                "RSI超賣"
+                "RSI超賣",
+                "MACD向上"
             ],
-            "current_price": 3.9743,
-            "change_24h": -33.92,
-            "volume_24h": 32222993,
+            "current_price": 3.9924,
+            "change_24h": -33.56,
+            "volume_24h": 32332097,
             "backtest_avg": -5.9
+        },
+        {
+            "code": "PIEVERSE",
+            "symbol": "PIEVERSEUSDT",
+            "score": 3,
+            "score_1h": 4,
+            "score_4h": 3,
+            "status": "觀察中",
+            "indicators": [
+                "KD金叉",
+                "MACD向上"
+            ],
+            "current_price": 3.1253,
+            "change_24h": 7.53,
+            "volume_24h": 22379130,
+            "backtest_avg": -0.77
         }
     ]
 }
