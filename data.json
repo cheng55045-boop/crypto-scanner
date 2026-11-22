@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-22 14:50:44",
+    "updated_at": "2026-11-22 15:01:05",
     "total_count": 3,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
@@ -12,29 +12,31 @@
             "status": "觀察中",
             "indicators": [
                 "MACD向上",
-                "KD低檔",
-                "RSI超賣"
+                "RSI超賣",
+                "KD低檔"
             ],
-            "current_price": 2.9824,
-            "change_24h": -50.95,
-            "volume_24h": 35406187,
-            "backtest_avg": -5.9
+            "current_price": 2.703,
+            "change_24h": -55.22,
+            "volume_24h": 36072955,
+            "backtest_avg": 2.56
         },
         {
-            "code": "IDOL",
-            "symbol": "IDOLUSDT",
+            "code": "BLESS",
+            "symbol": "BLESSUSDT",
             "score": 3,
-            "score_1h": 4,
-            "score_4h": 2,
+            "score_1h": 3,
+            "score_4h": 5,
             "status": "觀察中",
             "indicators": [
                 "MACD向上",
-                "KD金叉"
+                "KD金叉",
+                "RSI超賣",
+                "KD低檔"
             ],
-            "current_price": 0.016385,
-            "change_24h": -38.84,
-            "volume_24h": 17000618,
-            "backtest_avg": 14.04
+            "current_price": 0.016876,
+            "change_24h": 40.21,
+            "volume_24h": 10498350,
+            "backtest_avg": -4.41
         },
         {
             "code": "MMT",
@@ -45,12 +47,12 @@
             "status": "觀察中",
             "indicators": [
                 "MACD向上",
-                "KD低檔",
-                "RSI超賣"
+                "RSI超賣",
+                "KD低檔"
             ],
-            "current_price": 0.2318,
-            "change_24h": 5.32,
-            "volume_24h": 5319653,
+            "current_price": 0.2315,
+            "change_24h": 4.8,
+            "volume_24h": 5335027,
             "backtest_avg": -2.64
         }
     ]
