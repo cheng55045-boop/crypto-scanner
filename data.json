@@ -1,59 +1,41 @@
 {
-    "updated_at": "2026-11-22 09:50:47",
-    "total_count": 3,
+    "updated_at": "2026-11-22 10:01:05",
+    "total_count": 2,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
             "code": "EVAA",
             "symbol": "EVAAUSDT",
-            "score": 6,
-            "score_1h": 7,
+            "score": 5,
+            "score_1h": 5,
             "score_4h": 5,
-            "status": "蓄勢待發",
+            "status": "觀察中",
             "indicators": [
                 "KD低檔",
-                "KD金叉",
                 "MACD向上",
                 "RSI超賣"
             ],
-            "current_price": 3.0481,
-            "change_24h": -53.38,
-            "volume_24h": 29287395,
+            "current_price": 3.1941,
+            "change_24h": -51.25,
+            "volume_24h": 29553533,
             "backtest_avg": -5.9
         },
         {
-            "code": "SKYAI",
-            "symbol": "SKYAIUSDT",
+            "code": "AKE",
+            "symbol": "AKEUSDT",
             "score": 3,
-            "score_1h": 3,
-            "score_4h": 4,
+            "score_1h": 2,
+            "score_4h": 5,
             "status": "觀察中",
             "indicators": [
                 "KD低檔",
                 "MACD向上",
-                "RSI背離",
                 "RSI超賣"
             ],
-            "current_price": 0.03786,
-            "change_24h": 8.86,
-            "volume_24h": 7892476,
-            "backtest_avg": -5.05
-        },
-        {
-            "code": "MMT",
-            "symbol": "MMTUSDT",
-            "score": 3,
-            "score_1h": 5,
-            "score_4h": 0,
-            "status": "觀察中",
-            "indicators": [
-                "MACD向上",
-                "RSI背離"
-            ],
-            "current_price": 0.2419,
-            "change_24h": 1.9,
-            "volume_24h": 4235254,
-            "backtest_avg": -3.15
+            "current_price": 0.002776,
+            "change_24h": -45.9,
+            "volume_24h": 10054091,
+            "backtest_avg": 10.52
         }
     ]
 }
