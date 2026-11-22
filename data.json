@@ -1,8 +1,25 @@
 {
-    "updated_at": "2026-11-22 01:01:04",
+    "updated_at": "2026-11-22 01:10:51",
     "total_count": 7,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
+        {
+            "code": "IDOL",
+            "symbol": "IDOLUSDT",
+            "score": 5,
+            "score_1h": 6,
+            "score_4h": 4,
+            "status": "觀察中",
+            "indicators": [
+                "MACD向上",
+                "KD低檔",
+                "KD金叉"
+            ],
+            "current_price": 0.024248,
+            "change_24h": 1.89,
+            "volume_24h": 14120376,
+            "backtest_avg": -2.75
+        },
         {
             "code": "NEAR",
             "symbol": "NEARUSDT",
@@ -11,32 +28,15 @@
             "score_4h": 4,
             "status": "觀察中",
             "indicators": [
-                "RSI超賣",
-                "KD低檔",
                 "MACD向上",
-                "KD金叉"
-            ],
-            "current_price": 2.895,
-            "change_24h": 2.84,
-            "volume_24h": 21273711,
-            "backtest_avg": 1.05
-        },
-        {
-            "code": "IDOL",
-            "symbol": "IDOLUSDT",
-            "score": 4,
-            "score_1h": 5,
-            "score_4h": 3,
-            "status": "觀察中",
-            "indicators": [
-                "KD低檔",
+                "RSI超賣",
                 "KD金叉",
-                "MACD向上"
+                "KD低檔"
             ],
-            "current_price": 0.026991,
-            "change_24h": 12.6,
-            "volume_24h": 13826243,
-            "backtest_avg": -2.75
+            "current_price": 2.905,
+            "change_24h": 3.42,
+            "volume_24h": 21189657,
+            "backtest_avg": 1.05
         },
         {
             "code": "EVAA",
@@ -46,13 +46,13 @@
             "score_4h": 5,
             "status": "觀察中",
             "indicators": [
+                "MACD向上",
                 "RSI超賣",
-                "KD低檔",
-                "MACD向上"
+                "KD低檔"
             ],
-            "current_price": 6.1683,
-            "change_24h": -1.26,
-            "volume_24h": 20799047,
+            "current_price": 6.2036,
+            "change_24h": 0.28,
+            "volume_24h": 20723386,
             "backtest_avg": -3.67
         },
         {
@@ -67,8 +67,8 @@
                 "MACD向上"
             ],
             "current_price": 90.86,
-            "change_24h": 3.41,
-            "volume_24h": 9373549,
+            "change_24h": 3.38,
+            "volume_24h": 9338684,
             "backtest_avg": 0.92
         },
         {
@@ -79,13 +79,13 @@
             "score_4h": 5,
             "status": "觀察中",
             "indicators": [
+                "MACD向上",
                 "RSI超賣",
-                "KD低檔",
-                "MACD向上"
+                "KD低檔"
             ],
-            "current_price": 0.004816,
-            "change_24h": -22.16,
-            "volume_24h": 8851957,
+            "current_price": 0.004758,
+            "change_24h": -22.67,
+            "volume_24h": 8843688,
             "backtest_avg": 8.98
         },
         {
@@ -96,12 +96,12 @@
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "KD金叉",
-                "MACD向上"
+                "MACD向上",
+                "KD金叉"
             ],
-            "current_price": 97.34,
-            "change_24h": -0.53,
-            "volume_24h": 6811368,
+            "current_price": 97.39,
+            "change_24h": -0.25,
+            "volume_24h": 6807488,
             "backtest_avg": 0.33
         },
         {
@@ -112,12 +112,12 @@
             "score_4h": 3,
             "status": "觀察中",
             "indicators": [
-                "KD金叉",
-                "MACD向上"
+                "MACD向上",
+                "KD金叉"
             ],
-            "current_price": 5.949,
+            "current_price": 5.94,
             "change_24h": -6.29,
-            "volume_24h": 5076533,
+            "volume_24h": 5065647,
             "backtest_avg": 1.06
         }
     ]
