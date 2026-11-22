@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-22 18:50:46",
+    "updated_at": "2026-11-22 19:01:03",
     "total_count": 2,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
@@ -11,33 +11,32 @@
             "score_4h": 7,
             "status": "觀察中",
             "indicators": [
-                "RSI超賣",
                 "KD低檔",
+                "RSI背離",
                 "MACD向上",
-                "RSI背離"
+                "RSI超賣"
             ],
-            "current_price": 2.5005,
-            "change_24h": -60.13,
-            "volume_24h": 40838383,
+            "current_price": 2.5226,
+            "change_24h": -59.73,
+            "volume_24h": 41031277,
             "backtest_avg": 2.56
         },
         {
             "code": "BLESS",
             "symbol": "BLESSUSDT",
-            "score": 4,
-            "score_1h": 5,
+            "score": 3,
+            "score_1h": 3,
             "score_4h": 3,
             "status": "觀察中",
             "indicators": [
-                "RSI背離",
-                "KD低檔",
                 "MACD向上",
-                "RSI超賣"
+                "KD低檔",
+                "MACD翻正"
             ],
-            "current_price": 0.016507,
-            "change_24h": 33.81,
-            "volume_24h": 15947898,
-            "backtest_avg": -6.39
+            "current_price": 0.016857,
+            "change_24h": 36.95,
+            "volume_24h": 16170291,
+            "backtest_avg": -5.57
         }
     ]
 }
