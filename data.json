@@ -1,6 +1,6 @@
 {
-    "updated_at": "2026-11-22 21:50:45",
-    "total_count": 4,
+    "updated_at": "2026-11-22 22:00:30",
+    "total_count": 2,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
@@ -11,66 +11,33 @@
             "score_4h": 7,
             "status": "觀察中",
             "indicators": [
+                "RSI超賣",
                 "RSI背離",
-                "KD低檔",
                 "MACD向上",
-                "RSI超賣"
+                "KD低檔"
             ],
-            "current_price": 2.3875,
-            "change_24h": -62.69,
-            "volume_24h": 41160800,
+            "current_price": 2.3669,
+            "change_24h": -63.23,
+            "volume_24h": 41143287,
             "backtest_avg": 5.91
-        },
-        {
-            "code": "PIEVERSE",
-            "symbol": "PIEVERSEUSDT",
-            "score": 3,
-            "score_1h": 2,
-            "score_4h": 5,
-            "status": "觀察中",
-            "indicators": [
-                "KD低檔",
-                "KD金叉",
-                "RSI超賣"
-            ],
-            "current_price": 3.6689,
-            "change_24h": 6.92,
-            "volume_24h": 29937268,
-            "backtest_avg": -3.31
         },
         {
             "code": "BLESS",
             "symbol": "BLESSUSDT",
-            "score": 3,
-            "score_1h": 4,
+            "score": 4,
+            "score_1h": 6,
             "score_4h": 3,
             "status": "觀察中",
             "indicators": [
-                "KD低檔",
-                "MACD向上",
-                "RSI超賣"
-            ],
-            "current_price": 0.017356,
-            "change_24h": 44.1,
-            "volume_24h": 17551490,
-            "backtest_avg": -6.39
-        },
-        {
-            "code": "AVAX",
-            "symbol": "AVAXUSDT",
-            "score": 3,
-            "score_1h": 5,
-            "score_4h": 0,
-            "status": "觀察中",
-            "indicators": [
                 "KD金叉",
+                "RSI超賣",
                 "MACD向上",
-                "MACD翻正"
+                "KD低檔"
             ],
-            "current_price": 6.695,
-            "change_24h": 1.01,
-            "volume_24h": 4402446,
-            "backtest_avg": 0.31
+            "current_price": 0.016997,
+            "change_24h": 40.44,
+            "volume_24h": 17622892,
+            "backtest_avg": -6.39
         }
     ]
 }
