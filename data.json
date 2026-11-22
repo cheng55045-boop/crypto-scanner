@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-22 15:50:46",
+    "updated_at": "2026-11-22 16:01:07",
     "total_count": 3,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
@@ -7,53 +7,54 @@
             "code": "EVAA",
             "symbol": "EVAAUSDT",
             "score": 4,
-            "score_1h": 5,
-            "score_4h": 4,
+            "score_1h": 3,
+            "score_4h": 7,
             "status": "觀察中",
             "indicators": [
+                "KD低檔",
                 "RSI超賣",
                 "MACD向上",
+                "RSI背離"
+            ],
+            "current_price": 2.5579,
+            "change_24h": -58.85,
+            "volume_24h": 38189624,
+            "backtest_avg": 2.56
+        },
+        {
+            "code": "AKE",
+            "symbol": "AKEUSDT",
+            "score": 4,
+            "score_1h": 6,
+            "score_4h": 3,
+            "status": "觀察中",
+            "indicators": [
+                "MACD向上",
+                "RSI超賣",
+                "KD金叉",
                 "KD低檔"
             ],
-            "current_price": 2.5522,
-            "change_24h": -58.35,
-            "volume_24h": 37875686,
-            "backtest_avg": 2.56
+            "current_price": 0.002812,
+            "change_24h": -44.88,
+            "volume_24h": 9026850,
+            "backtest_avg": 12.66
         },
         {
             "code": "BLESS",
             "symbol": "BLESSUSDT",
             "score": 3,
             "score_1h": 3,
-            "score_4h": 5,
+            "score_4h": 3,
             "status": "觀察中",
             "indicators": [
-                "RSI超賣",
                 "MACD向上",
-                "KD金叉",
+                "RSI超賣",
                 "KD低檔"
             ],
-            "current_price": 0.017037,
-            "change_24h": 48.54,
-            "volume_24h": 10931392,
+            "current_price": 0.0175,
+            "change_24h": 54.54,
+            "volume_24h": 11104312,
             "backtest_avg": -4.41
-        },
-        {
-            "code": "MMT",
-            "symbol": "MMTUSDT",
-            "score": 3,
-            "score_1h": 5,
-            "score_4h": 0,
-            "status": "觀察中",
-            "indicators": [
-                "RSI超賣",
-                "MACD向上",
-                "KD低檔"
-            ],
-            "current_price": 0.2232,
-            "change_24h": 3.67,
-            "volume_24h": 5421138,
-            "backtest_avg": -2.64
         }
     ]
 }
