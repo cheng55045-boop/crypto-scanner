@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-22 00:30:57",
+    "updated_at": "2026-11-22 00:40:53",
     "total_count": 8,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
@@ -11,14 +11,14 @@
             "score_4h": 5,
             "status": "觀察中",
             "indicators": [
-                "KD低檔",
-                "MACD向上",
+                "RSI背離",
                 "RSI超賣",
-                "RSI背離"
+                "KD低檔",
+                "MACD向上"
             ],
-            "current_price": 6.2422,
-            "change_24h": -0.07,
-            "volume_24h": 20851640,
+            "current_price": 6.2355,
+            "change_24h": -0.01,
+            "volume_24h": 20829894,
             "backtest_avg": -3.67
         },
         {
@@ -30,31 +30,31 @@
             "status": "觀察中",
             "indicators": [
                 "MACD向上",
+                "KD低檔",
                 "RSI超賣",
-                "KD金叉",
-                "KD低檔"
+                "KD金叉"
             ],
             "current_price": 2.896,
-            "change_24h": 2.51,
-            "volume_24h": 21381246,
+            "change_24h": 2.77,
+            "volume_24h": 21357899,
             "backtest_avg": 2.25
         },
         {
             "code": "IDOL",
             "symbol": "IDOLUSDT",
-            "score": 4,
-            "score_1h": 5,
-            "score_4h": 4,
+            "score": 3,
+            "score_1h": 4,
+            "score_4h": 3,
             "status": "觀察中",
             "indicators": [
                 "MACD向上",
+                "KD低檔",
                 "RSI超賣",
-                "KD金叉",
-                "KD低檔"
+                "KD金叉"
             ],
-            "current_price": 0.026234,
-            "change_24h": 9.18,
-            "volume_24h": 13080291,
+            "current_price": 0.02669,
+            "change_24h": 10.66,
+            "volume_24h": 13229261,
             "backtest_avg": -2.75
         },
         {
@@ -65,12 +65,12 @@
             "score_4h": 2,
             "status": "觀察中",
             "indicators": [
-                "MACD向上",
-                "RSI背離"
+                "RSI背離",
+                "MACD向上"
             ],
             "current_price": 90.6,
-            "change_24h": 2.1,
-            "volume_24h": 9677128,
+            "change_24h": 1.73,
+            "volume_24h": 9553751,
             "backtest_avg": 0.92
         },
         {
@@ -82,12 +82,12 @@
             "status": "觀察中",
             "indicators": [
                 "MACD向上",
-                "RSI超賣",
-                "KD低檔"
+                "KD低檔",
+                "RSI超賣"
             ],
-            "current_price": 0.004832,
-            "change_24h": -21.07,
-            "volume_24h": 8870348,
+            "current_price": 0.004846,
+            "change_24h": -21.56,
+            "volume_24h": 8872034,
             "backtest_avg": 4.72
         },
         {
@@ -98,12 +98,12 @@
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "MACD向上",
-                "RSI背離"
+                "RSI背離",
+                "MACD向上"
             ],
-            "current_price": 49.39,
-            "change_24h": 0.94,
-            "volume_24h": 8407715,
+            "current_price": 49.42,
+            "change_24h": 0.86,
+            "volume_24h": 8396745,
             "backtest_avg": 0.57
         },
         {
@@ -118,9 +118,9 @@
                 "RSI超賣",
                 "KD金叉"
             ],
-            "current_price": 0.002346,
-            "change_24h": -2.9,
-            "volume_24h": 5700050,
+            "current_price": 0.002349,
+            "change_24h": -2.77,
+            "volume_24h": 5694868,
             "backtest_avg": 1.79
         },
         {
@@ -134,9 +134,9 @@
                 "MACD向上",
                 "KD金叉"
             ],
-            "current_price": 5.936,
-            "change_24h": -6.0,
-            "volume_24h": 5092632,
+            "current_price": 5.927,
+            "change_24h": -6.46,
+            "volume_24h": 5091955,
             "backtest_avg": 1.47
         }
     ]
