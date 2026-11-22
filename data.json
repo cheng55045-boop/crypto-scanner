@@ -1,8 +1,26 @@
 {
-    "updated_at": "2026-11-22 20:10:45",
-    "total_count": 1,
+    "updated_at": "2026-11-22 20:20:49",
+    "total_count": 2,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
+        {
+            "code": "EVAA",
+            "symbol": "EVAAUSDT",
+            "score": 4,
+            "score_1h": 3,
+            "score_4h": 7,
+            "status": "觀察中",
+            "indicators": [
+                "KD低檔",
+                "RSI背離",
+                "RSI超賣",
+                "MACD向上"
+            ],
+            "current_price": 2.4707,
+            "change_24h": -60.97,
+            "volume_24h": 41150480,
+            "backtest_avg": 5.91
+        },
         {
             "code": "BLESS",
             "symbol": "BLESSUSDT",
@@ -15,9 +33,9 @@
                 "KD低檔",
                 "RSI超賣"
             ],
-            "current_price": 0.016862,
-            "change_24h": 31.08,
-            "volume_24h": 16915056,
+            "current_price": 0.016967,
+            "change_24h": 34.38,
+            "volume_24h": 16953037,
             "backtest_avg": -6.39
         }
     ]
