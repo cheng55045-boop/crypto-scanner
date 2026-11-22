@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-22 06:40:52",
+    "updated_at": "2026-11-22 06:50:49",
     "total_count": 4,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
@@ -11,13 +11,13 @@
             "score_4h": 5,
             "status": "觀察中",
             "indicators": [
+                "MACD向上",
                 "KD低檔",
-                "RSI超賣",
-                "MACD向上"
+                "RSI超賣"
             ],
-            "current_price": 3.3721,
-            "change_24h": -45.18,
-            "volume_24h": 28192538,
+            "current_price": 3.3583,
+            "change_24h": -44.85,
+            "volume_24h": 28340430,
             "backtest_avg": -5.9
         },
         {
@@ -28,14 +28,14 @@
             "score_4h": 5,
             "status": "觀察中",
             "indicators": [
-                "RSI背離",
-                "KD低檔",
+                "MACD向上",
                 "RSI超賣",
-                "MACD向上"
+                "KD低檔",
+                "RSI背離"
             ],
-            "current_price": 0.002798,
-            "change_24h": -45.26,
-            "volume_24h": 10210841,
+            "current_price": 0.002818,
+            "change_24h": -45.24,
+            "volume_24h": 10206293,
             "backtest_avg": 10.52
         },
         {
@@ -47,13 +47,13 @@
             "status": "觀察中",
             "indicators": [
                 "MACD翻正",
+                "KD金叉",
                 "KD低檔",
-                "RSI超賣",
-                "KD金叉"
+                "RSI超賣"
             ],
-            "current_price": 186.16,
-            "change_24h": 8.75,
-            "volume_24h": 9771217,
+            "current_price": 185.89,
+            "change_24h": 5.46,
+            "volume_24h": 9612974,
             "backtest_avg": -1.1
         },
         {
@@ -65,13 +65,13 @@
             "status": "觀察中",
             "indicators": [
                 "KD低檔",
-                "RSI超賣",
+                "MACD向上",
                 "KD金叉",
-                "MACD向上"
+                "RSI超賣"
             ],
-            "current_price": 89.43,
-            "change_24h": 2.97,
-            "volume_24h": 8113336,
+            "current_price": 89.35,
+            "change_24h": 2.49,
+            "volume_24h": 8013703,
             "backtest_avg": 2.01
         }
     ]
