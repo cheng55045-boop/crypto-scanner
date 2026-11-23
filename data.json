@@ -1,42 +1,24 @@
 {
-    "updated_at": "2026-11-23 11:50:48",
-    "total_count": 2,
+    "updated_at": "2026-11-23 12:01:13",
+    "total_count": 1,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
             "code": "EVAA",
             "symbol": "EVAAUSDT",
             "score": 3,
-            "score_1h": 3,
+            "score_1h": 2,
             "score_4h": 5,
             "status": "觀察中",
             "indicators": [
-                "MACD向上",
                 "KD低檔",
+                "MACD向上",
                 "RSI超賣"
             ],
-            "current_price": 3.4123,
-            "change_24h": 3.72,
-            "volume_24h": 29478703,
+            "current_price": 3.3933,
+            "change_24h": -7.57,
+            "volume_24h": 29026568,
             "backtest_avg": 12.81
-        },
-        {
-            "code": "PIEVERSE",
-            "symbol": "PIEVERSEUSDT",
-            "score": 3,
-            "score_1h": 2,
-            "score_4h": 6,
-            "status": "觀察中",
-            "indicators": [
-                "MACD向上",
-                "KD金叉",
-                "KD低檔",
-                "RSI背離"
-            ],
-            "current_price": 3.4818,
-            "change_24h": -23.49,
-            "volume_24h": 23023921,
-            "backtest_avg": -1.79
         }
     ]
 }
