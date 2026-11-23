@@ -1,41 +1,25 @@
 {
-    "updated_at": "2026-11-23 16:50:57",
-    "total_count": 2,
+    "updated_at": "2026-11-23 17:01:08",
+    "total_count": 1,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
-            "code": "BLESS",
-            "symbol": "BLESSUSDT",
+            "code": "PIEVERSE",
+            "symbol": "PIEVERSEUSDT",
             "score": 4,
-            "score_1h": 4,
+            "score_1h": 5,
             "score_4h": 4,
             "status": "觀察中",
             "indicators": [
                 "RSI超賣",
                 "MACD向上",
-                "KD低檔",
-                "RSI背離"
+                "MACD翻正",
+                "RSI背離",
+                "KD低檔"
             ],
-            "current_price": 0.016817,
-            "change_24h": -3.45,
-            "volume_24h": 21476842,
-            "backtest_avg": -6.4
-        },
-        {
-            "code": "PIEVERSE",
-            "symbol": "PIEVERSEUSDT",
-            "score": 3,
-            "score_1h": 3,
-            "score_4h": 4,
-            "status": "觀察中",
-            "indicators": [
-                "MACD向上",
-                "KD低檔",
-                "RSI背離"
-            ],
-            "current_price": 3.5709,
-            "change_24h": 2.22,
-            "volume_24h": 13030424,
+            "current_price": 3.5792,
+            "change_24h": -4.05,
+            "volume_24h": 12821922,
             "backtest_avg": 2.09
         }
     ]
