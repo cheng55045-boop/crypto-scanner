@@ -1,8 +1,27 @@
 {
-    "updated_at": "2026-11-23 09:50:50",
+    "updated_at": "2026-11-23 10:01:06",
     "total_count": 2,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
+        {
+            "code": "ELSA",
+            "symbol": "ELSAUSDT",
+            "score": 4,
+            "score_1h": 8,
+            "score_4h": 0,
+            "status": "觀察中",
+            "indicators": [
+                "RSI超賣",
+                "KD金叉",
+                "MACD向上",
+                "RSI背離",
+                "KD低檔"
+            ],
+            "current_price": 0.10524,
+            "change_24h": 23.83,
+            "volume_24h": 7480587,
+            "backtest_avg": -5.81
+        },
         {
             "code": "EVAA",
             "symbol": "EVAAUSDT",
@@ -12,31 +31,13 @@
             "status": "觀察中",
             "indicators": [
                 "RSI超賣",
-                "KD低檔",
-                "MACD向上"
-            ],
-            "current_price": 3.2451,
-            "change_24h": 8.75,
-            "volume_24h": 32242188,
-            "backtest_avg": 12.81
-        },
-        {
-            "code": "ELSA",
-            "symbol": "ELSAUSDT",
-            "score": 3,
-            "score_1h": 6,
-            "score_4h": 0,
-            "status": "觀察中",
-            "indicators": [
-                "RSI超賣",
-                "KD低檔",
                 "MACD向上",
-                "RSI背離"
+                "KD低檔"
             ],
-            "current_price": 0.10586,
-            "change_24h": 28.96,
-            "volume_24h": 7493773,
-            "backtest_avg": -5.81
+            "current_price": 3.2664,
+            "change_24h": 0.87,
+            "volume_24h": 32018918,
+            "backtest_avg": 12.81
         }
     ]
 }
