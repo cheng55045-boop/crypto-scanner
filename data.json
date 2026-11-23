@@ -1,59 +1,43 @@
 {
-    "updated_at": "2026-11-23 06:50:48",
-    "total_count": 3,
+    "updated_at": "2026-11-23 07:00:59",
+    "total_count": 2,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
             "code": "EVAA",
             "symbol": "EVAAUSDT",
-            "score": 3,
-            "score_1h": 3,
+            "score": 4,
+            "score_1h": 4,
             "score_4h": 5,
             "status": "觀察中",
             "indicators": [
+                "RSI超賣",
                 "MACD向上",
-                "KD低檔",
-                "RSI超賣"
-            ],
-            "current_price": 3.2226,
-            "change_24h": -5.93,
-            "volume_24h": 32455072,
-            "backtest_avg": 9.1
-        },
-        {
-            "code": "BLESS",
-            "symbol": "BLESSUSDT",
-            "score": 3,
-            "score_1h": 3,
-            "score_4h": 4,
-            "status": "觀察中",
-            "indicators": [
-                "MACD向上",
-                "MACD翻正",
+                "KD金叉",
                 "KD低檔"
             ],
-            "current_price": 0.018178,
-            "change_24h": 27.88,
-            "volume_24h": 19997652,
-            "backtest_avg": -8.2
+            "current_price": 3.2592,
+            "change_24h": -2.82,
+            "volume_24h": 32518184,
+            "backtest_avg": 9.1
         },
         {
             "code": "ELSA",
             "symbol": "ELSAUSDT",
             "score": 3,
-            "score_1h": 5,
+            "score_1h": 6,
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
+                "RSI背離",
                 "MACD向上",
-                "MACD翻正",
                 "KD低檔",
                 "RSI超賣"
             ],
-            "current_price": 0.10237,
-            "change_24h": 36.95,
-            "volume_24h": 6273589,
-            "backtest_avg": -6.26
+            "current_price": 0.10175,
+            "change_24h": 36.85,
+            "volume_24h": 6306511,
+            "backtest_avg": -5.81
         }
     ]
 }
