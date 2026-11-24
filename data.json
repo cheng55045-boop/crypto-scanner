@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-24 16:01:08",
+    "updated_at": "2026-11-24 16:10:49",
     "total_count": 5,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
@@ -12,13 +12,13 @@
             "status": "觀察中",
             "indicators": [
                 "RSI背離",
-                "KD金叉",
+                "KD低檔",
                 "RSI超賣",
-                "KD低檔"
+                "KD金叉"
             ],
-            "current_price": 4.67,
-            "change_24h": -8.32,
-            "volume_24h": 8554376,
+            "current_price": 4.676,
+            "change_24h": -7.52,
+            "volume_24h": 8470269,
             "backtest_avg": -0.97
         },
         {
@@ -29,15 +29,32 @@
             "score_4h": 4,
             "status": "觀察中",
             "indicators": [
-                "KD金叉",
                 "MACD向上",
+                "KD低檔",
                 "RSI超賣",
-                "KD低檔"
+                "KD金叉"
             ],
-            "current_price": 79.1,
-            "change_24h": -10.05,
-            "volume_24h": 17641446,
+            "current_price": 79.01,
+            "change_24h": -10.58,
+            "volume_24h": 17739202,
             "backtest_avg": -1.93
+        },
+        {
+            "code": "LINK",
+            "symbol": "LINKUSDT",
+            "score": 3,
+            "score_1h": 3,
+            "score_4h": 3,
+            "status": "觀察中",
+            "indicators": [
+                "KD低檔",
+                "RSI超賣",
+                "KD金叉"
+            ],
+            "current_price": 8.766,
+            "change_24h": -5.26,
+            "volume_24h": 17659691,
+            "backtest_avg": -0.42
         },
         {
             "code": "SNXX",
@@ -50,27 +67,10 @@
                 "RSI背離",
                 "MACD向上"
             ],
-            "current_price": 1.522,
-            "change_24h": -34.57,
-            "volume_24h": 17505317,
+            "current_price": 1.551,
+            "change_24h": -32.65,
+            "volume_24h": 17514208,
             "backtest_avg": -3.88
-        },
-        {
-            "code": "LINK",
-            "symbol": "LINKUSDT",
-            "score": 3,
-            "score_1h": 3,
-            "score_4h": 3,
-            "status": "觀察中",
-            "indicators": [
-                "KD金叉",
-                "RSI超賣",
-                "KD低檔"
-            ],
-            "current_price": 8.76,
-            "change_24h": -5.42,
-            "volume_24h": 17354097,
-            "backtest_avg": -0.42
         },
         {
             "code": "SKHY",
@@ -81,12 +81,12 @@
             "status": "觀察中",
             "indicators": [
                 "RSI背離",
-                "RSI超賣",
-                "KD低檔"
+                "KD低檔",
+                "RSI超賣"
             ],
-            "current_price": 112.4,
-            "change_24h": -10.42,
-            "volume_24h": 13646511,
+            "current_price": 112.16,
+            "change_24h": -10.74,
+            "volume_24h": 13577215,
             "backtest_avg": -2.25
         }
     ]
