@@ -1,6 +1,6 @@
 {
-    "updated_at": "2026-11-24 02:01:11",
-    "total_count": 2,
+    "updated_at": "2026-11-24 02:10:53",
+    "total_count": 3,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
@@ -11,15 +11,31 @@
             "score_4h": 6,
             "status": "觀察中",
             "indicators": [
-                "KD低檔",
-                "RSI背離",
                 "RSI超賣",
-                "MACD向上"
+                "MACD向上",
+                "RSI背離",
+                "KD低檔"
             ],
-            "current_price": 0.015114,
-            "change_24h": -7.86,
-            "volume_24h": 19078611,
+            "current_price": 0.014814,
+            "change_24h": -10.92,
+            "volume_24h": 19098123,
             "backtest_avg": -7.22
+        },
+        {
+            "code": "EVAA",
+            "symbol": "EVAAUSDT",
+            "score": 3,
+            "score_1h": 3,
+            "score_4h": 3,
+            "status": "觀察中",
+            "indicators": [
+                "RSI超賣",
+                "KD低檔"
+            ],
+            "current_price": 2.8176,
+            "change_24h": 6.78,
+            "volume_24h": 19322848,
+            "backtest_avg": 5.43
         },
         {
             "code": "CRCL",
@@ -32,9 +48,9 @@
                 "KD金叉",
                 "MACD向上"
             ],
-            "current_price": 51.54,
-            "change_24h": 3.06,
-            "volume_24h": 11398779,
+            "current_price": 51.48,
+            "change_24h": 3.12,
+            "volume_24h": 11346121,
             "backtest_avg": 0.19
         }
     ]
