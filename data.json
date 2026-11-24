@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-24 01:50:54",
+    "updated_at": "2026-11-24 02:01:11",
     "total_count": 2,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
@@ -12,18 +12,18 @@
             "status": "觀察中",
             "indicators": [
                 "KD低檔",
-                "MACD向上",
                 "RSI背離",
-                "RSI超賣"
+                "RSI超賣",
+                "MACD向上"
             ],
-            "current_price": 0.015096,
-            "change_24h": -11.1,
-            "volume_24h": 19200070,
+            "current_price": 0.015114,
+            "change_24h": -7.86,
+            "volume_24h": 19078611,
             "backtest_avg": -7.22
         },
         {
-            "code": "SOL",
-            "symbol": "SOLUSDT",
+            "code": "CRCL",
+            "symbol": "CRCLUSDT",
             "score": 3,
             "score_1h": 4,
             "score_4h": 2,
@@ -32,10 +32,10 @@
                 "KD金叉",
                 "MACD向上"
             ],
-            "current_price": 72.05,
-            "change_24h": 2.31,
-            "volume_24h": 331075351,
-            "backtest_avg": -0.21
+            "current_price": 51.54,
+            "change_24h": 3.06,
+            "volume_24h": 11398779,
+            "backtest_avg": 0.19
         }
     ]
 }
