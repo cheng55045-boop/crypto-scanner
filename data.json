@@ -1,57 +1,25 @@
 {
-    "updated_at": "2026-11-24 02:50:49",
-    "total_count": 3,
+    "updated_at": "2026-11-24 03:01:08",
+    "total_count": 1,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
             "code": "BLESS",
             "symbol": "BLESSUSDT",
-            "score": 4,
-            "score_1h": 3,
+            "score": 3,
+            "score_1h": 1,
             "score_4h": 6,
             "status": "觀察中",
             "indicators": [
-                "KD低檔",
-                "MACD向上",
                 "RSI超賣",
-                "RSI背離"
-            ],
-            "current_price": 0.014802,
-            "change_24h": -12.51,
-            "volume_24h": 19113459,
-            "backtest_avg": -7.22
-        },
-        {
-            "code": "EVAA",
-            "symbol": "EVAAUSDT",
-            "score": 3,
-            "score_1h": 3,
-            "score_4h": 3,
-            "status": "觀察中",
-            "indicators": [
-                "KD低檔",
-                "RSI超賣"
-            ],
-            "current_price": 2.7392,
-            "change_24h": 9.97,
-            "volume_24h": 19197220,
-            "backtest_avg": 5.43
-        },
-        {
-            "code": "CRCL",
-            "symbol": "CRCLUSDT",
-            "score": 3,
-            "score_1h": 4,
-            "score_4h": 2,
-            "status": "觀察中",
-            "indicators": [
+                "RSI背離",
                 "MACD向上",
-                "KD金叉"
+                "KD低檔"
             ],
-            "current_price": 50.93,
-            "change_24h": 3.06,
-            "volume_24h": 11279179,
-            "backtest_avg": 0.19
+            "current_price": 0.014871,
+            "change_24h": -12.08,
+            "volume_24h": 19187714,
+            "backtest_avg": -7.22
         }
     ]
 }
