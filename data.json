@@ -1,6 +1,6 @@
 {
-    "updated_at": "2026-11-24 16:50:47",
-    "total_count": 5,
+    "updated_at": "2026-11-24 17:01:05",
+    "total_count": 3,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
@@ -11,15 +11,15 @@
             "score_4h": 6,
             "status": "觀察中",
             "indicators": [
-                "KD低檔",
                 "RSI背離",
                 "KD金叉",
+                "KD低檔",
                 "RSI超賣"
             ],
-            "current_price": 4.683,
-            "change_24h": -6.4,
-            "volume_24h": 8123729,
-            "backtest_avg": -0.97
+            "current_price": 4.677,
+            "change_24h": -7.22,
+            "volume_24h": 8100952,
+            "backtest_avg": 0.52
         },
         {
             "code": "MSTR",
@@ -29,15 +29,15 @@
             "score_4h": 4,
             "status": "觀察中",
             "indicators": [
-                "KD低檔",
                 "MACD向上",
                 "KD金叉",
+                "KD低檔",
                 "RSI超賣"
             ],
-            "current_price": 79.02,
-            "change_24h": -9.25,
-            "volume_24h": 18669571,
-            "backtest_avg": -1.93
+            "current_price": 78.48,
+            "change_24h": -10.44,
+            "volume_24h": 18860348,
+            "backtest_avg": -0.53
         },
         {
             "code": "LINK",
@@ -47,47 +47,14 @@
             "score_4h": 3,
             "status": "觀察中",
             "indicators": [
-                "KD低檔",
                 "KD金叉",
-                "RSI超賣"
-            ],
-            "current_price": 8.823,
-            "change_24h": -4.01,
-            "volume_24h": 17775194,
-            "backtest_avg": -0.42
-        },
-        {
-            "code": "SNXX",
-            "symbol": "SNXXUSDT",
-            "score": 3,
-            "score_1h": 5,
-            "score_4h": 0,
-            "status": "觀察中",
-            "indicators": [
-                "MACD向上",
-                "RSI背離"
-            ],
-            "current_price": 1.612,
-            "change_24h": -28.16,
-            "volume_24h": 16684808,
-            "backtest_avg": -3.88
-        },
-        {
-            "code": "SKHY",
-            "symbol": "SKHYUSDT",
-            "score": 3,
-            "score_1h": 5,
-            "score_4h": 0,
-            "status": "觀察中",
-            "indicators": [
                 "KD低檔",
-                "RSI背離",
                 "RSI超賣"
             ],
-            "current_price": 112.98,
-            "change_24h": -9.46,
-            "volume_24h": 13470483,
-            "backtest_avg": -2.25
+            "current_price": 8.797,
+            "change_24h": -4.86,
+            "volume_24h": 17871748,
+            "backtest_avg": 0.88
         }
     ]
 }
