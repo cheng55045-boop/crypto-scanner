@@ -1,43 +1,25 @@
 {
-    "updated_at": "2026-11-25 01:59:21",
+    "updated_at": "2026-11-25 02:01:11",
     "total_count": 3,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
             "code": "MMT",
             "symbol": "MMTUSDT",
-            "score": 6,
-            "score_1h": 6,
-            "score_4h": 7,
-            "status": "蓄勢待發",
-            "indicators": [
-                "RSI背離",
-                "MACD翻正",
-                "KD低檔",
-                "RSI超賣",
-                "MACD向上",
-                "KD金叉"
-            ],
-            "current_price": 0.2187,
-            "change_24h": 0.78,
-            "volume_24h": 7226951,
-            "backtest_avg": -0.7
-        },
-        {
-            "code": "NEAR",
-            "symbol": "NEARUSDT",
-            "score": 3,
+            "score": 4,
             "score_1h": 3,
-            "score_4h": 5,
+            "score_4h": 7,
             "status": "觀察中",
             "indicators": [
-                "RSI背離",
-                "KD金叉"
+                "KD低檔",
+                "MACD向上",
+                "KD金叉",
+                "RSI超賣"
             ],
-            "current_price": 2.849,
-            "change_24h": -4.04,
-            "volume_24h": 20049175,
-            "backtest_avg": 1.75
+            "current_price": 0.2184,
+            "change_24h": 0.41,
+            "volume_24h": 7224814,
+            "backtest_avg": -0.7
         },
         {
             "code": "LISTA",
@@ -47,13 +29,30 @@
             "score_4h": 3,
             "status": "觀察中",
             "indicators": [
+                "KD金叉",
                 "RSI背離",
-                "KD金叉"
+                "RSI超賣"
             ],
-            "current_price": 0.10286,
-            "change_24h": 6.1,
-            "volume_24h": 12898836,
+            "current_price": 0.10212,
+            "change_24h": 5.51,
+            "volume_24h": 12909116,
             "backtest_avg": -5.67
+        },
+        {
+            "code": "ENA",
+            "symbol": "ENAUSDT",
+            "score": 3,
+            "score_1h": 5,
+            "score_4h": 0,
+            "status": "觀察中",
+            "indicators": [
+                "MACD向上",
+                "RSI背離"
+            ],
+            "current_price": 0.09651,
+            "change_24h": -4.55,
+            "volume_24h": 5893269,
+            "backtest_avg": 1.8
         }
     ]
 }
