@@ -1,24 +1,90 @@
 {
-    "updated_at": "2026-11-25 19:50:47",
-    "total_count": 1,
+    "updated_at": "2026-11-25 20:01:07",
+    "total_count": 5,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
+            "code": "LISTA",
+            "symbol": "LISTAUSDT",
+            "score": 4,
+            "score_1h": 7,
+            "score_4h": 1,
+            "status": "觀察中",
+            "indicators": [
+                "MACD向上",
+                "KD金叉",
+                "RSI超賣",
+                "KD低檔"
+            ],
+            "current_price": 0.11053,
+            "change_24h": -3.64,
+            "volume_24h": 5903994,
+            "backtest_avg": -5.82
+        },
+        {
             "code": "SOL",
             "symbol": "SOLUSDT",
-            "score": 4,
-            "score_1h": 5,
+            "score": 3,
+            "score_1h": 4,
             "score_4h": 3,
             "status": "觀察中",
             "indicators": [
-                "KD金叉",
-                "MACD向上",
-                "MACD翻正"
+                "RSI背離",
+                "MACD向上"
             ],
-            "current_price": 70.3,
-            "change_24h": 1.71,
-            "volume_24h": 342615828,
+            "current_price": 70.32,
+            "change_24h": 1.96,
+            "volume_24h": 343260238,
             "backtest_avg": 0.56
+        },
+        {
+            "code": "SNXX",
+            "symbol": "SNXXUSDT",
+            "score": 3,
+            "score_1h": 3,
+            "score_4h": 3,
+            "status": "觀察中",
+            "indicators": [
+                "MACD向上",
+                "MACD翻正",
+                "KD低檔"
+            ],
+            "current_price": 1.426,
+            "change_24h": -10.76,
+            "volume_24h": 21350892,
+            "backtest_avg": -1.2
+        },
+        {
+            "code": "UNI",
+            "symbol": "UNIUSDT",
+            "score": 3,
+            "score_1h": 4,
+            "score_4h": 2,
+            "status": "觀察中",
+            "indicators": [
+                "RSI背離",
+                "MACD向上"
+            ],
+            "current_price": 4.722,
+            "change_24h": 0.55,
+            "volume_24h": 8325037,
+            "backtest_avg": 0.89
+        },
+        {
+            "code": "MUU",
+            "symbol": "MUUUSDT",
+            "score": 3,
+            "score_1h": 4,
+            "score_4h": 2,
+            "status": "觀察中",
+            "indicators": [
+                "RSI背離",
+                "MACD向上"
+            ],
+            "current_price": 9.29,
+            "change_24h": -9.54,
+            "volume_24h": 6452786,
+            "backtest_avg": -0.85
         }
     ]
 }
