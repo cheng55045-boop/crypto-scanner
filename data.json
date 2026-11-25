@@ -1,6 +1,6 @@
 {
-    "updated_at": "2026-11-25 22:20:46",
-    "total_count": 8,
+    "updated_at": "2026-11-25 22:30:55",
+    "total_count": 7,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
@@ -11,12 +11,12 @@
             "score_4h": 3,
             "status": "觀察中",
             "indicators": [
-                "MACD向上",
-                "RSI背離"
+                "RSI背離",
+                "MACD向上"
             ],
-            "current_price": 70.55,
-            "change_24h": 1.39,
-            "volume_24h": 353850675,
+            "current_price": 70.41,
+            "change_24h": 0.99,
+            "volume_24h": 353875425,
             "backtest_avg": 1.02
         },
         {
@@ -27,13 +27,13 @@
             "score_4h": 3,
             "status": "觀察中",
             "indicators": [
+                "KD金叉",
                 "MACD向上",
-                "MACD翻正",
-                "KD金叉"
+                "MACD翻正"
             ],
-            "current_price": 110.71,
-            "change_24h": -2.13,
-            "volume_24h": 11123441,
+            "current_price": 111.02,
+            "change_24h": -1.97,
+            "volume_24h": 11115148,
             "backtest_avg": -0.68
         },
         {
@@ -47,9 +47,9 @@
                 "MACD向上",
                 "MACD翻正"
             ],
-            "current_price": 3.041,
-            "change_24h": 6.18,
-            "volume_24h": 19847430,
+            "current_price": 3.042,
+            "change_24h": 5.37,
+            "volume_24h": 19853376,
             "backtest_avg": 1.61
         },
         {
@@ -60,31 +60,15 @@
             "score_4h": 6,
             "status": "觀察中",
             "indicators": [
-                "KD低檔",
-                "MACD向上",
                 "KD金叉",
-                "RSI超賣"
-            ],
-            "current_price": 0.3085,
-            "change_24h": 41.32,
-            "volume_24h": 8025557,
-            "backtest_avg": -2.74
-        },
-        {
-            "code": "SAMSUNG",
-            "symbol": "SAMSUNGUSDT",
-            "score": 3,
-            "score_1h": 3,
-            "score_4h": 3,
-            "status": "觀察中",
-            "indicators": [
+                "RSI超賣",
                 "MACD向上",
-                "MACD翻正"
+                "KD低檔"
             ],
-            "current_price": 128.04,
-            "change_24h": -3.71,
-            "volume_24h": 7541768,
-            "backtest_avg": 0.21
+            "current_price": 0.3065,
+            "change_24h": 40.92,
+            "volume_24h": 8101614,
+            "backtest_avg": -2.74
         },
         {
             "code": "ENA",
@@ -94,13 +78,13 @@
             "score_4h": 3,
             "status": "觀察中",
             "indicators": [
+                "RSI背離",
                 "MACD向上",
-                "MACD翻正",
-                "RSI背離"
+                "MACD翻正"
             ],
-            "current_price": 0.10056,
-            "change_24h": 2.66,
-            "volume_24h": 7285368,
+            "current_price": 0.10026,
+            "change_24h": 1.99,
+            "volume_24h": 7293022,
             "backtest_avg": 2.05
         },
         {
@@ -111,12 +95,12 @@
             "score_4h": 2,
             "status": "觀察中",
             "indicators": [
-                "MACD向上",
-                "KD金叉"
+                "KD金叉",
+                "MACD向上"
             ],
-            "current_price": 181.68,
-            "change_24h": 0.94,
-            "volume_24h": 6893573,
+            "current_price": 181.58,
+            "change_24h": 0.74,
+            "volume_24h": 6897260,
             "backtest_avg": 0.77
         },
         {
@@ -127,12 +111,12 @@
             "score_4h": 2,
             "status": "觀察中",
             "indicators": [
-                "MACD向上",
-                "RSI背離"
+                "RSI背離",
+                "MACD向上"
             ],
-            "current_price": 9.39,
-            "change_24h": -10.4,
-            "volume_24h": 6580534,
+            "current_price": 9.41,
+            "change_24h": -10.72,
+            "volume_24h": 6572926,
             "backtest_avg": -0.85
         }
     ]
