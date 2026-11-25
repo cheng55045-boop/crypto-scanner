@@ -1,8 +1,25 @@
 {
-    "updated_at": "2026-11-25 12:01:07",
-    "total_count": 4,
+    "updated_at": "2026-11-25 12:10:50",
+    "total_count": 5,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
+        {
+            "code": "HYPE",
+            "symbol": "HYPEUSDT",
+            "score": 3,
+            "score_1h": 3,
+            "score_4h": 3,
+            "status": "觀察中",
+            "indicators": [
+                "MACD向上",
+                "RSI超賣",
+                "KD低檔"
+            ],
+            "current_price": 57.942,
+            "change_24h": -7.75,
+            "volume_24h": 23711055,
+            "backtest_avg": 1.38
+        },
         {
             "code": "EVAA",
             "symbol": "EVAAUSDT",
@@ -11,13 +28,13 @@
             "score_4h": 3,
             "status": "觀察中",
             "indicators": [
+                "KD低檔",
                 "MACD向上",
-                "KD金叉",
-                "KD低檔"
+                "KD金叉"
             ],
-            "current_price": 2.686,
-            "change_24h": 35.45,
-            "volume_24h": 23098165,
+            "current_price": 2.7021,
+            "change_24h": 33.6,
+            "volume_24h": 23051869,
             "backtest_avg": -1.45
         },
         {
@@ -28,13 +45,13 @@
             "score_4h": 1,
             "status": "觀察中",
             "indicators": [
+                "RSI超賣",
                 "KD低檔",
-                "RSI背離",
-                "RSI超賣"
+                "RSI背離"
             ],
-            "current_price": 8.59,
-            "change_24h": -4.65,
-            "volume_24h": 18536110,
+            "current_price": 8.602,
+            "change_24h": -4.18,
+            "volume_24h": 18372704,
             "backtest_avg": 0.78
         },
         {
@@ -49,9 +66,9 @@
                 "KD低檔",
                 "RSI背離"
             ],
-            "current_price": 0.017489,
-            "change_24h": -6.45,
-            "volume_24h": 13511827,
+            "current_price": 0.017356,
+            "change_24h": -6.94,
+            "volume_24h": 13532689,
             "backtest_avg": -0.9
         },
         {
@@ -66,9 +83,9 @@
                 "KD低檔",
                 "RSI背離"
             ],
-            "current_price": 0.0034,
-            "change_24h": -2.28,
-            "volume_24h": 12686943,
+            "current_price": 0.003411,
+            "change_24h": -1.33,
+            "volume_24h": 12632715,
             "backtest_avg": 1.34
         }
     ]
