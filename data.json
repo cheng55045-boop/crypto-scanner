@@ -1,8 +1,25 @@
 {
-    "updated_at": "2026-11-25 05:30:55",
-    "total_count": 5,
+    "updated_at": "2026-11-25 05:40:49",
+    "total_count": 4,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
+        {
+            "code": "SKHY",
+            "symbol": "SKHYUSDT",
+            "score": 4,
+            "score_1h": 6,
+            "score_4h": 2,
+            "status": "觀察中",
+            "indicators": [
+                "RSI背離",
+                "MACD向上",
+                "RSI超賣"
+            ],
+            "current_price": 107.65,
+            "change_24h": -13.19,
+            "volume_24h": 12617908,
+            "backtest_avg": -1.91
+        },
         {
             "code": "KORU",
             "symbol": "KORUUSDT",
@@ -11,48 +28,31 @@
             "score_4h": 2,
             "status": "觀察中",
             "indicators": [
-                "RSI超賣",
                 "RSI背離",
+                "RSI超賣",
                 "MACD向上"
             ],
-            "current_price": 5.17,
-            "change_24h": -17.68,
-            "volume_24h": 28773343,
+            "current_price": 5.13,
+            "change_24h": -19.09,
+            "volume_24h": 28781062,
             "backtest_avg": -3.7
         },
         {
             "code": "BLESS",
             "symbol": "BLESSUSDT",
             "score": 3,
-            "score_1h": 5,
-            "score_4h": 0,
-            "status": "觀察中",
-            "indicators": [
-                "RSI背離",
-                "KD低檔",
-                "MACD向上"
-            ],
-            "current_price": 0.01803,
-            "change_24h": 10.13,
-            "volume_24h": 14954626,
-            "backtest_avg": -1.09
-        },
-        {
-            "code": "SKHY",
-            "symbol": "SKHYUSDT",
-            "score": 3,
             "score_1h": 6,
-            "score_4h": 0,
+            "score_4h": 1,
             "status": "觀察中",
             "indicators": [
-                "RSI超賣",
                 "RSI背離",
-                "MACD向上"
+                "MACD向上",
+                "KD低檔"
             ],
-            "current_price": 108.0,
-            "change_24h": -12.49,
-            "volume_24h": 12599757,
-            "backtest_avg": -1.91
+            "current_price": 0.017495,
+            "change_24h": 8.11,
+            "volume_24h": 14940515,
+            "backtest_avg": -1.09
         },
         {
             "code": "MMT",
@@ -63,30 +63,13 @@
             "status": "觀察中",
             "indicators": [
                 "RSI背離",
-                "KD低檔",
-                "MACD向上"
+                "MACD向上",
+                "KD低檔"
             ],
-            "current_price": 0.2322,
-            "change_24h": -0.09,
-            "volume_24h": 6799676,
+            "current_price": 0.2331,
+            "change_24h": -9.16,
+            "volume_24h": 6671234,
             "backtest_avg": -0.9
-        },
-        {
-            "code": "ENA",
-            "symbol": "ENAUSDT",
-            "score": 3,
-            "score_1h": 5,
-            "score_4h": 0,
-            "status": "觀察中",
-            "indicators": [
-                "MACD翻正",
-                "RSI超賣",
-                "MACD向上"
-            ],
-            "current_price": 0.09598,
-            "change_24h": -6.26,
-            "volume_24h": 5537083,
-            "backtest_avg": 2.4
         }
     ]
 }
