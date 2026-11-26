@@ -1,26 +1,8 @@
 {
-    "updated_at": "2026-11-26 22:40:45",
+    "updated_at": "2026-11-26 22:50:45",
     "total_count": 2,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
-        {
-            "code": "MMT",
-            "symbol": "MMTUSDT",
-            "score": 5,
-            "score_1h": 5,
-            "score_4h": 6,
-            "status": "觀察中",
-            "indicators": [
-                "KD低檔",
-                "RSI超賣",
-                "MACD向上",
-                "RSI背離"
-            ],
-            "current_price": 0.2055,
-            "change_24h": -33.88,
-            "volume_24h": 10821968,
-            "backtest_avg": -4.76
-        },
         {
             "code": "KORU",
             "symbol": "KORUUSDT",
@@ -32,10 +14,27 @@
                 "KD金叉",
                 "MACD向上"
             ],
-            "current_price": 5.32,
-            "change_24h": 0.57,
-            "volume_24h": 12498543,
+            "current_price": 5.34,
+            "change_24h": 0.56,
+            "volume_24h": 12520735,
             "backtest_avg": 3.54
+        },
+        {
+            "code": "MMT",
+            "symbol": "MMTUSDT",
+            "score": 3,
+            "score_1h": 5,
+            "score_4h": 0,
+            "status": "觀察中",
+            "indicators": [
+                "RSI超賣",
+                "KD低檔",
+                "MACD向上"
+            ],
+            "current_price": 0.2051,
+            "change_24h": -35.03,
+            "volume_24h": 10769557,
+            "backtest_avg": -4.76
         }
     ]
 }
