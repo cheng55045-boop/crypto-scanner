@@ -1,6 +1,6 @@
 {
-    "updated_at": "2026-11-26 04:50:55",
-    "total_count": 15,
+    "updated_at": "2026-11-26 05:01:05",
+    "total_count": 13,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
@@ -11,66 +11,66 @@
             "score_4h": 6,
             "status": "蓄勢待發",
             "indicators": [
-                "RSI超賣",
                 "MACD向上",
                 "KD低檔",
-                "RSI背離"
+                "RSI背離",
+                "RSI超賣"
             ],
-            "current_price": 71.15,
-            "change_24h": 3.82,
-            "volume_24h": 359365837,
+            "current_price": 71.17,
+            "change_24h": 3.54,
+            "volume_24h": 358576870,
             "backtest_avg": 0.13
-        },
-        {
-            "code": "XRP",
-            "symbol": "XRPUSDT",
-            "score": 5,
-            "score_1h": 5,
-            "score_4h": 5,
-            "status": "觀察中",
-            "indicators": [
-                "MACD向上",
-                "KD金叉",
-                "RSI背離"
-            ],
-            "current_price": 0.959,
-            "change_24h": 4.65,
-            "volume_24h": 93385341,
-            "backtest_avg": 0.63
         },
         {
             "code": "NEAR",
             "symbol": "NEARUSDT",
-            "score": 4,
-            "score_1h": 5,
-            "score_4h": 4,
-            "status": "觀察中",
-            "indicators": [
-                "MACD向上",
-                "KD金叉",
-                "RSI背離"
-            ],
-            "current_price": 3.059,
-            "change_24h": 7.37,
-            "volume_24h": 20716488,
-            "backtest_avg": 1.51
-        },
-        {
-            "code": "TAO",
-            "symbol": "TAOUSDT",
             "score": 4,
             "score_1h": 4,
             "score_4h": 4,
             "status": "觀察中",
             "indicators": [
                 "MACD向上",
-                "KD金叉",
-                "RSI背離"
+                "RSI背離",
+                "KD金叉"
             ],
-            "current_price": 184.16,
-            "change_24h": 4.18,
-            "volume_24h": 7048638,
-            "backtest_avg": 0.45
+            "current_price": 3.052,
+            "change_24h": 6.79,
+            "volume_24h": 20743131,
+            "backtest_avg": 1.51
+        },
+        {
+            "code": "BLESS",
+            "symbol": "BLESSUSDT",
+            "score": 4,
+            "score_1h": 7,
+            "score_4h": 0,
+            "status": "觀察中",
+            "indicators": [
+                "MACD向上",
+                "KD低檔",
+                "RSI超賣",
+                "KD金叉"
+            ],
+            "current_price": 0.016718,
+            "change_24h": -5.46,
+            "volume_24h": 9742304,
+            "backtest_avg": 0.37
+        },
+        {
+            "code": "XRP",
+            "symbol": "XRPUSDT",
+            "score": 3,
+            "score_1h": 3,
+            "score_4h": 5,
+            "status": "觀察中",
+            "indicators": [
+                "MACD向上",
+                "KD金叉"
+            ],
+            "current_price": 0.9587,
+            "change_24h": 4.39,
+            "volume_24h": 93301969,
+            "backtest_avg": 0.55
         },
         {
             "code": "HYPE",
@@ -83,26 +83,27 @@
                 "MACD向上",
                 "RSI背離"
             ],
-            "current_price": 61.95,
-            "change_24h": 5.48,
-            "volume_24h": 35897917,
-            "backtest_avg": 1.52
+            "current_price": 61.882,
+            "change_24h": 5.08,
+            "volume_24h": 35870425,
+            "backtest_avg": 0.83
         },
         {
             "code": "KORU",
             "symbol": "KORUUSDT",
             "score": 3,
-            "score_1h": 4,
+            "score_1h": 5,
             "score_4h": 2,
             "status": "觀察中",
             "indicators": [
                 "MACD向上",
-                "RSI背離"
+                "RSI背離",
+                "MACD翻正"
             ],
             "current_price": 5.52,
-            "change_24h": 5.34,
-            "volume_24h": 33843646,
-            "backtest_avg": -0.2
+            "change_24h": 4.74,
+            "volume_24h": 33824327,
+            "backtest_avg": -0.41
         },
         {
             "code": "LINK",
@@ -115,74 +116,10 @@
                 "MACD向上",
                 "RSI背離"
             ],
-            "current_price": 9.245,
-            "change_24h": 5.69,
-            "volume_24h": 29378088,
+            "current_price": 9.235,
+            "change_24h": 5.24,
+            "volume_24h": 29360492,
             "backtest_avg": 0.86
-        },
-        {
-            "code": "MSTR",
-            "symbol": "MSTRUSDT",
-            "score": 3,
-            "score_1h": 5,
-            "score_4h": 0,
-            "status": "觀察中",
-            "indicators": [
-                "MACD向上",
-                "RSI背離"
-            ],
-            "current_price": 82.92,
-            "change_24h": 8.75,
-            "volume_24h": 22448288,
-            "backtest_avg": 0.53
-        },
-        {
-            "code": "SNXX",
-            "symbol": "SNXXUSDT",
-            "score": 3,
-            "score_1h": 5,
-            "score_4h": 0,
-            "status": "觀察中",
-            "indicators": [
-                "MACD向上",
-                "RSI背離"
-            ],
-            "current_price": 1.554,
-            "change_24h": 3.05,
-            "volume_24h": 21303563,
-            "backtest_avg": -0.62
-        },
-        {
-            "code": "DOGE",
-            "symbol": "DOGEUSDT",
-            "score": 3,
-            "score_1h": 5,
-            "score_4h": 0,
-            "status": "觀察中",
-            "indicators": [
-                "MACD向上",
-                "RSI背離"
-            ],
-            "current_price": 0.05689,
-            "change_24h": 4.58,
-            "volume_24h": 16870902,
-            "backtest_avg": 1.0
-        },
-        {
-            "code": "SUI",
-            "symbol": "SUIUSDT",
-            "score": 3,
-            "score_1h": 5,
-            "score_4h": 2,
-            "status": "觀察中",
-            "indicators": [
-                "MACD向上",
-                "RSI背離"
-            ],
-            "current_price": 0.6728,
-            "change_24h": 5.09,
-            "volume_24h": 16634781,
-            "backtest_avg": 0.75
         },
         {
             "code": "SKHY",
@@ -195,10 +132,10 @@
                 "MACD向上",
                 "RSI背離"
             ],
-            "current_price": 113.26,
-            "change_24h": 4.2,
-            "volume_24h": 11529938,
-            "backtest_avg": -0.18
+            "current_price": 113.31,
+            "change_24h": 4.15,
+            "volume_24h": 11537449,
+            "backtest_avg": -0.01
         },
         {
             "code": "CRCL",
@@ -211,9 +148,9 @@
                 "MACD向上",
                 "RSI背離"
             ],
-            "current_price": 49.28,
-            "change_24h": 4.76,
-            "volume_24h": 8682024,
+            "current_price": 49.32,
+            "change_24h": 4.29,
+            "volume_24h": 8658195,
             "backtest_avg": 0.08
         },
         {
@@ -227,10 +164,43 @@
                 "MACD向上",
                 "RSI背離"
             ],
-            "current_price": 130.24,
-            "change_24h": 1.5,
-            "volume_24h": 7824776,
-            "backtest_avg": 0.49
+            "current_price": 130.1,
+            "change_24h": 1.3,
+            "volume_24h": 7828428,
+            "backtest_avg": 1.11
+        },
+        {
+            "code": "UNI",
+            "symbol": "UNIUSDT",
+            "score": 3,
+            "score_1h": 5,
+            "score_4h": 0,
+            "status": "觀察中",
+            "indicators": [
+                "MACD向上",
+                "KD金叉"
+            ],
+            "current_price": 4.766,
+            "change_24h": 3.43,
+            "volume_24h": 7644081,
+            "backtest_avg": 0.42
+        },
+        {
+            "code": "TAO",
+            "symbol": "TAOUSDT",
+            "score": 3,
+            "score_1h": 3,
+            "score_4h": 4,
+            "status": "觀察中",
+            "indicators": [
+                "MACD向上",
+                "RSI背離",
+                "KD金叉"
+            ],
+            "current_price": 183.74,
+            "change_24h": 3.56,
+            "volume_24h": 7038416,
+            "backtest_avg": 0.39
         },
         {
             "code": "MUU",
@@ -244,9 +214,9 @@
                 "RSI背離"
             ],
             "current_price": 10.04,
-            "change_24h": 4.15,
-            "volume_24h": 6406584,
-            "backtest_avg": -0.09
+            "change_24h": 3.83,
+            "volume_24h": 6405898,
+            "backtest_avg": 0.14
         }
     ]
 }
