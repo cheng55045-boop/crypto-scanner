@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-26 12:40:50",
+    "updated_at": "2026-11-26 12:50:48",
     "total_count": 7,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
@@ -11,15 +11,15 @@
             "score_4h": 2,
             "status": "蓄勢待發",
             "indicators": [
-                "MACD向上",
-                "RSI超賣",
                 "KD低檔",
+                "RSI超賣",
                 "RSI背離",
-                "KD金叉"
+                "KD金叉",
+                "MACD向上"
             ],
-            "current_price": 128.54,
-            "change_24h": 4.05,
-            "volume_24h": 6902630,
+            "current_price": 128.41,
+            "change_24h": 3.99,
+            "volume_24h": 6883926,
             "backtest_avg": 0.93
         },
         {
@@ -30,15 +30,15 @@
             "score_4h": 1,
             "status": "觀察中",
             "indicators": [
-                "MACD向上",
-                "RSI超賣",
                 "KD低檔",
+                "RSI超賣",
                 "RSI背離",
-                "KD金叉"
+                "KD金叉",
+                "MACD向上"
             ],
-            "current_price": 5.36,
-            "change_24h": 10.74,
-            "volume_24h": 29444549,
+            "current_price": 5.35,
+            "change_24h": 11.0,
+            "volume_24h": 29358809,
             "backtest_avg": -1.03
         },
         {
@@ -49,14 +49,14 @@
             "score_4h": 4,
             "status": "觀察中",
             "indicators": [
-                "RSI超賣",
-                "KD低檔",
+                "RSI背離",
                 "MACD向上",
-                "RSI背離"
+                "KD低檔",
+                "RSI超賣"
             ],
-            "current_price": 111.87,
-            "change_24h": 5.42,
-            "volume_24h": 11412879,
+            "current_price": 111.92,
+            "change_24h": 5.55,
+            "volume_24h": 11398200,
             "backtest_avg": 0.15
         },
         {
@@ -67,13 +67,13 @@
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "KD低檔",
                 "KD金叉",
-                "MACD向上"
+                "MACD向上",
+                "KD低檔"
             ],
-            "current_price": 9.227,
-            "change_24h": 7.02,
-            "volume_24h": 26880013,
+            "current_price": 9.23,
+            "change_24h": 7.23,
+            "volume_24h": 26802340,
             "backtest_avg": 0.15
         },
         {
@@ -84,13 +84,13 @@
             "score_4h": 2,
             "status": "觀察中",
             "indicators": [
-                "KD低檔",
+                "RSI背離",
                 "KD金叉",
-                "RSI背離"
+                "KD低檔"
             ],
-            "current_price": 0.003522,
-            "change_24h": 4.06,
-            "volume_24h": 17951559,
+            "current_price": 0.003516,
+            "change_24h": 4.3,
+            "volume_24h": 17873942,
             "backtest_avg": 0.92
         },
         {
@@ -101,14 +101,14 @@
             "score_4h": 5,
             "status": "觀察中",
             "indicators": [
-                "RSI超賣",
-                "KD低檔",
+                "RSI背離",
                 "MACD向上",
-                "RSI背離"
+                "KD低檔",
+                "RSI超賣"
             ],
-            "current_price": 0.2207,
-            "change_24h": -14.36,
-            "volume_24h": 12139795,
+            "current_price": 0.2194,
+            "change_24h": -14.56,
+            "volume_24h": 12142273,
             "backtest_avg": -2.82
         },
         {
@@ -119,13 +119,13 @@
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "KD低檔",
                 "KD金叉",
-                "MACD向上"
+                "MACD向上",
+                "KD低檔"
             ],
-            "current_price": 4.737,
-            "change_24h": 4.89,
-            "volume_24h": 7438834,
+            "current_price": 4.73,
+            "change_24h": 5.11,
+            "volume_24h": 7435739,
             "backtest_avg": 1.6
         }
     ]
