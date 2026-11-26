@@ -1,46 +1,8 @@
 {
-    "updated_at": "2026-11-26 12:50:48",
-    "total_count": 7,
+    "updated_at": "2026-11-26 13:01:03",
+    "total_count": 4,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
-        {
-            "code": "SAMSUNG",
-            "symbol": "SAMSUNGUSDT",
-            "score": 6,
-            "score_1h": 9,
-            "score_4h": 2,
-            "status": "蓄勢待發",
-            "indicators": [
-                "KD低檔",
-                "RSI超賣",
-                "RSI背離",
-                "KD金叉",
-                "MACD向上"
-            ],
-            "current_price": 128.41,
-            "change_24h": 3.99,
-            "volume_24h": 6883926,
-            "backtest_avg": 0.93
-        },
-        {
-            "code": "KORU",
-            "symbol": "KORUUSDT",
-            "score": 5,
-            "score_1h": 8,
-            "score_4h": 1,
-            "status": "觀察中",
-            "indicators": [
-                "KD低檔",
-                "RSI超賣",
-                "RSI背離",
-                "KD金叉",
-                "MACD向上"
-            ],
-            "current_price": 5.35,
-            "change_24h": 11.0,
-            "volume_24h": 29358809,
-            "backtest_avg": -1.03
-        },
         {
             "code": "SKHY",
             "symbol": "SKHYUSDT",
@@ -49,84 +11,67 @@
             "score_4h": 4,
             "status": "觀察中",
             "indicators": [
+                "RSI超賣",
                 "RSI背離",
-                "MACD向上",
-                "KD低檔",
-                "RSI超賣"
-            ],
-            "current_price": 111.92,
-            "change_24h": 5.55,
-            "volume_24h": 11398200,
-            "backtest_avg": 0.15
-        },
-        {
-            "code": "LINK",
-            "symbol": "LINKUSDT",
-            "score": 3,
-            "score_1h": 6,
-            "score_4h": 0,
-            "status": "觀察中",
-            "indicators": [
                 "KD金叉",
                 "MACD向上",
                 "KD低檔"
             ],
-            "current_price": 9.23,
-            "change_24h": 7.23,
-            "volume_24h": 26802340,
+            "current_price": 111.7,
+            "change_24h": 5.32,
+            "volume_24h": 11381445,
             "backtest_avg": 0.15
         },
         {
-            "code": "1000PEPE",
-            "symbol": "1000PEPEUSDT",
+            "code": "XRP",
+            "symbol": "XRPUSDT",
             "score": 3,
-            "score_1h": 4,
+            "score_1h": 3,
+            "score_4h": 4,
+            "status": "觀察中",
+            "indicators": [
+                "RSI背離",
+                "KD低檔",
+                "MACD向上"
+            ],
+            "current_price": 0.9504,
+            "change_24h": 4.72,
+            "volume_24h": 89468374,
+            "backtest_avg": 0.87
+        },
+        {
+            "code": "KORU",
+            "symbol": "KORUUSDT",
+            "score": 3,
+            "score_1h": 5,
             "score_4h": 2,
             "status": "觀察中",
             "indicators": [
-                "RSI背離",
-                "KD金叉",
-                "KD低檔"
-            ],
-            "current_price": 0.003516,
-            "change_24h": 4.3,
-            "volume_24h": 17873942,
-            "backtest_avg": 0.92
-        },
-        {
-            "code": "MMT",
-            "symbol": "MMTUSDT",
-            "score": 3,
-            "score_1h": 2,
-            "score_4h": 5,
-            "status": "觀察中",
-            "indicators": [
-                "RSI背離",
-                "MACD向上",
                 "KD低檔",
+                "MACD向上",
                 "RSI超賣"
             ],
-            "current_price": 0.2194,
-            "change_24h": -14.56,
-            "volume_24h": 12142273,
-            "backtest_avg": -2.82
+            "current_price": 5.32,
+            "change_24h": 9.92,
+            "volume_24h": 29259193,
+            "backtest_avg": -1.03
         },
         {
-            "code": "UNI",
-            "symbol": "UNIUSDT",
+            "code": "SAMSUNG",
+            "symbol": "SAMSUNGUSDT",
             "score": 3,
-            "score_1h": 6,
-            "score_4h": 0,
+            "score_1h": 5,
+            "score_4h": 2,
             "status": "觀察中",
             "indicators": [
-                "KD金叉",
+                "KD低檔",
                 "MACD向上",
-                "KD低檔"
+                "RSI超賣"
             ],
-            "current_price": 4.73,
-            "change_24h": 5.11,
-            "volume_24h": 7435739,
-            "backtest_avg": 1.6
+            "current_price": 127.98,
+            "change_24h": 3.5,
+            "volume_24h": 6817172,
+            "backtest_avg": 0.24
         }
     ]
 }
