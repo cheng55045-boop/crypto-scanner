@@ -1,25 +1,25 @@
 {
-    "updated_at": "2026-11-26 16:50:47",
+    "updated_at": "2026-11-26 17:01:04",
     "total_count": 1,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
-            "code": "SKHY",
-            "symbol": "SKHYUSDT",
-            "score": 3,
-            "score_1h": 5,
-            "score_4h": 2,
+            "code": "MMT",
+            "symbol": "MMTUSDT",
+            "score": 4,
+            "score_1h": 2,
+            "score_4h": 7,
             "status": "觀察中",
             "indicators": [
                 "KD低檔",
-                "RSI超賣",
                 "MACD向上",
-                "KD金叉"
+                "RSI背離",
+                "RSI超賣"
             ],
-            "current_price": 110.79,
-            "change_24h": 7.91,
-            "volume_24h": 8131412,
-            "backtest_avg": -0.06
+            "current_price": 0.1926,
+            "change_24h": -33.4,
+            "volume_24h": 11907984,
+            "backtest_avg": -2.92
         }
     ]
 }
