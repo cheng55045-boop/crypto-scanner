@@ -1,23 +1,25 @@
 {
-    "updated_at": "2026-11-27 05:50:46",
+    "updated_at": "2026-11-27 06:01:01",
     "total_count": 1,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
-            "code": "XMR",
-            "symbol": "XMRUSDT",
+            "code": "BLESS",
+            "symbol": "BLESSUSDT",
             "score": 3,
-            "score_1h": 5,
-            "score_4h": 0,
+            "score_1h": 3,
+            "score_4h": 5,
             "status": "觀察中",
             "indicators": [
                 "MACD向上",
-                "KD金叉"
+                "RSI超賣",
+                "KD金叉",
+                "KD低檔"
             ],
-            "current_price": 464.07,
-            "change_24h": -11.16,
-            "volume_24h": 10718128,
-            "backtest_avg": 2.22
+            "current_price": 0.016695,
+            "change_24h": -4.74,
+            "volume_24h": 7861014,
+            "backtest_avg": -5.02
         }
     ]
 }
