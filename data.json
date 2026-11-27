@@ -1,40 +1,25 @@
 {
-    "updated_at": "2026-11-27 22:50:44",
-    "total_count": 2,
+    "updated_at": "2026-11-27 23:01:03",
+    "total_count": 1,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
-            "code": "1000PEPE",
-            "symbol": "1000PEPEUSDT",
+            "code": "SSV",
+            "symbol": "SSVUSDT",
             "score": 3,
-            "score_1h": 4,
-            "score_4h": 2,
+            "score_1h": 6,
+            "score_4h": 0,
             "status": "觀察中",
             "indicators": [
                 "KD金叉",
+                "RSI超賣",
+                "MACD向上",
                 "RSI背離"
             ],
-            "current_price": 0.003531,
-            "change_24h": 1.53,
-            "volume_24h": 14834095,
-            "backtest_avg": -1.38
-        },
-        {
-            "code": "INIT",
-            "symbol": "INITUSDT",
-            "score": 3,
-            "score_1h": 5,
-            "score_4h": 1,
-            "status": "觀察中",
-            "indicators": [
-                "KD金叉",
-                "KD低檔",
-                "RSI超賣"
-            ],
-            "current_price": 0.08883,
-            "change_24h": -38.12,
-            "volume_24h": 11464715,
-            "backtest_avg": 4.79
+            "current_price": 2.657,
+            "change_24h": -9.1,
+            "volume_24h": 8227070,
+            "backtest_avg": -3.75
         }
     ]
 }
