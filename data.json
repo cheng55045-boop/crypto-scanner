@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-27 02:40:50",
+    "updated_at": "2026-11-27 02:50:46",
     "total_count": 3,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
@@ -12,12 +12,12 @@
             "status": "觀察中",
             "indicators": [
                 "RSI背離",
-                "KD低檔",
-                "RSI超賣"
+                "RSI超賣",
+                "KD低檔"
             ],
-            "current_price": 0.1895,
-            "change_24h": -41.19,
-            "volume_24h": 10159999,
+            "current_price": 0.1874,
+            "change_24h": -40.62,
+            "volume_24h": 9984761,
             "backtest_avg": -2.96
         },
         {
@@ -28,12 +28,12 @@
             "score_4h": 3,
             "status": "觀察中",
             "indicators": [
-                "MACD向上",
-                "KD低檔"
+                "KD低檔",
+                "MACD向上"
             ],
-            "current_price": 0.0168,
-            "change_24h": 4.4,
-            "volume_24h": 7520260,
+            "current_price": 0.016822,
+            "change_24h": 4.18,
+            "volume_24h": 7514104,
             "backtest_avg": -6.51
         },
         {
@@ -44,13 +44,13 @@
             "score_4h": 2,
             "status": "觀察中",
             "indicators": [
+                "MACD翻正",
                 "KD金叉",
-                "MACD向上",
-                "MACD翻正"
+                "MACD向上"
             ],
-            "current_price": 0.152,
-            "change_24h": 2.43,
-            "volume_24h": 5574746,
+            "current_price": 0.1512,
+            "change_24h": 1.75,
+            "volume_24h": 5624483,
             "backtest_avg": -0.62
         }
     ]
