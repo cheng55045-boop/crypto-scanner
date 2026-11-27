@@ -1,24 +1,23 @@
 {
-    "updated_at": "2026-11-27 09:50:46",
+    "updated_at": "2026-11-27 10:01:05",
     "total_count": 1,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
-            "code": "BLESS",
-            "symbol": "BLESSUSDT",
+            "code": "AKE",
+            "symbol": "AKEUSDT",
             "score": 3,
             "score_1h": 4,
-            "score_4h": 3,
+            "score_4h": 2,
             "status": "觀察中",
             "indicators": [
-                "KD低檔",
-                "MACD翻正",
-                "RSI背離"
+                "RSI背離",
+                "MACD向上"
             ],
-            "current_price": 0.016753,
-            "change_24h": -4.04,
-            "volume_24h": 7253010,
-            "backtest_avg": -5.02
+            "current_price": 0.00109,
+            "change_24h": -26.15,
+            "volume_24h": 12717404,
+            "backtest_avg": 4.56
         }
     ]
 }
