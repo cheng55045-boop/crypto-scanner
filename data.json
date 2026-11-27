@@ -1,6 +1,6 @@
 {
-    "updated_at": "2026-11-27 04:20:48",
-    "total_count": 1,
+    "updated_at": "2026-11-27 04:30:55",
+    "total_count": 2,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
@@ -11,15 +11,32 @@
             "score_4h": 5,
             "status": "蓄勢待發",
             "indicators": [
-                "MACD向上",
                 "KD低檔",
                 "KD金叉",
-                "RSI超賣"
+                "RSI超賣",
+                "MACD向上"
             ],
-            "current_price": 0.016999,
-            "change_24h": 5.47,
-            "volume_24h": 7651681,
+            "current_price": 0.016862,
+            "change_24h": 3.8,
+            "volume_24h": 7688597,
             "backtest_avg": -6.51
+        },
+        {
+            "code": "SEI",
+            "symbol": "SEIUSDT",
+            "score": 3,
+            "score_1h": 5,
+            "score_4h": 0,
+            "status": "觀察中",
+            "indicators": [
+                "KD金叉",
+                "MACD翻正",
+                "MACD向上"
+            ],
+            "current_price": 0.03868,
+            "change_24h": 9.86,
+            "volume_24h": 5883830,
+            "backtest_avg": -2.12
         }
     ]
 }
