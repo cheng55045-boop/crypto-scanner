@@ -1,25 +1,43 @@
 {
-    "updated_at": "2026-11-26 23:50:49",
-    "total_count": 1,
+    "updated_at": "2026-11-27 00:01:10",
+    "total_count": 2,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
             "code": "MMT",
             "symbol": "MMTUSDT",
-            "score": 5,
-            "score_1h": 5,
-            "score_4h": 6,
-            "status": "觀察中",
+            "score": 6,
+            "score_1h": 7,
+            "score_4h": 5,
+            "status": "蓄勢待發",
             "indicators": [
-                "MACD向上",
+                "KD金叉",
+                "RSI背離",
                 "KD低檔",
                 "RSI超賣",
-                "RSI背離"
+                "MACD向上"
             ],
-            "current_price": 0.2037,
-            "change_24h": -36.5,
-            "volume_24h": 10403005,
+            "current_price": 0.2011,
+            "change_24h": -37.45,
+            "volume_24h": 10388584,
             "backtest_avg": -4.76
+        },
+        {
+            "code": "BLESS",
+            "symbol": "BLESSUSDT",
+            "score": 3,
+            "score_1h": 3,
+            "score_4h": 3,
+            "status": "觀察中",
+            "indicators": [
+                "KD低檔",
+                "MACD翻正",
+                "MACD向上"
+            ],
+            "current_price": 0.017126,
+            "change_24h": 1.69,
+            "volume_24h": 8062962,
+            "backtest_avg": -6.51
         }
     ]
 }
