@@ -1,24 +1,40 @@
 {
-    "updated_at": "2026-11-27 21:50:49",
-    "total_count": 1,
+    "updated_at": "2026-11-27 22:01:03",
+    "total_count": 2,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
-            "code": "XMR",
-            "symbol": "XMRUSDT",
+            "code": "1000PEPE",
+            "symbol": "1000PEPEUSDT",
             "score": 3,
-            "score_1h": 5,
-            "score_4h": 0,
+            "score_1h": 4,
+            "score_4h": 2,
             "status": "觀察中",
             "indicators": [
-                "RSI超賣",
-                "KD低檔",
-                "MACD向上"
+                "KD金叉",
+                "RSI背離"
             ],
-            "current_price": 404.88,
-            "change_24h": -10.35,
-            "volume_24h": 8781451,
-            "backtest_avg": 1.81
+            "current_price": 0.003532,
+            "change_24h": 0.55,
+            "volume_24h": 15573538,
+            "backtest_avg": -1.38
+        },
+        {
+            "code": "INIT",
+            "symbol": "INITUSDT",
+            "score": 3,
+            "score_1h": 5,
+            "score_4h": 1,
+            "status": "觀察中",
+            "indicators": [
+                "KD金叉",
+                "KD低檔",
+                "RSI超賣"
+            ],
+            "current_price": 0.08923,
+            "change_24h": -38.41,
+            "volume_24h": 12104595,
+            "backtest_avg": 4.79
         }
     ]
 }
