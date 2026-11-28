@@ -1,26 +1,8 @@
 {
-    "updated_at": "2026-11-28 09:30:57",
+    "updated_at": "2026-11-28 09:40:47",
     "total_count": 2,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
-        {
-            "code": "WLFI",
-            "symbol": "WLFIUSDT",
-            "score": 4,
-            "score_1h": 7,
-            "score_4h": 0,
-            "status": "觀察中",
-            "indicators": [
-                "RSI背離",
-                "MACD向上",
-                "RSI超賣",
-                "KD低檔"
-            ],
-            "current_price": 0.02066,
-            "change_24h": -50.0,
-            "volume_24h": 14705932,
-            "backtest_avg": 0.59
-        },
         {
             "code": "BTW",
             "symbol": "BTWUSDT",
@@ -30,15 +12,32 @@
             "status": "觀察中",
             "indicators": [
                 "KD金叉",
-                "RSI背離",
                 "RSI超賣",
                 "KD低檔",
+                "RSI背離",
                 "MACD向上"
             ],
-            "current_price": 1.4262,
-            "change_24h": 47.84,
-            "volume_24h": 6086949,
+            "current_price": 1.4276,
+            "change_24h": 44.86,
+            "volume_24h": 6154592,
             "backtest_avg": -4.35
+        },
+        {
+            "code": "SSV",
+            "symbol": "SSVUSDT",
+            "score": 3,
+            "score_1h": 5,
+            "score_4h": 0,
+            "status": "觀察中",
+            "indicators": [
+                "RSI超賣",
+                "MACD向上",
+                "KD低檔"
+            ],
+            "current_price": 2.746,
+            "change_24h": 8.54,
+            "volume_24h": 5676867,
+            "backtest_avg": -5.26
         }
     ]
 }
