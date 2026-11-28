@@ -1,25 +1,41 @@
 {
-    "updated_at": "2026-11-28 14:50:50",
-    "total_count": 2,
+    "updated_at": "2026-11-28 15:01:06",
+    "total_count": 8,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
-            "code": "PIEVERSE",
-            "symbol": "PIEVERSEUSDT",
-            "score": 4,
-            "score_1h": 7,
+            "code": "SOL",
+            "symbol": "SOLUSDT",
+            "score": 3,
+            "score_1h": 6,
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "KD金叉",
-                "KD低檔",
+                "RSI背離",
                 "RSI超賣",
                 "MACD向上"
             ],
-            "current_price": 3.6878,
-            "change_24h": 2.5,
-            "volume_24h": 5688077,
-            "backtest_avg": -4.06
+            "current_price": 70.53,
+            "change_24h": -0.48,
+            "volume_24h": 254389533,
+            "backtest_avg": -0.3
+        },
+        {
+            "code": "HYPE",
+            "symbol": "HYPEUSDT",
+            "score": 3,
+            "score_1h": 5,
+            "score_4h": 0,
+            "status": "觀察中",
+            "indicators": [
+                "MACD翻正",
+                "RSI超賣",
+                "MACD向上"
+            ],
+            "current_price": 62.818,
+            "change_24h": -1.16,
+            "volume_24h": 20228710,
+            "backtest_avg": -0.96
         },
         {
             "code": "WLFI",
@@ -30,14 +46,98 @@
             "status": "觀察中",
             "indicators": [
                 "RSI背離",
+                "RSI超賣",
                 "KD低檔",
+                "MACD向上"
+            ],
+            "current_price": 0.0185,
+            "change_24h": -52.96,
+            "volume_24h": 17372019,
+            "backtest_avg": 12.45
+        },
+        {
+            "code": "LINK",
+            "symbol": "LINKUSDT",
+            "score": 3,
+            "score_1h": 5,
+            "score_4h": 0,
+            "status": "觀察中",
+            "indicators": [
+                "MACD翻正",
                 "RSI超賣",
                 "MACD向上"
             ],
-            "current_price": 0.01884,
-            "change_24h": -51.89,
-            "volume_24h": 17294913,
-            "backtest_avg": 3.53
+            "current_price": 9.157,
+            "change_24h": -0.19,
+            "volume_24h": 11478193,
+            "backtest_avg": -0.68
+        },
+        {
+            "code": "MSTR",
+            "symbol": "MSTRUSDT",
+            "score": 3,
+            "score_1h": 5,
+            "score_4h": 0,
+            "status": "觀察中",
+            "indicators": [
+                "RSI背離",
+                "MACD向上"
+            ],
+            "current_price": 80.54,
+            "change_24h": 0.94,
+            "volume_24h": 7283787,
+            "backtest_avg": 1.75
+        },
+        {
+            "code": "TAO",
+            "symbol": "TAOUSDT",
+            "score": 3,
+            "score_1h": 4,
+            "score_4h": 2,
+            "status": "觀察中",
+            "indicators": [
+                "MACD翻正",
+                "RSI背離",
+                "MACD向上"
+            ],
+            "current_price": 182.97,
+            "change_24h": 0.24,
+            "volume_24h": 6559805,
+            "backtest_avg": -0.63
+        },
+        {
+            "code": "PIEVERSE",
+            "symbol": "PIEVERSEUSDT",
+            "score": 3,
+            "score_1h": 5,
+            "score_4h": 0,
+            "status": "觀察中",
+            "indicators": [
+                "RSI超賣",
+                "KD低檔",
+                "MACD向上"
+            ],
+            "current_price": 3.6466,
+            "change_24h": 1.26,
+            "volume_24h": 5675061,
+            "backtest_avg": -4.06
+        },
+        {
+            "code": "ENA",
+            "symbol": "ENAUSDT",
+            "score": 3,
+            "score_1h": 5,
+            "score_4h": 0,
+            "status": "觀察中",
+            "indicators": [
+                "MACD翻正",
+                "RSI超賣",
+                "MACD向上"
+            ],
+            "current_price": 0.1002,
+            "change_24h": -0.75,
+            "volume_24h": 5192203,
+            "backtest_avg": -0.16
         }
     ]
 }
