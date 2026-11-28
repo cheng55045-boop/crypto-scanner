@@ -1,25 +1,25 @@
 {
-    "updated_at": "2026-11-28 03:50:52",
+    "updated_at": "2026-11-28 04:01:06",
     "total_count": 3,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
-            "code": "EVAA",
-            "symbol": "EVAAUSDT",
+            "code": "MMT",
+            "symbol": "MMTUSDT",
             "score": 4,
-            "score_1h": 4,
-            "score_4h": 5,
+            "score_1h": 7,
+            "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "KD低檔",
                 "MACD向上",
-                "MACD翻正",
+                "KD低檔",
+                "RSI背離",
                 "RSI超賣"
             ],
-            "current_price": 1.542,
-            "change_24h": -33.64,
-            "volume_24h": 20507734,
-            "backtest_avg": 4.13
+            "current_price": 0.1585,
+            "change_24h": -15.6,
+            "volume_24h": 6384129,
+            "backtest_avg": 0.94
         },
         {
             "code": "SSV",
@@ -29,33 +29,32 @@
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "KD低檔",
-                "RSI背離",
                 "MACD向上",
-                "RSI超賣"
+                "KD金叉",
+                "RSI超賣",
+                "KD低檔"
             ],
-            "current_price": 2.615,
-            "change_24h": -5.97,
-            "volume_24h": 6289024,
-            "backtest_avg": -8.33
+            "current_price": 2.599,
+            "change_24h": -6.91,
+            "volume_24h": 6283934,
+            "backtest_avg": -5.92
         },
         {
-            "code": "PORTAL",
-            "symbol": "PORTALUSDT",
+            "code": "EVAA",
+            "symbol": "EVAAUSDT",
             "score": 3,
-            "score_1h": 6,
-            "score_4h": 0,
+            "score_1h": 4,
+            "score_4h": 3,
             "status": "觀察中",
             "indicators": [
-                "KD低檔",
-                "KD金叉",
                 "MACD向上",
+                "KD低檔",
                 "RSI超賣"
             ],
-            "current_price": 0.01646,
-            "change_24h": 31.26,
-            "volume_24h": 46420936,
-            "backtest_avg": 0.46
+            "current_price": 1.3662,
+            "change_24h": -43.86,
+            "volume_24h": 20827861,
+            "backtest_avg": 3.23
         }
     ]
 }
