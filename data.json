@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-28 19:30:57",
+    "updated_at": "2026-11-28 19:40:49",
     "total_count": 15,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
@@ -11,15 +11,15 @@
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "KD金叉",
-                "RSI背離",
-                "KD低檔",
                 "MACD向上",
-                "RSI超賣"
+                "RSI超賣",
+                "KD低檔",
+                "KD金叉",
+                "RSI背離"
             ],
-            "current_price": 0.9366,
-            "change_24h": -1.58,
-            "volume_24h": 32072508,
+            "current_price": 0.9372,
+            "change_24h": -1.62,
+            "volume_24h": 31803767,
             "backtest_avg": 0.69
         },
         {
@@ -30,15 +30,15 @@
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "KD金叉",
-                "RSI背離",
-                "KD低檔",
                 "MACD向上",
-                "RSI超賣"
+                "RSI超賣",
+                "KD低檔",
+                "KD金叉",
+                "RSI背離"
             ],
-            "current_price": 62.322,
-            "change_24h": -2.88,
-            "volume_24h": 16238268,
+            "current_price": 62.397,
+            "change_24h": -2.71,
+            "volume_24h": 16092567,
             "backtest_avg": -0.96
         },
         {
@@ -49,14 +49,14 @@
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "RSI背離",
                 "MACD向上",
-                "KD低檔",
-                "RSI超賣"
+                "RSI背離",
+                "RSI超賣",
+                "KD低檔"
             ],
-            "current_price": 9.016,
-            "change_24h": -4.13,
-            "volume_24h": 7971937,
+            "current_price": 9.032,
+            "change_24h": -4.12,
+            "volume_24h": 7855640,
             "backtest_avg": -0.68
         },
         {
@@ -67,13 +67,13 @@
             "score_4h": 4,
             "status": "觀察中",
             "indicators": [
-                "KD金叉",
                 "MACD向上",
-                "MACD翻正"
+                "MACD翻正",
+                "KD金叉"
             ],
-            "current_price": 0.013976,
-            "change_24h": -2.1,
-            "volume_24h": 6155644,
+            "current_price": 0.013935,
+            "change_24h": -2.16,
+            "volume_24h": 6088546,
             "backtest_avg": -1.31
         },
         {
@@ -84,15 +84,15 @@
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "KD金叉",
-                "RSI背離",
-                "KD低檔",
                 "MACD向上",
-                "RSI超賣"
+                "RSI超賣",
+                "KD低檔",
+                "KD金叉",
+                "RSI背離"
             ],
-            "current_price": 0.6537,
-            "change_24h": -3.3,
-            "volume_24h": 5879083,
+            "current_price": 0.6542,
+            "change_24h": -3.31,
+            "volume_24h": 5849248,
             "backtest_avg": -0.12
         },
         {
@@ -104,12 +104,12 @@
             "status": "觀察中",
             "indicators": [
                 "MACD向上",
-                "KD低檔",
-                "RSI超賣"
+                "RSI超賣",
+                "KD低檔"
             ],
-            "current_price": 0.005679,
-            "change_24h": -19.71,
-            "volume_24h": 4026872,
+            "current_price": 0.005684,
+            "change_24h": -21.19,
+            "volume_24h": 3982527,
             "backtest_avg": -2.08
         },
         {
@@ -120,14 +120,14 @@
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "RSI背離",
                 "MACD向上",
-                "KD低檔",
-                "RSI超賣"
+                "RSI背離",
+                "RSI超賣",
+                "KD低檔"
             ],
-            "current_price": 0.01692,
-            "change_24h": -55.07,
-            "volume_24h": 20503571,
+            "current_price": 0.01667,
+            "change_24h": -54.81,
+            "volume_24h": 20518081,
             "backtest_avg": 19.45
         },
         {
@@ -138,13 +138,13 @@
             "score_4h": 2,
             "status": "觀察中",
             "indicators": [
-                "RSI背離",
                 "MACD向上",
+                "RSI背離",
                 "KD低檔"
             ],
-            "current_price": 1.1945,
-            "change_24h": 2.9,
-            "volume_24h": 13021694,
+            "current_price": 1.201,
+            "change_24h": 3.21,
+            "volume_24h": 13073044,
             "backtest_avg": -3.91
         },
         {
@@ -155,14 +155,14 @@
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "RSI背離",
                 "MACD向上",
-                "KD低檔",
-                "RSI超賣"
+                "RSI背離",
+                "RSI超賣",
+                "KD低檔"
             ],
-            "current_price": 0.05627,
-            "change_24h": -2.88,
-            "volume_24h": 11079366,
+            "current_price": 0.05631,
+            "change_24h": -2.91,
+            "volume_24h": 11050233,
             "backtest_avg": -0.43
         },
         {
@@ -173,14 +173,14 @@
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "RSI背離",
                 "MACD向上",
-                "KD低檔",
-                "RSI超賣"
+                "RSI背離",
+                "RSI超賣",
+                "KD低檔"
             ],
-            "current_price": 0.757,
-            "change_24h": -13.19,
-            "volume_24h": 10984829,
+            "current_price": 0.76,
+            "change_24h": -12.84,
+            "volume_24h": 11031945,
             "backtest_avg": -0.05
         },
         {
@@ -192,12 +192,12 @@
             "status": "觀察中",
             "indicators": [
                 "MACD向上",
-                "KD低檔",
-                "RSI超賣"
+                "RSI超賣",
+                "KD低檔"
             ],
-            "current_price": 2.928,
-            "change_24h": -4.13,
-            "volume_24h": 7811869,
+            "current_price": 2.929,
+            "change_24h": -4.34,
+            "volume_24h": 7688562,
             "backtest_avg": -0.35
         },
         {
@@ -208,13 +208,13 @@
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "RSI背離",
                 "MACD向上",
+                "RSI背離",
                 "KD低檔"
             ],
-            "current_price": 0.05654,
-            "change_24h": 0.96,
-            "volume_24h": 4743503,
+            "current_price": 0.05652,
+            "change_24h": 1.2,
+            "volume_24h": 4739986,
             "backtest_avg": -4.66
         },
         {
@@ -225,14 +225,14 @@
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "RSI背離",
                 "MACD向上",
-                "KD低檔",
-                "RSI超賣"
+                "RSI背離",
+                "RSI超賣",
+                "KD低檔"
             ],
-            "current_price": 4.65,
-            "change_24h": -3.99,
-            "volume_24h": 4457867,
+            "current_price": 4.653,
+            "change_24h": -4.08,
+            "volume_24h": 4422050,
             "backtest_avg": 0.53
         },
         {
@@ -243,14 +243,14 @@
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "RSI背離",
                 "MACD向上",
-                "KD低檔",
-                "RSI超賣"
+                "RSI背離",
+                "RSI超賣",
+                "KD低檔"
             ],
-            "current_price": 0.09996,
-            "change_24h": -4.3,
-            "volume_24h": 4407349,
+            "current_price": 0.09994,
+            "change_24h": -4.6,
+            "volume_24h": 4350513,
             "backtest_avg": -0.71
         },
         {
@@ -261,14 +261,14 @@
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "RSI背離",
                 "MACD向上",
-                "KD低檔",
-                "RSI超賣"
+                "RSI背離",
+                "RSI超賣",
+                "KD低檔"
             ],
-            "current_price": 180.36,
-            "change_24h": -2.79,
-            "volume_24h": 4282487,
+            "current_price": 180.6,
+            "change_24h": -2.84,
+            "volume_24h": 4283368,
             "backtest_avg": -0.58
         }
     ]
