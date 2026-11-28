@@ -1,61 +1,76 @@
 {
-    "updated_at": "2026-11-28 07:50:45",
-    "total_count": 3,
+    "updated_at": "2026-11-28 08:01:00",
+    "total_count": 4,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
-            "code": "SSV",
-            "symbol": "SSVUSDT",
-            "score": 6,
-            "score_1h": 10,
-            "score_4h": 0,
-            "status": "蓄勢待發",
-            "indicators": [
-                "MACD向上",
-                "KD金叉",
-                "KD低檔",
-                "RSI背離",
-                "MACD翻正",
-                "RSI超賣"
-            ],
-            "current_price": 2.593,
-            "change_24h": 1.13,
-            "volume_24h": 5813043,
-            "backtest_avg": -5.92
-        },
-        {
             "code": "EVAA",
             "symbol": "EVAAUSDT",
-            "score": 3,
-            "score_1h": 4,
+            "score": 5,
+            "score_1h": 7,
             "score_4h": 3,
             "status": "觀察中",
             "indicators": [
+                "KD金叉",
+                "RSI超賣",
                 "KD低檔",
-                "MACD向上",
-                "RSI超賣"
+                "MACD向上"
             ],
-            "current_price": 1.7084,
-            "change_24h": -23.73,
-            "volume_24h": 20692099,
+            "current_price": 1.7114,
+            "change_24h": -23.21,
+            "volume_24h": 20703566,
             "backtest_avg": 2.08
         },
         {
             "code": "WLFI",
             "symbol": "WLFIUSDT",
-            "score": 3,
-            "score_1h": 6,
+            "score": 4,
+            "score_1h": 7,
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
                 "KD低檔",
-                "KD金叉",
+                "RSI超賣",
+                "MACD向上",
+                "RSI背離"
+            ],
+            "current_price": 0.01928,
+            "change_24h": -53.56,
+            "volume_24h": 13213196,
+            "backtest_avg": 2.12
+        },
+        {
+            "code": "PIEVERSE",
+            "symbol": "PIEVERSEUSDT",
+            "score": 3,
+            "score_1h": 5,
+            "score_4h": 1,
+            "status": "觀察中",
+            "indicators": [
+                "MACD向上",
+                "RSI背離"
+            ],
+            "current_price": 3.706,
+            "change_24h": -7.71,
+            "volume_24h": 7077293,
+            "backtest_avg": -5.08
+        },
+        {
+            "code": "SSV",
+            "symbol": "SSVUSDT",
+            "score": 3,
+            "score_1h": 5,
+            "score_4h": 0,
+            "status": "觀察中",
+            "indicators": [
+                "KD低檔",
+                "RSI超賣",
                 "MACD向上"
             ],
-            "current_price": 0.0194,
-            "change_24h": -53.29,
-            "volume_24h": 12975442,
-            "backtest_avg": 0.59
+            "current_price": 2.626,
+            "change_24h": 3.14,
+            "volume_24h": 5817335,
+            "backtest_avg": -5.92
         }
     ]
 }
