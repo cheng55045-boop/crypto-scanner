@@ -1,6 +1,6 @@
 {
-    "updated_at": "2026-11-28 11:30:57",
-    "total_count": 4,
+    "updated_at": "2026-11-28 11:40:47",
+    "total_count": 3,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
@@ -15,9 +15,9 @@
                 "MACD向上",
                 "KD低檔"
             ],
-            "current_price": 2.0802,
-            "change_24h": -0.6,
-            "volume_24h": 26589291,
+            "current_price": 2.1566,
+            "change_24h": 5.44,
+            "volume_24h": 26778265,
             "backtest_avg": 2.25
         },
         {
@@ -28,30 +28,13 @@
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
-                "MACD向上",
-                "RSI背離"
+                "RSI背離",
+                "MACD向上"
             ],
-            "current_price": 62.41,
-            "change_24h": -5.33,
-            "volume_24h": 22611842,
+            "current_price": 62.612,
+            "change_24h": -4.94,
+            "volume_24h": 22684222,
             "backtest_avg": -0.36
-        },
-        {
-            "code": "PIEVERSE",
-            "symbol": "PIEVERSEUSDT",
-            "score": 3,
-            "score_1h": 5,
-            "score_4h": 1,
-            "status": "觀察中",
-            "indicators": [
-                "RSI超賣",
-                "MACD向上",
-                "MACD翻正"
-            ],
-            "current_price": 3.9026,
-            "change_24h": 7.08,
-            "volume_24h": 6967595,
-            "backtest_avg": -4.06
         },
         {
             "code": "SSV",
@@ -65,9 +48,9 @@
                 "MACD向上",
                 "KD低檔"
             ],
-            "current_price": 2.758,
-            "change_24h": 7.57,
-            "volume_24h": 5696895,
+            "current_price": 2.734,
+            "change_24h": 7.01,
+            "volume_24h": 5655689,
             "backtest_avg": -5.92
         }
     ]
