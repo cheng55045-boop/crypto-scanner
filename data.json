@@ -1,8 +1,28 @@
 {
-    "updated_at": "2026-11-28 06:50:50",
+    "updated_at": "2026-11-28 07:01:00",
     "total_count": 4,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
+        {
+            "code": "SSV",
+            "symbol": "SSVUSDT",
+            "score": 6,
+            "score_1h": 10,
+            "score_4h": 0,
+            "status": "蓄勢待發",
+            "indicators": [
+                "RSI背離",
+                "KD金叉",
+                "KD低檔",
+                "MACD翻正",
+                "MACD向上",
+                "RSI超賣"
+            ],
+            "current_price": 2.614,
+            "change_24h": 2.07,
+            "volume_24h": 5948539,
+            "backtest_avg": -5.92
+        },
         {
             "code": "MMT",
             "symbol": "MMTUSDT",
@@ -16,62 +36,44 @@
                 "MACD向上",
                 "RSI超賣"
             ],
-            "current_price": 0.1461,
-            "change_24h": -13.14,
-            "volume_24h": 5925803,
+            "current_price": 0.1455,
+            "change_24h": -13.7,
+            "volume_24h": 5835693,
             "backtest_avg": 1.19
         },
         {
             "code": "EVAA",
             "symbol": "EVAAUSDT",
             "score": 3,
-            "score_1h": 3,
+            "score_1h": 4,
             "score_4h": 3,
-            "status": "觀察中",
-            "indicators": [
-                "RSI超賣",
-                "KD低檔",
-                "MACD向上"
-            ],
-            "current_price": 1.6366,
-            "change_24h": -29.44,
-            "volume_24h": 20141270,
-            "backtest_avg": 3.02
-        },
-        {
-            "code": "WLFI",
-            "symbol": "WLFIUSDT",
-            "score": 3,
-            "score_1h": 5,
-            "score_4h": 0,
             "status": "觀察中",
             "indicators": [
                 "KD低檔",
                 "MACD向上",
                 "RSI超賣"
             ],
-            "current_price": 0.01895,
-            "change_24h": -54.58,
-            "volume_24h": 11333208,
-            "backtest_avg": 2.12
+            "current_price": 1.7048,
+            "change_24h": -26.72,
+            "volume_24h": 20314981,
+            "backtest_avg": 2.08
         },
         {
-            "code": "SSV",
-            "symbol": "SSVUSDT",
+            "code": "WLFI",
+            "symbol": "WLFIUSDT",
             "score": 3,
-            "score_1h": 5,
+            "score_1h": 6,
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
+                "KD金叉",
                 "KD低檔",
-                "MACD向上",
-                "RSI超賣",
-                "KD金叉"
+                "MACD向上"
             ],
-            "current_price": 2.597,
-            "change_24h": 1.21,
-            "volume_24h": 5977525,
-            "backtest_avg": -5.92
+            "current_price": 0.01874,
+            "change_24h": -55.04,
+            "volume_24h": 11559934,
+            "backtest_avg": 0.59
         }
     ]
 }
