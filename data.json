@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-28 16:20:47",
+    "updated_at": "2026-11-28 16:31:02",
     "total_count": 2,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
@@ -14,9 +14,9 @@
                 "KD金叉",
                 "MACD向上"
             ],
-            "current_price": 91.46,
-            "change_24h": 1.8,
-            "volume_24h": 8697204,
+            "current_price": 91.4,
+            "change_24h": 1.47,
+            "volume_24h": 8433443,
             "backtest_avg": -2.47
         },
         {
@@ -31,9 +31,9 @@
                 "KD低檔",
                 "MACD向上"
             ],
-            "current_price": 3.8564,
-            "change_24h": 2.41,
-            "volume_24h": 5346004,
+            "current_price": 3.8534,
+            "change_24h": -1.72,
+            "volume_24h": 5273652,
             "backtest_avg": -3.59
         }
     ]
