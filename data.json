@@ -1,58 +1,61 @@
 {
-    "updated_at": "2026-11-28 02:50:45",
+    "updated_at": "2026-11-28 03:01:08",
     "total_count": 3,
     "source": "Bitunix Futures (Multi-TF)",
     "stocks": [
         {
             "code": "EVAA",
             "symbol": "EVAAUSDT",
-            "score": 3,
-            "score_1h": 2,
+            "score": 4,
+            "score_1h": 4,
             "score_4h": 5,
             "status": "觀察中",
             "indicators": [
                 "KD低檔",
-                "MACD向上",
-                "RSI超賣"
+                "RSI超賣",
+                "MACD翻正",
+                "MACD向上"
             ],
-            "current_price": 1.2182,
-            "change_24h": -47.78,
-            "volume_24h": 20433127,
+            "current_price": 1.298,
+            "change_24h": -39.31,
+            "volume_24h": 20092079,
             "backtest_avg": 4.13
-        },
-        {
-            "code": "BLESS",
-            "symbol": "BLESSUSDT",
-            "score": 3,
-            "score_1h": 4,
-            "score_4h": 3,
-            "status": "觀察中",
-            "indicators": [
-                "KD金叉",
-                "MACD向上",
-                "RSI背離"
-            ],
-            "current_price": 0.013571,
-            "change_24h": -19.19,
-            "volume_24h": 7191308,
-            "backtest_avg": -1.8
         },
         {
             "code": "SSV",
             "symbol": "SSVUSDT",
-            "score": 3,
-            "score_1h": 5,
+            "score": 4,
+            "score_1h": 7,
             "score_4h": 0,
             "status": "觀察中",
             "indicators": [
                 "KD低檔",
+                "RSI背離",
                 "MACD向上",
                 "RSI超賣"
             ],
-            "current_price": 2.617,
-            "change_24h": -7.36,
-            "volume_24h": 6483923,
-            "backtest_avg": -6.86
+            "current_price": 2.647,
+            "change_24h": -5.93,
+            "volume_24h": 6444159,
+            "backtest_avg": -8.33
+        },
+        {
+            "code": "PORTAL",
+            "symbol": "PORTALUSDT",
+            "score": 3,
+            "score_1h": 6,
+            "score_4h": 0,
+            "status": "觀察中",
+            "indicators": [
+                "KD低檔",
+                "RSI超賣",
+                "KD金叉",
+                "MACD向上"
+            ],
+            "current_price": 0.02012,
+            "change_24h": 61.87,
+            "volume_24h": 42867908,
+            "backtest_avg": 0.46
         }
     ]
 }
